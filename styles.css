@@ -80,3 +80,30 @@
 .metric-card{padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
 .metric-value{font-size:1.9rem;font-weight:950;margin-top:4px}
 .recommendation{border-left:5px solid var(--primary);padding-left:14px}
+
+.analytics-hero{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;align-items:stretch}
+.analytics-hero .readiness-ring{width:150px;height:150px;border-radius:50%;display:grid;place-items:center;margin:auto;background:conic-gradient(var(--primary) calc(var(--p)*1%),var(--line) 0);position:relative}
+.analytics-hero .readiness-ring::after{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--card)}
+.analytics-hero .readiness-ring strong{position:relative;z-index:1;font-size:2rem}
+.analytics-table{width:100%;border-collapse:collapse;margin-top:10px}
+.analytics-table th,.analytics-table td{padding:10px;border-bottom:1px solid var(--line);text-align:left}
+.analytics-table th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.topic-rank{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.rank-badge{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--primary);font-weight:900}
+.study-now{white-space:nowrap}
+.history-list{display:grid;gap:10px}
+.history-item{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.heatmap-legend{display:flex;gap:8px;align-items:center;margin-top:10px;color:var(--muted);font-size:.8rem}
+.heatmap-swatch{width:14px;height:14px;border-radius:3px;background:var(--line)}
+.heatmap-swatch.active{background:var(--primary)}
+.since-started{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.since-item{padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
+.since-item strong{display:block;font-size:1.7rem;margin-top:4px}
+.print-report{display:flex;gap:10px;flex-wrap:wrap}
+@media(max-width:760px){.analytics-hero{grid-template-columns:1fr}.history-item{grid-template-columns:1fr}.analytics-table{font-size:.9rem}}
+@media print{
+  header,.bottom-nav,.btn,.print-report{display:none!important}
+  body{background:white!important}
+  .card,.metric-card,.achievement-card{box-shadow:none!important;break-inside:avoid}
+  main{max-width:none!important;padding:0!important}
+}
