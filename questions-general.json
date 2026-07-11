@@ -12,7 +12,13 @@
     "topic": "Body Systems",
     "id": "G001",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Right atrium does not answer this question correctly. The best answer is Left ventricle. The left ventricle pumps oxygenated blood through the aortic valve into the aorta and systemic circulation.",
+      "Right ventricle does not answer this question correctly. The best answer is Left ventricle. The left ventricle pumps oxygenated blood through the aortic valve into the aorta and systemic circulation.",
+      "Left atrium does not answer this question correctly. The best answer is Left ventricle. The left ventricle pumps oxygenated blood through the aortic valve into the aorta and systemic circulation.",
+      "The left ventricle pumps oxygenated blood through the aortic valve into the aorta and systemic circulation."
+    ]
   },
   {
     "q": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
@@ -27,7 +33,13 @@
     "topic": "Body Systems",
     "id": "G002",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Aorta does not answer this question correctly. The best answer is Pulmonary artery. The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs.",
+      "The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs.",
+      "Pulmonary vein does not answer this question correctly. The best answer is Pulmonary artery. The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs.",
+      "Superior vena cava does not answer this question correctly. The best answer is Pulmonary artery. The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs."
+    ]
   },
   {
     "q": "The primary function of red blood cells is to:",
@@ -42,7 +54,13 @@
     "topic": "Body Systems",
     "id": "G003",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Fight infection does not answer this question correctly. The best answer is Transport oxygen. Red blood cells contain hemoglobin, which carries oxygen from the lungs to body tissues.",
+      "Form blood clots does not answer this question correctly. The best answer is Transport oxygen. Red blood cells contain hemoglobin, which carries oxygen from the lungs to body tissues.",
+      "Red blood cells contain hemoglobin, which carries oxygen from the lungs to body tissues.",
+      "Produce antibodies does not answer this question correctly. The best answer is Transport oxygen. Red blood cells contain hemoglobin, which carries oxygen from the lungs to body tissues."
+    ]
   },
   {
     "q": "Which organ produces insulin?",
@@ -57,7 +75,13 @@
     "topic": "Body Systems",
     "id": "G004",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Liver does not answer this question correctly. The best answer is Pancreas. Beta cells in the pancreas produce insulin, which helps regulate blood glucose.",
+      "Beta cells in the pancreas produce insulin, which helps regulate blood glucose.",
+      "Kidney does not answer this question correctly. The best answer is Pancreas. Beta cells in the pancreas produce insulin, which helps regulate blood glucose.",
+      "Spleen does not answer this question correctly. The best answer is Pancreas. Beta cells in the pancreas produce insulin, which helps regulate blood glucose."
+    ]
   },
   {
     "q": "The functional unit of the kidney is the:",
@@ -72,7 +96,13 @@
     "topic": "Body Systems",
     "id": "G005",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Alveolus does not answer this question correctly. The best answer is Nephron. The nephron filters blood and forms urine.",
+      "Neuron does not answer this question correctly. The best answer is Nephron. The nephron filters blood and forms urine.",
+      "The nephron filters blood and forms urine.",
+      "Osteon does not answer this question correctly. The best answer is Nephron. The nephron filters blood and forms urine."
+    ]
   },
   {
     "q": "Which part of the respiratory system is the main site of gas exchange?",
@@ -87,7 +117,13 @@
     "topic": "Body Systems",
     "id": "G006",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Bronchi does not answer this question correctly. The best answer is Alveoli. Oxygen and carbon dioxide are exchanged across the thin walls of the alveoli.",
+      "Trachea does not answer this question correctly. The best answer is Alveoli. Oxygen and carbon dioxide are exchanged across the thin walls of the alveoli.",
+      "Oxygen and carbon dioxide are exchanged across the thin walls of the alveoli.",
+      "Larynx does not answer this question correctly. The best answer is Alveoli. Oxygen and carbon dioxide are exchanged across the thin walls of the alveoli."
+    ]
   },
   {
     "q": "The large intestine primarily absorbs:",
@@ -102,7 +138,13 @@
     "topic": "Body Systems",
     "id": "G007",
     "difficulty": "Hard",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Protein does not answer this question correctly. The best answer is Water and electrolytes. The large intestine mainly absorbs water and electrolytes and forms stool.",
+      "The large intestine mainly absorbs water and electrolytes and forms stool.",
+      "Glucose does not answer this question correctly. The best answer is Water and electrolytes. The large intestine mainly absorbs water and electrolytes and forms stool.",
+      "Bile does not answer this question correctly. The best answer is Water and electrolytes. The large intestine mainly absorbs water and electrolytes and forms stool."
+    ]
   },
   {
     "q": "Which organ stores and concentrates bile?",
@@ -117,7 +159,13 @@
     "topic": "Body Systems",
     "id": "G008",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Liver does not answer this question correctly. The best answer is Gallbladder. The gallbladder stores and concentrates bile produced by the liver.",
+      "Pancreas does not answer this question correctly. The best answer is Gallbladder. The gallbladder stores and concentrates bile produced by the liver.",
+      "The gallbladder stores and concentrates bile produced by the liver.",
+      "Duodenum does not answer this question correctly. The best answer is Gallbladder. The gallbladder stores and concentrates bile produced by the liver."
+    ]
   },
   {
     "q": "Which structure connects muscle to bone?",
@@ -132,7 +180,13 @@
     "topic": "Body Systems",
     "id": "G009",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Ligament does not answer this question correctly. The best answer is Tendon. A tendon connects muscle to bone; a ligament connects bone to bone.",
+      "A tendon connects muscle to bone; a ligament connects bone to bone.",
+      "Cartilage does not answer this question correctly. The best answer is Tendon. A tendon connects muscle to bone; a ligament connects bone to bone.",
+      "Fascia does not answer this question correctly. The best answer is Tendon. A tendon connects muscle to bone; a ligament connects bone to bone."
+    ]
   },
   {
     "q": "Which type of joint allows the greatest range of motion?",
@@ -147,7 +201,13 @@
     "topic": "Body Systems",
     "id": "G010",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Hinge does not answer this question correctly. The best answer is Ball-and-socket. Ball-and-socket joints, such as the shoulder and hip, allow movement in multiple directions.",
+      "Pivot does not answer this question correctly. The best answer is Ball-and-socket. Ball-and-socket joints, such as the shoulder and hip, allow movement in multiple directions.",
+      "Ball-and-socket joints, such as the shoulder and hip, allow movement in multiple directions.",
+      "Gliding does not answer this question correctly. The best answer is Ball-and-socket. Ball-and-socket joints, such as the shoulder and hip, allow movement in multiple directions."
+    ]
   },
   {
     "q": "The brain and spinal cord make up the:",
@@ -162,7 +222,13 @@
     "topic": "Body Systems",
     "id": "G011",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Peripheral nervous system does not answer this question correctly. The best answer is Central nervous system. The central nervous system consists of the brain and spinal cord.",
+      "Autonomic nervous system does not answer this question correctly. The best answer is Central nervous system. The central nervous system consists of the brain and spinal cord.",
+      "The central nervous system consists of the brain and spinal cord.",
+      "Somatic nervous system does not answer this question correctly. The best answer is Central nervous system. The central nervous system consists of the brain and spinal cord."
+    ]
   },
   {
     "q": "Which cranial nerve is responsible for vision?",
@@ -177,7 +243,13 @@
     "topic": "Body Systems",
     "id": "G012",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Cranial nerve II, the optic nerve, transmits visual information.",
+      "Trigeminal nerve does not answer this question correctly. The best answer is Optic nerve. Cranial nerve II, the optic nerve, transmits visual information.",
+      "Vagus nerve does not answer this question correctly. The best answer is Optic nerve. Cranial nerve II, the optic nerve, transmits visual information.",
+      "Facial nerve does not answer this question correctly. The best answer is Optic nerve. Cranial nerve II, the optic nerve, transmits visual information."
+    ]
   },
   {
     "q": "The thyroid gland primarily regulates:",
@@ -192,7 +264,13 @@
     "topic": "Body Systems",
     "id": "G013",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Blood clotting does not answer this question correctly. The best answer is Metabolism. Thyroid hormones help regulate metabolism, growth, and energy use.",
+      "Thyroid hormones help regulate metabolism, growth, and energy use.",
+      "Digestion does not answer this question correctly. The best answer is Metabolism. Thyroid hormones help regulate metabolism, growth, and energy use.",
+      "Urine formation does not answer this question correctly. The best answer is Metabolism. Thyroid hormones help regulate metabolism, growth, and energy use."
+    ]
   },
   {
     "q": "Which hormone helps lower blood glucose?",
@@ -207,7 +285,13 @@
     "topic": "Body Systems",
     "id": "G014",
     "difficulty": "Hard",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Glucagon does not answer this question correctly. The best answer is Insulin. Insulin lowers blood glucose by helping cells take in glucose.",
+      "Cortisol does not answer this question correctly. The best answer is Insulin. Insulin lowers blood glucose by helping cells take in glucose.",
+      "Insulin lowers blood glucose by helping cells take in glucose.",
+      "Epinephrine does not answer this question correctly. The best answer is Insulin. Insulin lowers blood glucose by helping cells take in glucose."
+    ]
   },
   {
     "q": "The uterus is located in which body cavity?",
@@ -222,7 +306,13 @@
     "topic": "Body Systems",
     "id": "G015",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Thoracic does not answer this question correctly. The best answer is Pelvic. The uterus lies within the pelvic cavity.",
+      "Cranial does not answer this question correctly. The best answer is Pelvic. The uterus lies within the pelvic cavity.",
+      "The uterus lies within the pelvic cavity.",
+      "Vertebral does not answer this question correctly. The best answer is Pelvic. The uterus lies within the pelvic cavity."
+    ]
   },
   {
     "q": "Which structure carries urine from a kidney to the bladder?",
@@ -237,7 +327,13 @@
     "topic": "Body Systems",
     "id": "G016",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Urethra does not answer this question correctly. The best answer is Ureter. Each ureter transports urine from a kidney to the urinary bladder.",
+      "Each ureter transports urine from a kidney to the urinary bladder.",
+      "Nephron does not answer this question correctly. The best answer is Ureter. Each ureter transports urine from a kidney to the urinary bladder.",
+      "Renal vein does not answer this question correctly. The best answer is Ureter. Each ureter transports urine from a kidney to the urinary bladder."
+    ]
   },
   {
     "q": "Which layer of the skin contains blood vessels and nerve endings?",
@@ -252,7 +348,13 @@
     "topic": "Body Systems",
     "id": "G017",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Epidermis does not answer this question correctly. The best answer is Dermis. The dermis contains blood vessels, sensory receptors, glands, and hair follicles.",
+      "The dermis contains blood vessels, sensory receptors, glands, and hair follicles.",
+      "Stratum corneum does not answer this question correctly. The best answer is Dermis. The dermis contains blood vessels, sensory receptors, glands, and hair follicles.",
+      "Keratin layer does not answer this question correctly. The best answer is Dermis. The dermis contains blood vessels, sensory receptors, glands, and hair follicles."
+    ]
   },
   {
     "q": "Which white blood cell is most associated with allergic reactions?",
@@ -267,7 +369,13 @@
     "topic": "Body Systems",
     "id": "G018",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Neutrophil does not answer this question correctly. The best answer is Eosinophil. Eosinophils commonly increase with allergies and parasitic infections.",
+      "Eosinophils commonly increase with allergies and parasitic infections.",
+      "Monocyte does not answer this question correctly. The best answer is Eosinophil. Eosinophils commonly increase with allergies and parasitic infections.",
+      "Lymphocyte does not answer this question correctly. The best answer is Eosinophil. Eosinophils commonly increase with allergies and parasitic infections."
+    ]
   },
   {
     "q": "Which condition is characterized by chronically elevated blood glucose?",
@@ -282,7 +390,13 @@
     "topic": "Body Systems",
     "id": "G019",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Anemia does not answer this question correctly. The best answer is Diabetes mellitus. Diabetes mellitus is a disorder of impaired glucose regulation.",
+      "Diabetes mellitus is a disorder of impaired glucose regulation.",
+      "Hypothyroidism does not answer this question correctly. The best answer is Diabetes mellitus. Diabetes mellitus is a disorder of impaired glucose regulation.",
+      "Hypertension does not answer this question correctly. The best answer is Diabetes mellitus. Diabetes mellitus is a disorder of impaired glucose regulation."
+    ]
   },
   {
     "q": "Inflammation of the liver is called:",
@@ -297,7 +411,13 @@
     "topic": "Body Systems",
     "id": "G020",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Nephritis does not answer this question correctly. The best answer is Hepatitis. Hepat- means liver and -itis means inflammation.",
+      "Hepat- means liver and -itis means inflammation.",
+      "Gastritis does not answer this question correctly. The best answer is Hepatitis. Hepat- means liver and -itis means inflammation.",
+      "Dermatitis does not answer this question correctly. The best answer is Hepatitis. Hepat- means liver and -itis means inflammation."
+    ]
   },
   {
     "q": "Which nutrient is the body's main immediate source of energy?",
@@ -312,7 +432,13 @@
     "topic": "Body Systems",
     "id": "G021",
     "difficulty": "Hard",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Carbohydrates are the body's primary readily available energy source.",
+      "Vitamins does not answer this question correctly. The best answer is Carbohydrates. Carbohydrates are the body's primary readily available energy source.",
+      "Minerals does not answer this question correctly. The best answer is Carbohydrates. Carbohydrates are the body's primary readily available energy source.",
+      "Water does not answer this question correctly. The best answer is Carbohydrates. Carbohydrates are the body's primary readily available energy source."
+    ]
   },
   {
     "q": "Which vitamin is important for normal blood clotting?",
@@ -327,7 +453,13 @@
     "topic": "Body Systems",
     "id": "G022",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Vitamin A does not answer this question correctly. The best answer is Vitamin K. Vitamin K is needed for synthesis of several clotting factors.",
+      "Vitamin C does not answer this question correctly. The best answer is Vitamin K. Vitamin K is needed for synthesis of several clotting factors.",
+      "Vitamin D does not answer this question correctly. The best answer is Vitamin K. Vitamin K is needed for synthesis of several clotting factors.",
+      "Vitamin K is needed for synthesis of several clotting factors."
+    ]
   },
   {
     "q": "A patient with iron-deficiency anemia may commonly report:",
@@ -342,7 +474,13 @@
     "topic": "Body Systems",
     "id": "G023",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Increased energy does not answer this question correctly. The best answer is Fatigue. Reduced hemoglobin decreases oxygen delivery, often causing fatigue and weakness.",
+      "Reduced hemoglobin decreases oxygen delivery, often causing fatigue and weakness.",
+      "Excessive thirst only does not answer this question correctly. The best answer is Fatigue. Reduced hemoglobin decreases oxygen delivery, often causing fatigue and weakness.",
+      "Improved exercise tolerance does not answer this question correctly. The best answer is Fatigue. Reduced hemoglobin decreases oxygen delivery, often causing fatigue and weakness."
+    ]
   },
   {
     "q": "The medical term for high blood pressure is:",
@@ -357,7 +495,13 @@
     "topic": "Body Systems",
     "id": "G024",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Hypotension does not answer this question correctly. The best answer is Hypertension. Hypertension means persistently elevated arterial blood pressure.",
+      "Hypertension means persistently elevated arterial blood pressure.",
+      "Tachypnea does not answer this question correctly. The best answer is Hypertension. Hypertension means persistently elevated arterial blood pressure.",
+      "Bradycardia does not answer this question correctly. The best answer is Hypertension. Hypertension means persistently elevated arterial blood pressure."
+    ]
   },
   {
     "q": "Which condition involves inflammation and narrowing of the airways?",
@@ -372,7 +516,13 @@
     "topic": "Body Systems",
     "id": "G025",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Asthma causes reversible airway inflammation and bronchoconstriction.",
+      "Appendicitis does not answer this question correctly. The best answer is Asthma. Asthma causes reversible airway inflammation and bronchoconstriction.",
+      "Cystitis does not answer this question correctly. The best answer is Asthma. Asthma causes reversible airway inflammation and bronchoconstriction.",
+      "Arthritis does not answer this question correctly. The best answer is Asthma. Asthma causes reversible airway inflammation and bronchoconstriction."
+    ]
   },
   {
     "q": "The spleen is part of which system?",
@@ -387,7 +537,13 @@
     "topic": "Body Systems",
     "id": "G026",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "The spleen filters blood and supports immune function as part of the lymphatic system.",
+      "Endocrine does not answer this question correctly. The best answer is Lymphatic. The spleen filters blood and supports immune function as part of the lymphatic system.",
+      "Urinary does not answer this question correctly. The best answer is Lymphatic. The spleen filters blood and supports immune function as part of the lymphatic system.",
+      "Integumentary does not answer this question correctly. The best answer is Lymphatic. The spleen filters blood and supports immune function as part of the lymphatic system."
+    ]
   },
   {
     "q": "Which organ is primarily responsible for detoxifying many medications?",
@@ -402,7 +558,13 @@
     "topic": "Body Systems",
     "id": "G027",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "The liver metabolizes and detoxifies many medications and substances.",
+      "Bladder does not answer this question correctly. The best answer is Liver. The liver metabolizes and detoxifies many medications and substances.",
+      "Thyroid does not answer this question correctly. The best answer is Liver. The liver metabolizes and detoxifies many medications and substances.",
+      "Appendix does not answer this question correctly. The best answer is Liver. The liver metabolizes and detoxifies many medications and substances."
+    ]
   },
   {
     "q": "Which structure prevents food from entering the trachea during swallowing?",
@@ -417,7 +579,13 @@
     "topic": "Body Systems",
     "id": "G028",
     "difficulty": "Easy",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Uvula does not answer this question correctly. The best answer is Epiglottis. The epiglottis closes over the laryngeal opening during swallowing.",
+      "The epiglottis closes over the laryngeal opening during swallowing.",
+      "Tonsil does not answer this question correctly. The best answer is Epiglottis. The epiglottis closes over the laryngeal opening during swallowing.",
+      "Pharynx does not answer this question correctly. The best answer is Epiglottis. The epiglottis closes over the laryngeal opening during swallowing."
+    ]
   },
   {
     "q": "The patella is commonly called the:",
@@ -432,7 +600,13 @@
     "topic": "Body Systems",
     "id": "G029",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Collarbone does not answer this question correctly. The best answer is Kneecap. The patella is the kneecap.",
+      "The patella is the kneecap.",
+      "Shoulder blade does not answer this question correctly. The best answer is Kneecap. The patella is the kneecap.",
+      "Breastbone does not answer this question correctly. The best answer is Kneecap. The patella is the kneecap."
+    ]
   },
   {
     "q": "Which wellness recommendation best supports cardiovascular health?",
@@ -447,7 +621,13 @@
     "topic": "Body Systems",
     "id": "G030",
     "difficulty": "Moderate",
-    "tip": "Connect each organ with its main function before choosing."
+    "tip": "Connect each organ with its main function before choosing.",
+    "optionExplanations": [
+      "Regular physical activity supports cardiovascular fitness and reduces disease risk.",
+      "High sodium intake does not answer this question correctly. The best answer is Regular physical activity. Regular physical activity supports cardiovascular fitness and reduces disease risk.",
+      "Tobacco use does not answer this question correctly. The best answer is Regular physical activity. Regular physical activity supports cardiovascular fitness and reduces disease risk.",
+      "Avoiding all fluids does not answer this question correctly. The best answer is Regular physical activity. Regular physical activity supports cardiovascular fitness and reduces disease risk."
+    ]
   },
   {
     "q": "The prefix brady- means:",
@@ -462,7 +642,13 @@
     "topic": "Medical Terminology",
     "id": "G031",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Fast does not answer this question correctly. The best answer is Slow. Brady- means slow, as in bradycardia.",
+      "Brady- means slow, as in bradycardia.",
+      "Around does not answer this question correctly. The best answer is Slow. Brady- means slow, as in bradycardia.",
+      "Within does not answer this question correctly. The best answer is Slow. Brady- means slow, as in bradycardia."
+    ]
   },
   {
     "q": "The suffix -ectomy means:",
@@ -477,7 +663,13 @@
     "topic": "Medical Terminology",
     "id": "G032",
     "difficulty": "Easy",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "-ectomy means surgical removal or excision.",
+      "Inflammation does not answer this question correctly. The best answer is Surgical removal. -ectomy means surgical removal or excision.",
+      "Pain does not answer this question correctly. The best answer is Surgical removal. -ectomy means surgical removal or excision.",
+      "Visual examination does not answer this question correctly. The best answer is Surgical removal. -ectomy means surgical removal or excision."
+    ]
   },
   {
     "q": "The root cardi/o refers to the:",
@@ -492,7 +684,13 @@
     "topic": "Medical Terminology",
     "id": "G033",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Lung does not answer this question correctly. The best answer is Heart. Cardi/o means heart.",
+      "Cardi/o means heart.",
+      "Kidney does not answer this question correctly. The best answer is Heart. Cardi/o means heart.",
+      "Liver does not answer this question correctly. The best answer is Heart. Cardi/o means heart."
+    ]
   },
   {
     "q": "The term dysuria means:",
@@ -507,7 +705,13 @@
     "topic": "Medical Terminology",
     "id": "G034",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Dys- means difficult or painful, and -uria relates to urination.",
+      "Excessive urination does not answer this question correctly. The best answer is Painful urination. Dys- means difficult or painful, and -uria relates to urination.",
+      "No urination does not answer this question correctly. The best answer is Painful urination. Dys- means difficult or painful, and -uria relates to urination.",
+      "Blood in urine does not answer this question correctly. The best answer is Painful urination. Dys- means difficult or painful, and -uria relates to urination."
+    ]
   },
   {
     "q": "The abbreviation PRN means:",
@@ -522,7 +726,13 @@
     "topic": "Medical Terminology",
     "id": "G035",
     "difficulty": "Hard",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Before meals does not answer this question correctly. The best answer is As needed. PRN means as needed.",
+      "PRN means as needed.",
+      "At bedtime does not answer this question correctly. The best answer is As needed. PRN means as needed.",
+      "Immediately does not answer this question correctly. The best answer is As needed. PRN means as needed."
+    ]
   },
   {
     "q": "The abbreviation NPO means:",
@@ -537,7 +747,13 @@
     "topic": "Medical Terminology",
     "id": "G036",
     "difficulty": "Easy",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "NPO means nothing by mouth.",
+      "Normal pulse observed does not answer this question correctly. The best answer is Nothing by mouth. NPO means nothing by mouth.",
+      "No pain onset does not answer this question correctly. The best answer is Nothing by mouth. NPO means nothing by mouth.",
+      "New patient order does not answer this question correctly. The best answer is Nothing by mouth. NPO means nothing by mouth."
+    ]
   },
   {
     "q": "The term tachypnea means:",
@@ -552,7 +768,13 @@
     "topic": "Medical Terminology",
     "id": "G037",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Slow heart rate does not answer this question correctly. The best answer is Rapid breathing. Tachy- means rapid and -pnea refers to breathing.",
+      "Tachy- means rapid and -pnea refers to breathing.",
+      "Low blood pressure does not answer this question correctly. The best answer is Rapid breathing. Tachy- means rapid and -pnea refers to breathing.",
+      "Painful breathing does not answer this question correctly. The best answer is Rapid breathing. Tachy- means rapid and -pnea refers to breathing."
+    ]
   },
   {
     "q": "Which term means inflammation of the bladder?",
@@ -567,7 +789,13 @@
     "topic": "Medical Terminology",
     "id": "G038",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Cyst/o means bladder and -itis means inflammation.",
+      "Nephrosis does not answer this question correctly. The best answer is Cystitis. Cyst/o means bladder and -itis means inflammation.",
+      "Urethralgia does not answer this question correctly. The best answer is Cystitis. Cyst/o means bladder and -itis means inflammation.",
+      "Pyelography does not answer this question correctly. The best answer is Cystitis. Cyst/o means bladder and -itis means inflammation."
+    ]
   },
   {
     "q": "The prefix hypo- means:",
@@ -582,7 +810,13 @@
     "topic": "Medical Terminology",
     "id": "G039",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Above normal does not answer this question correctly. The best answer is Below normal. Hypo- means below, deficient, or less than normal.",
+      "Hypo- means below, deficient, or less than normal.",
+      "Within does not answer this question correctly. The best answer is Below normal. Hypo- means below, deficient, or less than normal.",
+      "Against does not answer this question correctly. The best answer is Below normal. Hypo- means below, deficient, or less than normal."
+    ]
   },
   {
     "q": "Which term means surgical repair of a blood vessel?",
@@ -597,7 +831,13 @@
     "topic": "Medical Terminology",
     "id": "G040",
     "difficulty": "Easy",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Angi/o means vessel and -plasty means surgical repair.",
+      "Angiography does not answer this question correctly. The best answer is Angioplasty. Angi/o means vessel and -plasty means surgical repair.",
+      "Angiectomy does not answer this question correctly. The best answer is Angioplasty. Angi/o means vessel and -plasty means surgical repair.",
+      "Angiitis does not answer this question correctly. The best answer is Angioplasty. Angi/o means vessel and -plasty means surgical repair."
+    ]
   },
   {
     "q": "The suffix -algia means:",
@@ -612,7 +852,13 @@
     "topic": "Medical Terminology",
     "id": "G041",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Enlargement does not answer this question correctly. The best answer is Pain. -algia means pain.",
+      "-algia means pain.",
+      "Bleeding does not answer this question correctly. The best answer is Pain. -algia means pain.",
+      "Incision does not answer this question correctly. The best answer is Pain. -algia means pain."
+    ]
   },
   {
     "q": "Which abbreviation means four times a day?",
@@ -627,7 +873,13 @@
     "topic": "Medical Terminology",
     "id": "G042",
     "difficulty": "Hard",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "BID does not answer this question correctly. The best answer is QID. QID means four times a day.",
+      "TID does not answer this question correctly. The best answer is QID. QID means four times a day.",
+      "QID means four times a day.",
+      "QHS does not answer this question correctly. The best answer is QID. QID means four times a day."
+    ]
   },
   {
     "q": "Which term means difficulty breathing?",
@@ -642,7 +894,13 @@
     "topic": "Medical Terminology",
     "id": "G043",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Dysphagia does not answer this question correctly. The best answer is Dyspnea. Dyspnea means difficult or labored breathing.",
+      "Dyspnea means difficult or labored breathing.",
+      "Dysuria does not answer this question correctly. The best answer is Dyspnea. Dyspnea means difficult or labored breathing.",
+      "Dyspepsia does not answer this question correctly. The best answer is Dyspnea. Dyspnea means difficult or labored breathing."
+    ]
   },
   {
     "q": "The term proximal means:",
@@ -657,7 +915,13 @@
     "topic": "Medical Terminology",
     "id": "G044",
     "difficulty": "Easy",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Farther from the point of attachment does not answer this question correctly. The best answer is Nearer the point of attachment. Proximal means closer to the trunk or point of origin.",
+      "Proximal means closer to the trunk or point of origin.",
+      "Toward the back does not answer this question correctly. The best answer is Nearer the point of attachment. Proximal means closer to the trunk or point of origin.",
+      "Toward the side does not answer this question correctly. The best answer is Nearer the point of attachment. Proximal means closer to the trunk or point of origin."
+    ]
   },
   {
     "q": "Which spelling is correct?",
@@ -672,7 +936,13 @@
     "topic": "Medical Terminology",
     "id": "G045",
     "difficulty": "Moderate",
-    "tip": "Break the word into prefix, root, and suffix."
+    "tip": "Break the word into prefix, root, and suffix.",
+    "optionExplanations": [
+      "Hypertention does not answer this question correctly. The best answer is Hypertension. Hypertension is the correct spelling.",
+      "Hypertenshun does not answer this question correctly. The best answer is Hypertension. Hypertension is the correct spelling.",
+      "Hypertension is the correct spelling.",
+      "Hypertenstion does not answer this question correctly. The best answer is Hypertension. Hypertension is the correct spelling."
+    ]
   },
   {
     "q": "A patient signs a form after receiving information about a procedure's risks and benefits. This is:",
@@ -687,7 +957,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G046",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Implied consent does not answer this question correctly. The best answer is Informed consent. Informed consent requires an explanation of the procedure, risks, benefits, and alternatives.",
+      "Informed consent requires an explanation of the procedure, risks, benefits, and alternatives.",
+      "Abandonment does not answer this question correctly. The best answer is Informed consent. Informed consent requires an explanation of the procedure, risks, benefits, and alternatives.",
+      "Defamation does not answer this question correctly. The best answer is Informed consent. Informed consent requires an explanation of the procedure, risks, benefits, and alternatives."
+    ]
   },
   {
     "q": "Performing a procedure on a competent patient without consent may be considered:",
@@ -702,7 +978,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G047",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Libel does not answer this question correctly. The best answer is Battery. Battery is intentional unauthorized physical contact.",
+      "Battery is intentional unauthorized physical contact.",
+      "Slander does not answer this question correctly. The best answer is Battery. Battery is intentional unauthorized physical contact.",
+      "Breach of contract does not answer this question correctly. The best answer is Battery. Battery is intentional unauthorized physical contact."
+    ]
   },
   {
     "q": "Failure to act as a reasonably careful medical assistant would act is called:",
@@ -717,7 +999,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G048",
     "difficulty": "Easy",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Negligence is failure to use reasonable care.",
+      "Assault does not answer this question correctly. The best answer is Negligence. Negligence is failure to use reasonable care.",
+      "Fraud does not answer this question correctly. The best answer is Negligence. Negligence is failure to use reasonable care.",
+      "Invasion of privacy does not answer this question correctly. The best answer is Negligence. Negligence is failure to use reasonable care."
+    ]
   },
   {
     "q": "Under HIPAA, patient information should be shared only with people who:",
@@ -732,7 +1020,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G049",
     "difficulty": "Hard",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Are curious about the case does not answer this question correctly. The best answer is Need it for treatment, payment, or operations. HIPAA permits appropriate use and disclosure for treatment, payment, and healthcare operations, subject to safeguards.",
+      "HIPAA permits appropriate use and disclosure for treatment, payment, and healthcare operations, subject to safeguards.",
+      "Are friends of the patient does not answer this question correctly. The best answer is Need it for treatment, payment, or operations. HIPAA permits appropriate use and disclosure for treatment, payment, and healthcare operations, subject to safeguards.",
+      "Work anywhere in healthcare does not answer this question correctly. The best answer is Need it for treatment, payment, or operations. HIPAA permits appropriate use and disclosure for treatment, payment, and healthcare operations, subject to safeguards."
+    ]
   },
   {
     "q": "Which action best protects patient confidentiality?",
@@ -747,7 +1041,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G050",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Discussing cases in the elevator does not answer this question correctly. The best answer is Logging off the EHR when leaving the workstation. Logging off prevents unauthorized access to protected health information.",
+      "Leaving charts open at the front desk does not answer this question correctly. The best answer is Logging off the EHR when leaving the workstation. Logging off prevents unauthorized access to protected health information.",
+      "Logging off prevents unauthorized access to protected health information.",
+      "Sharing a password with a coworker does not answer this question correctly. The best answer is Logging off the EHR when leaving the workstation. Logging off prevents unauthorized access to protected health information."
+    ]
   },
   {
     "q": "A written false statement that harms a person's reputation is:",
@@ -762,7 +1062,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G051",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Slander does not answer this question correctly. The best answer is Libel. Libel is written defamation; slander is spoken defamation.",
+      "Libel is written defamation; slander is spoken defamation.",
+      "Battery does not answer this question correctly. The best answer is Libel. Libel is written defamation; slander is spoken defamation.",
+      "Assault does not answer this question correctly. The best answer is Libel. Libel is written defamation; slander is spoken defamation."
+    ]
   },
   {
     "q": "A medical assistant is asked to perform a task outside the legal scope of practice. The best response is to:",
@@ -777,7 +1083,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G052",
     "difficulty": "Easy",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Perform it if the office is busy does not answer this question correctly. The best answer is Politely decline and notify the supervisor. A medical assistant must work within state law, training, and employer policy.",
+      "A medical assistant must work within state law, training, and employer policy.",
+      "Ask another unlicensed coworker does not answer this question correctly. The best answer is Politely decline and notify the supervisor. A medical assistant must work within state law, training, and employer policy.",
+      "Do it only once does not answer this question correctly. The best answer is Politely decline and notify the supervisor. A medical assistant must work within state law, training, and employer policy."
+    ]
   },
   {
     "q": "An advance directive primarily communicates a patient's:",
@@ -792,7 +1104,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G053",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Insurance benefits does not answer this question correctly. The best answer is End-of-life healthcare wishes. Advance directives state a patient's wishes regarding future medical care if the patient cannot communicate.",
+      "Advance directives state a patient's wishes regarding future medical care if the patient cannot communicate.",
+      "Appointment preferences does not answer this question correctly. The best answer is End-of-life healthcare wishes. Advance directives state a patient's wishes regarding future medical care if the patient cannot communicate.",
+      "Employment history does not answer this question correctly. The best answer is End-of-life healthcare wishes. Advance directives state a patient's wishes regarding future medical care if the patient cannot communicate."
+    ]
   },
   {
     "q": "Which document names a person to make healthcare decisions if the patient becomes unable?",
@@ -807,7 +1125,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G054",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Living will does not answer this question correctly. The best answer is Durable power of attorney for healthcare. A durable power of attorney for healthcare designates a healthcare decision-maker.",
+      "A durable power of attorney for healthcare designates a healthcare decision-maker.",
+      "Incident report does not answer this question correctly. The best answer is Durable power of attorney for healthcare. A durable power of attorney for healthcare designates a healthcare decision-maker.",
+      "Assignment of benefits does not answer this question correctly. The best answer is Durable power of attorney for healthcare. A durable power of attorney for healthcare designates a healthcare decision-maker."
+    ]
   },
   {
     "q": "The ethical principle of doing good for the patient is:",
@@ -822,7 +1146,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G055",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Autonomy does not answer this question correctly. The best answer is Beneficence. Beneficence means acting for the patient's benefit.",
+      "Beneficence means acting for the patient's benefit.",
+      "Justice does not answer this question correctly. The best answer is Beneficence. Beneficence means acting for the patient's benefit.",
+      "Veracity does not answer this question correctly. The best answer is Beneficence. Beneficence means acting for the patient's benefit."
+    ]
   },
   {
     "q": "The ethical principle that supports a competent patient's right to make decisions is:",
@@ -837,10 +1167,16 @@
     "topic": "Medical Law and Ethics",
     "id": "G056",
     "difficulty": "Easy",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Autonomy respects the patient's right to make informed choices.",
+      "Fidelity does not answer this question correctly. The best answer is Autonomy. Autonomy respects the patient's right to make informed choices.",
+      "Nonmaleficence does not answer this question correctly. The best answer is Autonomy. Autonomy respects the patient's right to make informed choices.",
+      "Justice does not answer this question correctly. The best answer is Autonomy. Autonomy respects the patient's right to make informed choices."
+    ]
   },
   {
-    "q": "The phrase “first, do no harm” relates most closely to:",
+    "q": "The phrase \u201cfirst, do no harm\u201d relates most closely to:",
     "choices": [
       "Justice",
       "Nonmaleficence",
@@ -852,7 +1188,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G057",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Justice does not answer this question correctly. The best answer is Nonmaleficence. Nonmaleficence means avoiding harm.",
+      "Nonmaleficence means avoiding harm.",
+      "Autonomy does not answer this question correctly. The best answer is Nonmaleficence. Nonmaleficence means avoiding harm.",
+      "Confidentiality does not answer this question correctly. The best answer is Nonmaleficence. Nonmaleficence means avoiding harm."
+    ]
   },
   {
     "q": "A subpoena for a medical record should be handled by:",
@@ -867,7 +1209,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G058",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Ignoring it does not answer this question correctly. The best answer is Following office policy and notifying the appropriate supervisor or privacy officer. Legal requests for records must be handled according to law and office policy.",
+      "Immediately handing over the entire chart does not answer this question correctly. The best answer is Following office policy and notifying the appropriate supervisor or privacy officer. Legal requests for records must be handled according to law and office policy.",
+      "Legal requests for records must be handled according to law and office policy.",
+      "Discussing it with other patients does not answer this question correctly. The best answer is Following office policy and notifying the appropriate supervisor or privacy officer. Legal requests for records must be handled according to law and office policy."
+    ]
   },
   {
     "q": "An incident report should be:",
@@ -882,7 +1230,13 @@
     "topic": "Medical Law and Ethics",
     "id": "G059",
     "difficulty": "Moderate",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Placed in the patient's medical record does not answer this question correctly. The best answer is Completed objectively according to office policy. Incident reports should be factual, objective, timely, and handled according to policy; they are generally not part of the patient chart.",
+      "Incident reports should be factual, objective, timely, and handled according to policy; they are generally not part of the patient chart.",
+      "Used to assign blame does not answer this question correctly. The best answer is Completed objectively according to office policy. Incident reports should be factual, objective, timely, and handled according to policy; they are generally not part of the patient chart.",
+      "Shared on social media does not answer this question correctly. The best answer is Completed objectively according to office policy. Incident reports should be factual, objective, timely, and handled according to policy; they are generally not part of the patient chart."
+    ]
   },
   {
     "q": "Which is the best example of professional boundaries?",
@@ -897,22 +1251,34 @@
     "topic": "Medical Law and Ethics",
     "id": "G060",
     "difficulty": "Easy",
-    "tip": "Protect consent, privacy, scope of practice, and patient safety."
+    "tip": "Protect consent, privacy, scope of practice, and patient safety.",
+    "optionExplanations": [
+      "Accepting an expensive gift from a patient does not answer this question correctly. The best answer is Keeping the relationship focused on the patient's care. Professional boundaries keep the relationship therapeutic and focused on care.",
+      "Sharing personal login credentials does not answer this question correctly. The best answer is Keeping the relationship focused on the patient's care. Professional boundaries keep the relationship therapeutic and focused on care.",
+      "Professional boundaries keep the relationship therapeutic and focused on care.",
+      "Connecting romantically with a patient does not answer this question correctly. The best answer is Keeping the relationship focused on the patient's care. Professional boundaries keep the relationship therapeutic and focused on care."
+    ]
   },
   {
-    "q": "A patient appears anxious and says, “I'm scared about this test.” The best response is:",
+    "q": "A patient appears anxious and says, \u201cI'm scared about this test.\u201d The best response is:",
     "choices": [
-      "“There's nothing to worry about.”",
-      "“Tell me what concerns you most.”",
-      "“Other patients have it worse.”",
-      "“You need to calm down.”"
+      "\u201cThere's nothing to worry about.\u201d",
+      "\u201cTell me what concerns you most.\u201d",
+      "\u201cOther patients have it worse.\u201d",
+      "\u201cYou need to calm down.\u201d"
     ],
     "a": 1,
     "exp": "An open-ended, empathetic response encourages the patient to express concerns.",
     "topic": "Human Relations",
     "id": "G061",
     "difficulty": "Moderate",
-    "tip": "Acknowledge feelings, listen, and respond respectfully."
+    "tip": "Acknowledge feelings, listen, and respond respectfully.",
+    "optionExplanations": [
+      "\u201cThere's nothing to worry about.\u201d does not answer this question correctly. The best answer is \u201cTell me what concerns you most.\u201d. An open-ended, empathetic response encourages the patient to express concerns.",
+      "An open-ended, empathetic response encourages the patient to express concerns.",
+      "\u201cOther patients have it worse.\u201d does not answer this question correctly. The best answer is \u201cTell me what concerns you most.\u201d. An open-ended, empathetic response encourages the patient to express concerns.",
+      "\u201cYou need to calm down.\u201d does not answer this question correctly. The best answer is \u201cTell me what concerns you most.\u201d. An open-ended, empathetic response encourages the patient to express concerns."
+    ]
   },
   {
     "q": "When communicating with a patient who has limited English proficiency, the medical assistant should preferably use:",
@@ -927,7 +1293,13 @@
     "topic": "Human Relations",
     "id": "G062",
     "difficulty": "Moderate",
-    "tip": "Acknowledge feelings, listen, and respond respectfully."
+    "tip": "Acknowledge feelings, listen, and respond respectfully.",
+    "optionExplanations": [
+      "A young family member does not answer this question correctly. The best answer is A qualified medical interpreter. A qualified interpreter improves accuracy, privacy, and informed communication.",
+      "A qualified interpreter improves accuracy, privacy, and informed communication.",
+      "Gestures only does not answer this question correctly. The best answer is A qualified medical interpreter. A qualified interpreter improves accuracy, privacy, and informed communication.",
+      "Another patient does not answer this question correctly. The best answer is A qualified medical interpreter. A qualified interpreter improves accuracy, privacy, and informed communication."
+    ]
   },
   {
     "q": "Which communication technique demonstrates active listening?",
@@ -942,7 +1314,13 @@
     "topic": "Human Relations",
     "id": "G063",
     "difficulty": "Hard",
-    "tip": "Acknowledge feelings, listen, and respond respectfully."
+    "tip": "Acknowledge feelings, listen, and respond respectfully.",
+    "optionExplanations": [
+      "Interrupting to save time does not answer this question correctly. The best answer is Maintaining attention and restating the patient's main point. Active listening includes attention, clarification, and paraphrasing.",
+      "Active listening includes attention, clarification, and paraphrasing.",
+      "Looking at the computer continuously does not answer this question correctly. The best answer is Maintaining attention and restating the patient's main point. Active listening includes attention, clarification, and paraphrasing.",
+      "Changing the subject does not answer this question correctly. The best answer is Maintaining attention and restating the patient's main point. Active listening includes attention, clarification, and paraphrasing."
+    ]
   },
   {
     "q": "A culturally respectful approach is to:",
@@ -957,7 +1335,13 @@
     "topic": "Human Relations",
     "id": "G064",
     "difficulty": "Easy",
-    "tip": "Acknowledge feelings, listen, and respond respectfully."
+    "tip": "Acknowledge feelings, listen, and respond respectfully.",
+    "optionExplanations": [
+      "Assume all patients from one culture have the same beliefs does not answer this question correctly. The best answer is Ask the patient about individual preferences. Respectful care treats each patient as an individual and asks about preferences rather than assuming.",
+      "Respectful care treats each patient as an individual and asks about preferences rather than assuming.",
+      "Avoid discussing cultural needs does not answer this question correctly. The best answer is Ask the patient about individual preferences. Respectful care treats each patient as an individual and asks about preferences rather than assuming.",
+      "Use stereotypes to guide care does not answer this question correctly. The best answer is Ask the patient about individual preferences. Respectful care treats each patient as an individual and asks about preferences rather than assuming."
+    ]
   },
   {
     "q": "When a patient is angry about a long wait, the medical assistant should first:",
@@ -972,6 +1356,12 @@
     "topic": "Human Relations",
     "id": "G065",
     "difficulty": "Moderate",
-    "tip": "Acknowledge feelings, listen, and respond respectfully."
+    "tip": "Acknowledge feelings, listen, and respond respectfully.",
+    "optionExplanations": [
+      "Argue that the office is busy does not answer this question correctly. The best answer is Acknowledge the frustration and listen. Acknowledging the concern and listening helps de-escalate the situation and preserves trust.",
+      "Acknowledging the concern and listening helps de-escalate the situation and preserves trust.",
+      "Tell the patient to leave does not answer this question correctly. The best answer is Acknowledge the frustration and listen. Acknowledging the concern and listening helps de-escalate the situation and preserves trust.",
+      "Ignore the complaint does not answer this question correctly. The best answer is Acknowledge the frustration and listen. Acknowledging the concern and listening helps de-escalate the situation and preserves trust."
+    ]
   }
 ]
