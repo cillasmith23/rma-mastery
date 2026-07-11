@@ -1,0 +1,632 @@
+[
+  {
+    "id": "A001",
+    "topic": "Insurance",
+    "difficulty": "Easy",
+    "q": "Which term means the amount a patient must pay before an insurance plan begins paying covered expenses?",
+    "choices": [
+      "Copayment",
+      "Deductible",
+      "Premium",
+      "Coinsurance"
+    ],
+    "a": 1,
+    "exp": "A deductible is the amount the insured person pays out of pocket before the plan begins paying for covered services.",
+    "tip": "Deductible comes first; coinsurance usually comes after.",
+    "optionExplanations": [
+      "Copayment is not the best answer. The correct choice is Deductible. A deductible is the amount the insured person pays out of pocket before the plan begins paying for covered services.",
+      "A deductible is the amount the insured person pays out of pocket before the plan begins paying for covered services.",
+      "Premium is not the best answer. The correct choice is Deductible. A deductible is the amount the insured person pays out of pocket before the plan begins paying for covered services.",
+      "Coinsurance is not the best answer. The correct choice is Deductible. A deductible is the amount the insured person pays out of pocket before the plan begins paying for covered services."
+    ]
+  },
+  {
+    "id": "A002",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "A patient’s plan requires a $25 payment at each office visit. This payment is called a:",
+    "choices": [
+      "Copayment",
+      "Premium",
+      "Adjustment",
+      "Deductible"
+    ],
+    "a": 0,
+    "exp": "A copayment is a fixed amount the patient pays for a covered service, often at the time of the visit.",
+    "tip": "Co-pay = a set payment.",
+    "optionExplanations": [
+      "A copayment is a fixed amount the patient pays for a covered service, often at the time of the visit.",
+      "Premium is not the best answer. The correct choice is Copayment. A copayment is a fixed amount the patient pays for a covered service, often at the time of the visit.",
+      "Adjustment is not the best answer. The correct choice is Copayment. A copayment is a fixed amount the patient pays for a covered service, often at the time of the visit.",
+      "Deductible is not the best answer. The correct choice is Copayment. A copayment is a fixed amount the patient pays for a covered service, often at the time of the visit."
+    ]
+  },
+  {
+    "id": "A003",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "After the deductible is met, a plan pays 80% of the allowed amount. The patient is responsible for the remaining:",
+    "choices": [
+      "20% coinsurance",
+      "80% coinsurance",
+      "20% premium",
+      "80% deductible"
+    ],
+    "a": 0,
+    "exp": "Coinsurance is the percentage of the allowed amount shared by the patient after the deductible is applied.",
+    "tip": "If insurance pays 80%, the patient’s coinsurance is 20%.",
+    "optionExplanations": [
+      "Coinsurance is the percentage of the allowed amount shared by the patient after the deductible is applied.",
+      "80% coinsurance is not the best answer. The correct choice is 20% coinsurance. Coinsurance is the percentage of the allowed amount shared by the patient after the deductible is applied.",
+      "20% premium is not the best answer. The correct choice is 20% coinsurance. Coinsurance is the percentage of the allowed amount shared by the patient after the deductible is applied.",
+      "80% deductible is not the best answer. The correct choice is 20% coinsurance. Coinsurance is the percentage of the allowed amount shared by the patient after the deductible is applied."
+    ]
+  },
+  {
+    "id": "A004",
+    "topic": "Insurance",
+    "difficulty": "Easy",
+    "q": "Which document explains how an insurance claim was processed?",
+    "choices": [
+      "CMS-1500",
+      "Explanation of Benefits",
+      "Advance directive",
+      "Superbill"
+    ],
+    "a": 1,
+    "exp": "An Explanation of Benefits, or EOB, lists charges, allowed amounts, payments, adjustments, and patient responsibility.",
+    "tip": "EOB explains the benefit decision.",
+    "optionExplanations": [
+      "CMS-1500 is not the best answer. The correct choice is Explanation of Benefits. An Explanation of Benefits, or EOB, lists charges, allowed amounts, payments, adjustments, and patient responsibility.",
+      "An Explanation of Benefits, or EOB, lists charges, allowed amounts, payments, adjustments, and patient responsibility.",
+      "Advance directive is not the best answer. The correct choice is Explanation of Benefits. An Explanation of Benefits, or EOB, lists charges, allowed amounts, payments, adjustments, and patient responsibility.",
+      "Superbill is not the best answer. The correct choice is Explanation of Benefits. An Explanation of Benefits, or EOB, lists charges, allowed amounts, payments, adjustments, and patient responsibility."
+    ]
+  },
+  {
+    "id": "A005",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "On an EOB, the amount the insurer recognizes as payable for a covered service is the:",
+    "choices": [
+      "Billed charge",
+      "Allowed amount",
+      "Premium",
+      "Write-off appeal"
+    ],
+    "a": 1,
+    "exp": "The allowed amount is the maximum amount the plan recognizes for the service under the contract.",
+    "tip": "Billed is what was charged; allowed is what the plan accepts.",
+    "optionExplanations": [
+      "Billed charge is not the best answer. The correct choice is Allowed amount. The allowed amount is the maximum amount the plan recognizes for the service under the contract.",
+      "The allowed amount is the maximum amount the plan recognizes for the service under the contract.",
+      "Premium is not the best answer. The correct choice is Allowed amount. The allowed amount is the maximum amount the plan recognizes for the service under the contract.",
+      "Write-off appeal is not the best answer. The correct choice is Allowed amount. The allowed amount is the maximum amount the plan recognizes for the service under the contract."
+    ]
+  },
+  {
+    "id": "A006",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "A contracted provider bills $200, but the allowed amount is $140. The difference is generally:",
+    "choices": [
+      "Added to the deductible",
+      "A contractual adjustment",
+      "Paid by the patient in full",
+      "A premium"
+    ],
+    "a": 1,
+    "exp": "For an in-network contracted provider, the difference between the charge and allowed amount is usually adjusted off.",
+    "tip": "Contractual adjustment is not usually patient responsibility.",
+    "optionExplanations": [
+      "Added to the deductible is not the best answer. The correct choice is A contractual adjustment. For an in-network contracted provider, the difference between the charge and allowed amount is usually adjusted off.",
+      "For an in-network contracted provider, the difference between the charge and allowed amount is usually adjusted off.",
+      "Paid by the patient in full is not the best answer. The correct choice is A contractual adjustment. For an in-network contracted provider, the difference between the charge and allowed amount is usually adjusted off.",
+      "A premium is not the best answer. The correct choice is A contractual adjustment. For an in-network contracted provider, the difference between the charge and allowed amount is usually adjusted off."
+    ]
+  },
+  {
+    "id": "A007",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "Before scheduling a nonemergency procedure, the medical assistant may need to obtain approval from the insurer. This is:",
+    "choices": [
+      "Prior authorization",
+      "Coordination of benefits",
+      "Capitation",
+      "Adjudication"
+    ],
+    "a": 0,
+    "exp": "Prior authorization is approval required by some plans before certain services are performed.",
+    "tip": "Authorization comes before the service.",
+    "optionExplanations": [
+      "Prior authorization is approval required by some plans before certain services are performed.",
+      "Coordination of benefits is not the best answer. The correct choice is Prior authorization. Prior authorization is approval required by some plans before certain services are performed.",
+      "Capitation is not the best answer. The correct choice is Prior authorization. Prior authorization is approval required by some plans before certain services are performed.",
+      "Adjudication is not the best answer. The correct choice is Prior authorization. Prior authorization is approval required by some plans before certain services are performed."
+    ]
+  },
+  {
+    "id": "A008",
+    "topic": "Insurance",
+    "difficulty": "Moderate",
+    "q": "A patient needs permission from a primary care provider before seeing a specialist. This permission is called a:",
+    "choices": [
+      "Referral",
+      "Remittance",
+      "Deductible",
+      "Assignment"
+    ],
+    "a": 0,
+    "exp": "A referral is a request or authorization from the primary care provider for specialty care.",
+    "tip": "Referral directs the patient to a specialist.",
+    "optionExplanations": [
+      "A referral is a request or authorization from the primary care provider for specialty care.",
+      "Remittance is not the best answer. The correct choice is Referral. A referral is a request or authorization from the primary care provider for specialty care.",
+      "Deductible is not the best answer. The correct choice is Referral. A referral is a request or authorization from the primary care provider for specialty care.",
+      "Assignment is not the best answer. The correct choice is Referral. A referral is a request or authorization from the primary care provider for specialty care."
+    ]
+  },
+  {
+    "id": "A009",
+    "topic": "Coding",
+    "difficulty": "Easy",
+    "q": "Which code set is used to report diagnoses?",
+    "choices": [
+      "ICD-10-CM",
+      "CPT",
+      "HCPCS Level II only",
+      "NDC"
+    ],
+    "a": 0,
+    "exp": "ICD-10-CM codes describe diagnoses, conditions, and reasons for visits.",
+    "tip": "ICD = diagnosis.",
+    "optionExplanations": [
+      "ICD-10-CM codes describe diagnoses, conditions, and reasons for visits.",
+      "CPT is not the best answer. The correct choice is ICD-10-CM. ICD-10-CM codes describe diagnoses, conditions, and reasons for visits.",
+      "HCPCS Level II only is not the best answer. The correct choice is ICD-10-CM. ICD-10-CM codes describe diagnoses, conditions, and reasons for visits.",
+      "NDC is not the best answer. The correct choice is ICD-10-CM. ICD-10-CM codes describe diagnoses, conditions, and reasons for visits."
+    ]
+  },
+  {
+    "id": "A010",
+    "topic": "Coding",
+    "difficulty": "Easy",
+    "q": "Which code set is primarily used to report physician services and procedures?",
+    "choices": [
+      "ICD-10-CM",
+      "CPT",
+      "DRG",
+      "UB-04"
+    ],
+    "a": 1,
+    "exp": "CPT codes describe professional services and procedures performed by providers.",
+    "tip": "CPT = procedures and services.",
+    "optionExplanations": [
+      "ICD-10-CM is not the best answer. The correct choice is CPT. CPT codes describe professional services and procedures performed by providers.",
+      "CPT codes describe professional services and procedures performed by providers.",
+      "DRG is not the best answer. The correct choice is CPT. CPT codes describe professional services and procedures performed by providers.",
+      "UB-04 is not the best answer. The correct choice is CPT. CPT codes describe professional services and procedures performed by providers."
+    ]
+  },
+  {
+    "id": "A011",
+    "topic": "Coding",
+    "difficulty": "Moderate",
+    "q": "HCPCS Level II codes commonly identify:",
+    "choices": [
+      "Only diagnoses",
+      "Supplies, equipment, and certain medications",
+      "Hospital room numbers",
+      "Patient allergies"
+    ],
+    "a": 1,
+    "exp": "HCPCS Level II includes many supplies, durable medical equipment, ambulance services, and certain drugs.",
+    "tip": "Think equipment, supplies, and special services.",
+    "optionExplanations": [
+      "Only diagnoses is not the best answer. The correct choice is Supplies, equipment, and certain medications. HCPCS Level II includes many supplies, durable medical equipment, ambulance services, and certain drugs.",
+      "HCPCS Level II includes many supplies, durable medical equipment, ambulance services, and certain drugs.",
+      "Hospital room numbers is not the best answer. The correct choice is Supplies, equipment, and certain medications. HCPCS Level II includes many supplies, durable medical equipment, ambulance services, and certain drugs.",
+      "Patient allergies is not the best answer. The correct choice is Supplies, equipment, and certain medications. HCPCS Level II includes many supplies, durable medical equipment, ambulance services, and certain drugs."
+    ]
+  },
+  {
+    "id": "A012",
+    "topic": "Coding",
+    "difficulty": "Moderate",
+    "q": "Why must diagnosis codes support procedure codes on a claim?",
+    "choices": [
+      "To show medical necessity",
+      "To identify the patient’s employer",
+      "To calculate the premium",
+      "To replace the provider signature"
+    ],
+    "a": 0,
+    "exp": "The diagnosis should explain why the service was medically necessary.",
+    "tip": "Diagnosis answers why; procedure answers what.",
+    "optionExplanations": [
+      "The diagnosis should explain why the service was medically necessary.",
+      "To identify the patient’s employer is not the best answer. The correct choice is To show medical necessity. The diagnosis should explain why the service was medically necessary.",
+      "To calculate the premium is not the best answer. The correct choice is To show medical necessity. The diagnosis should explain why the service was medically necessary.",
+      "To replace the provider signature is not the best answer. The correct choice is To show medical necessity. The diagnosis should explain why the service was medically necessary."
+    ]
+  },
+  {
+    "id": "A013",
+    "topic": "Coding",
+    "difficulty": "Moderate",
+    "q": "A claim is rejected because the patient’s date of birth does not match the insurer’s records. The best first action is to:",
+    "choices": [
+      "Change the diagnosis code",
+      "Verify and correct the demographic information",
+      "Bill the patient immediately",
+      "Delete the claim"
+    ],
+    "a": 1,
+    "exp": "Demographic errors should be verified and corrected before resubmitting the claim.",
+    "tip": "Fix data errors before changing coding.",
+    "optionExplanations": [
+      "Change the diagnosis code is not the best answer. The correct choice is Verify and correct the demographic information. Demographic errors should be verified and corrected before resubmitting the claim.",
+      "Demographic errors should be verified and corrected before resubmitting the claim.",
+      "Bill the patient immediately is not the best answer. The correct choice is Verify and correct the demographic information. Demographic errors should be verified and corrected before resubmitting the claim.",
+      "Delete the claim is not the best answer. The correct choice is Verify and correct the demographic information. Demographic errors should be verified and corrected before resubmitting the claim."
+    ]
+  },
+  {
+    "id": "A014",
+    "topic": "Coding",
+    "difficulty": "Hard",
+    "q": "Which practice helps reduce claim denials?",
+    "choices": [
+      "Using unspecified codes whenever possible",
+      "Verifying eligibility and coding accurately",
+      "Submitting duplicate claims",
+      "Leaving required fields blank"
+    ],
+    "a": 1,
+    "exp": "Accurate coding, complete claims, and eligibility verification reduce avoidable denials.",
+    "tip": "Clean claims are complete, accurate, and verified.",
+    "optionExplanations": [
+      "Using unspecified codes whenever possible is not the best answer. The correct choice is Verifying eligibility and coding accurately. Accurate coding, complete claims, and eligibility verification reduce avoidable denials.",
+      "Accurate coding, complete claims, and eligibility verification reduce avoidable denials.",
+      "Submitting duplicate claims is not the best answer. The correct choice is Verifying eligibility and coding accurately. Accurate coding, complete claims, and eligibility verification reduce avoidable denials.",
+      "Leaving required fields blank is not the best answer. The correct choice is Verifying eligibility and coding accurately. Accurate coding, complete claims, and eligibility verification reduce avoidable denials."
+    ]
+  },
+  {
+    "id": "A015",
+    "topic": "Scheduling",
+    "difficulty": "Easy",
+    "q": "Which scheduling method assigns several patients the same arrival time and sees them in order of arrival?",
+    "choices": [
+      "Wave scheduling",
+      "Open booking",
+      "Double booking",
+      "Stream scheduling"
+    ],
+    "a": 0,
+    "exp": "Wave scheduling brings several patients in at the same time, then the provider sees them during the block.",
+    "tip": "A wave brings a group together.",
+    "optionExplanations": [
+      "Wave scheduling brings several patients in at the same time, then the provider sees them during the block.",
+      "Open booking is not the best answer. The correct choice is Wave scheduling. Wave scheduling brings several patients in at the same time, then the provider sees them during the block.",
+      "Double booking is not the best answer. The correct choice is Wave scheduling. Wave scheduling brings several patients in at the same time, then the provider sees them during the block.",
+      "Stream scheduling is not the best answer. The correct choice is Wave scheduling. Wave scheduling brings several patients in at the same time, then the provider sees them during the block."
+    ]
+  },
+  {
+    "id": "A016",
+    "topic": "Scheduling",
+    "difficulty": "Moderate",
+    "q": "Scheduling two patients for the same time slot is called:",
+    "choices": [
+      "Clustering",
+      "Double booking",
+      "Modified wave",
+      "Open hours"
+    ],
+    "a": 1,
+    "exp": "Double booking places two patients into one appointment time.",
+    "tip": "Double booking = two patients, one slot.",
+    "optionExplanations": [
+      "Clustering is not the best answer. The correct choice is Double booking. Double booking places two patients into one appointment time.",
+      "Double booking places two patients into one appointment time.",
+      "Modified wave is not the best answer. The correct choice is Double booking. Double booking places two patients into one appointment time.",
+      "Open hours is not the best answer. The correct choice is Double booking. Double booking places two patients into one appointment time."
+    ]
+  },
+  {
+    "id": "A017",
+    "topic": "Scheduling",
+    "difficulty": "Moderate",
+    "q": "When scheduling a patient with chest pain and shortness of breath, the medical assistant should first:",
+    "choices": [
+      "Offer the next routine opening",
+      "Follow emergency triage protocol immediately",
+      "Send a billing statement",
+      "Ask the patient to call next week"
+    ],
+    "a": 1,
+    "exp": "Potential emergency symptoms require immediate clinical triage according to office policy.",
+    "tip": "Safety beats scheduling.",
+    "optionExplanations": [
+      "Offer the next routine opening is not the best answer. The correct choice is Follow emergency triage protocol immediately. Potential emergency symptoms require immediate clinical triage according to office policy.",
+      "Potential emergency symptoms require immediate clinical triage according to office policy.",
+      "Send a billing statement is not the best answer. The correct choice is Follow emergency triage protocol immediately. Potential emergency symptoms require immediate clinical triage according to office policy.",
+      "Ask the patient to call next week is not the best answer. The correct choice is Follow emergency triage protocol immediately. Potential emergency symptoms require immediate clinical triage according to office policy."
+    ]
+  },
+  {
+    "id": "A018",
+    "topic": "Scheduling",
+    "difficulty": "Moderate",
+    "q": "Which appointment type usually requires the most time?",
+    "choices": [
+      "Brief blood pressure check",
+      "New-patient comprehensive visit",
+      "Routine injection",
+      "Telephone message"
+    ],
+    "a": 1,
+    "exp": "New-patient comprehensive visits generally require more history, documentation, and provider time.",
+    "tip": "New patient usually means more time.",
+    "optionExplanations": [
+      "Brief blood pressure check is not the best answer. The correct choice is New-patient comprehensive visit. New-patient comprehensive visits generally require more history, documentation, and provider time.",
+      "New-patient comprehensive visits generally require more history, documentation, and provider time.",
+      "Routine injection is not the best answer. The correct choice is New-patient comprehensive visit. New-patient comprehensive visits generally require more history, documentation, and provider time.",
+      "Telephone message is not the best answer. The correct choice is New-patient comprehensive visit. New-patient comprehensive visits generally require more history, documentation, and provider time."
+    ]
+  },
+  {
+    "id": "A019",
+    "topic": "Communication",
+    "difficulty": "Easy",
+    "q": "Which is the most professional telephone greeting?",
+    "choices": [
+      "Hello?",
+      "Medical office, please hold",
+      "Good morning, Lakeside Clinic, this is Maya. How may I help you?",
+      "Who is this?"
+    ],
+    "a": 2,
+    "exp": "A professional greeting identifies the office and staff member and offers assistance.",
+    "tip": "Office + name + offer to help.",
+    "optionExplanations": [
+      "Hello? is not the best answer. The correct choice is Good morning, Lakeside Clinic, this is Maya. How may I help you?. A professional greeting identifies the office and staff member and offers assistance.",
+      "Medical office, please hold is not the best answer. The correct choice is Good morning, Lakeside Clinic, this is Maya. How may I help you?. A professional greeting identifies the office and staff member and offers assistance.",
+      "A professional greeting identifies the office and staff member and offers assistance.",
+      "Who is this? is not the best answer. The correct choice is Good morning, Lakeside Clinic, this is Maya. How may I help you?. A professional greeting identifies the office and staff member and offers assistance."
+    ]
+  },
+  {
+    "id": "A020",
+    "topic": "Communication",
+    "difficulty": "Moderate",
+    "q": "A patient leaves an angry voicemail. The best response is to:",
+    "choices": [
+      "Ignore it",
+      "Return the call calmly, listen, and follow office policy",
+      "Post about it online",
+      "Argue with the patient"
+    ],
+    "a": 1,
+    "exp": "Professional communication requires calm listening, documentation, and appropriate follow-up.",
+    "tip": "Acknowledge, listen, document, act.",
+    "optionExplanations": [
+      "Ignore it is not the best answer. The correct choice is Return the call calmly, listen, and follow office policy. Professional communication requires calm listening, documentation, and appropriate follow-up.",
+      "Professional communication requires calm listening, documentation, and appropriate follow-up.",
+      "Post about it online is not the best answer. The correct choice is Return the call calmly, listen, and follow office policy. Professional communication requires calm listening, documentation, and appropriate follow-up.",
+      "Argue with the patient is not the best answer. The correct choice is Return the call calmly, listen, and follow office policy. Professional communication requires calm listening, documentation, and appropriate follow-up."
+    ]
+  },
+  {
+    "id": "A021",
+    "topic": "Communication",
+    "difficulty": "Moderate",
+    "q": "Which written message is most appropriate in the medical record?",
+    "choices": [
+      "Patient was crazy today",
+      "Patient reports severe headache beginning this morning",
+      "Patient seems weird",
+      "Patient is probably exaggerating"
+    ],
+    "a": 1,
+    "exp": "Medical records should use objective, specific, and professional language.",
+    "tip": "Document facts, not judgments.",
+    "optionExplanations": [
+      "Patient was crazy today is not the best answer. The correct choice is Patient reports severe headache beginning this morning. Medical records should use objective, specific, and professional language.",
+      "Medical records should use objective, specific, and professional language.",
+      "Patient seems weird is not the best answer. The correct choice is Patient reports severe headache beginning this morning. Medical records should use objective, specific, and professional language.",
+      "Patient is probably exaggerating is not the best answer. The correct choice is Patient reports severe headache beginning this morning. Medical records should use objective, specific, and professional language."
+    ]
+  },
+  {
+    "id": "A022",
+    "topic": "Health Information",
+    "difficulty": "Easy",
+    "q": "Before releasing a patient’s records to a third party, the office generally needs:",
+    "choices": [
+      "A written authorization",
+      "A verbal request from anyone",
+      "A social media message",
+      "No documentation"
+    ],
+    "a": 0,
+    "exp": "A valid written authorization is generally required unless a legal exception applies.",
+    "tip": "Release records only with proper authority.",
+    "optionExplanations": [
+      "A valid written authorization is generally required unless a legal exception applies.",
+      "A verbal request from anyone is not the best answer. The correct choice is A written authorization. A valid written authorization is generally required unless a legal exception applies.",
+      "A social media message is not the best answer. The correct choice is A written authorization. A valid written authorization is generally required unless a legal exception applies.",
+      "No documentation is not the best answer. The correct choice is A written authorization. A valid written authorization is generally required unless a legal exception applies."
+    ]
+  },
+  {
+    "id": "A023",
+    "topic": "Health Information",
+    "difficulty": "Moderate",
+    "q": "Which action best protects electronic health information?",
+    "choices": [
+      "Sharing passwords",
+      "Locking the screen when leaving the workstation",
+      "Writing passwords on the monitor",
+      "Leaving charts open"
+    ],
+    "a": 1,
+    "exp": "Locking the workstation prevents unauthorized access to protected health information.",
+    "tip": "Step away? Lock the display.",
+    "optionExplanations": [
+      "Sharing passwords is not the best answer. The correct choice is Locking the screen when leaving the workstation. Locking the workstation prevents unauthorized access to protected health information.",
+      "Locking the workstation prevents unauthorized access to protected health information.",
+      "Writing passwords on the monitor is not the best answer. The correct choice is Locking the screen when leaving the workstation. Locking the workstation prevents unauthorized access to protected health information.",
+      "Leaving charts open is not the best answer. The correct choice is Locking the screen when leaving the workstation. Locking the workstation prevents unauthorized access to protected health information."
+    ]
+  },
+  {
+    "id": "A024",
+    "topic": "Health Information",
+    "difficulty": "Moderate",
+    "q": "The purpose of a retention schedule is to determine:",
+    "choices": [
+      "How long records must be kept",
+      "How much a patient owes",
+      "Which diagnosis code to use",
+      "How long an appointment lasts"
+    ],
+    "a": 0,
+    "exp": "Record-retention schedules establish how long records are stored according to law and policy.",
+    "tip": "Retention = how long to keep.",
+    "optionExplanations": [
+      "Record-retention schedules establish how long records are stored according to law and policy.",
+      "How much a patient owes is not the best answer. The correct choice is How long records must be kept. Record-retention schedules establish how long records are stored according to law and policy.",
+      "Which diagnosis code to use is not the best answer. The correct choice is How long records must be kept. Record-retention schedules establish how long records are stored according to law and policy.",
+      "How long an appointment lasts is not the best answer. The correct choice is How long records must be kept. Record-retention schedules establish how long records are stored according to law and policy."
+    ]
+  },
+  {
+    "id": "A025",
+    "topic": "Office Management",
+    "difficulty": "Easy",
+    "q": "Which item should be reordered before the supply reaches zero?",
+    "choices": [
+      "Only expired items",
+      "Frequently used clinical and office supplies",
+      "Patient records",
+      "Appointment times"
+    ],
+    "a": 1,
+    "exp": "Inventory should be monitored and reordered before stock is depleted.",
+    "tip": "Reorder before you run out.",
+    "optionExplanations": [
+      "Only expired items is not the best answer. The correct choice is Frequently used clinical and office supplies. Inventory should be monitored and reordered before stock is depleted.",
+      "Inventory should be monitored and reordered before stock is depleted.",
+      "Patient records is not the best answer. The correct choice is Frequently used clinical and office supplies. Inventory should be monitored and reordered before stock is depleted.",
+      "Appointment times is not the best answer. The correct choice is Frequently used clinical and office supplies. Inventory should be monitored and reordered before stock is depleted."
+    ]
+  },
+  {
+    "id": "A026",
+    "topic": "Office Management",
+    "difficulty": "Moderate",
+    "q": "Rotating stock so older supplies are used first is known as:",
+    "choices": [
+      "First in, first out",
+      "Last in, first out",
+      "Double entry",
+      "Batch posting"
+    ],
+    "a": 0,
+    "exp": "First in, first out helps reduce waste and expiration by using older stock first.",
+    "tip": "FIFO: first in, first out.",
+    "optionExplanations": [
+      "First in, first out helps reduce waste and expiration by using older stock first.",
+      "Last in, first out is not the best answer. The correct choice is First in, first out. First in, first out helps reduce waste and expiration by using older stock first.",
+      "Double entry is not the best answer. The correct choice is First in, first out. First in, first out helps reduce waste and expiration by using older stock first.",
+      "Batch posting is not the best answer. The correct choice is First in, first out. First in, first out helps reduce waste and expiration by using older stock first."
+    ]
+  },
+  {
+    "id": "A027",
+    "topic": "Computer Applications",
+    "difficulty": "Easy",
+    "q": "Which program is best suited for creating a patient account spreadsheet?",
+    "choices": [
+      "Spreadsheet software",
+      "Presentation software",
+      "Photo editor",
+      "Web browser only"
+    ],
+    "a": 0,
+    "exp": "Spreadsheet software organizes rows, columns, formulas, and financial data.",
+    "tip": "Rows + columns + formulas = spreadsheet.",
+    "optionExplanations": [
+      "Spreadsheet software organizes rows, columns, formulas, and financial data.",
+      "Presentation software is not the best answer. The correct choice is Spreadsheet software. Spreadsheet software organizes rows, columns, formulas, and financial data.",
+      "Photo editor is not the best answer. The correct choice is Spreadsheet software. Spreadsheet software organizes rows, columns, formulas, and financial data.",
+      "Web browser only is not the best answer. The correct choice is Spreadsheet software. Spreadsheet software organizes rows, columns, formulas, and financial data."
+    ]
+  },
+  {
+    "id": "A028",
+    "topic": "Computer Applications",
+    "difficulty": "Moderate",
+    "q": "A strong password should:",
+    "choices": [
+      "Be shared with coworkers",
+      "Use a unique combination and remain confidential",
+      "Be the word password",
+      "Be posted near the computer"
+    ],
+    "a": 1,
+    "exp": "Strong passwords are unique, difficult to guess, and kept confidential.",
+    "tip": "Unique, private, and hard to guess.",
+    "optionExplanations": [
+      "Be shared with coworkers is not the best answer. The correct choice is Use a unique combination and remain confidential. Strong passwords are unique, difficult to guess, and kept confidential.",
+      "Strong passwords are unique, difficult to guess, and kept confidential.",
+      "Be the word password is not the best answer. The correct choice is Use a unique combination and remain confidential. Strong passwords are unique, difficult to guess, and kept confidential.",
+      "Be posted near the computer is not the best answer. The correct choice is Use a unique combination and remain confidential. Strong passwords are unique, difficult to guess, and kept confidential."
+    ]
+  },
+  {
+    "id": "A029",
+    "topic": "Office Safety",
+    "difficulty": "Moderate",
+    "q": "A power cord is frayed near the front desk. The medical assistant should:",
+    "choices": [
+      "Continue using it",
+      "Remove it from service and report it",
+      "Cover it with paper",
+      "Place it under a rug"
+    ],
+    "a": 1,
+    "exp": "Damaged electrical equipment should be removed from service and reported to prevent injury or fire.",
+    "tip": "Damaged equipment: stop, remove, report.",
+    "optionExplanations": [
+      "Continue using it is not the best answer. The correct choice is Remove it from service and report it. Damaged electrical equipment should be removed from service and reported to prevent injury or fire.",
+      "Damaged electrical equipment should be removed from service and reported to prevent injury or fire.",
+      "Cover it with paper is not the best answer. The correct choice is Remove it from service and report it. Damaged electrical equipment should be removed from service and reported to prevent injury or fire.",
+      "Place it under a rug is not the best answer. The correct choice is Remove it from service and report it. Damaged electrical equipment should be removed from service and reported to prevent injury or fire."
+    ]
+  },
+  {
+    "id": "A030",
+    "topic": "Office Safety",
+    "difficulty": "Moderate",
+    "q": "Which action helps prevent slips and falls in the office?",
+    "choices": [
+      "Leaving spills unattended",
+      "Cleaning spills promptly and placing warning signs",
+      "Blocking exits with boxes",
+      "Running extension cords across walkways"
+    ],
+    "a": 1,
+    "exp": "Spills should be cleaned promptly and the area marked until it is safe.",
+    "tip": "Clean, warn, and clear the walkway.",
+    "optionExplanations": [
+      "Leaving spills unattended is not the best answer. The correct choice is Cleaning spills promptly and placing warning signs. Spills should be cleaned promptly and the area marked until it is safe.",
+      "Spills should be cleaned promptly and the area marked until it is safe.",
+      "Blocking exits with boxes is not the best answer. The correct choice is Cleaning spills promptly and placing warning signs. Spills should be cleaned promptly and the area marked until it is safe.",
+      "Running extension cords across walkways is not the best answer. The correct choice is Cleaning spills promptly and placing warning signs. Spills should be cleaned promptly and the area marked until it is safe."
+    ]
+  }
+]

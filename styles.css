@@ -20,3 +20,6 @@
 .badge-warn{background:rgba(154,98,0,.12);color:var(--warn)}
 .streak{font-size:2.2rem;font-weight:950}
 .mode-note{padding:10px 12px;border-radius:12px;background:var(--accent);margin:12px 0}
+
+.area-banner{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}
+.area-label{font-weight:900;color:var(--primary)}

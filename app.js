@@ -1,5 +1,5 @@
 const $=s=>document.querySelector(s),app=$('#app');
-let bank=[],activeQuiz=null,currentIndex=0,answers={},confidence={},checked={},mode='study',route='home',timerId=null,timeLeft=0;
+let bank=[],generalBank=[],adminBank=[],activeArea='general',activeQuiz=null,currentIndex=0,answers={},confidence={},checked={},mode='study',route='home',timerId=null,timeLeft=0;
 const D={attempts:[],missed:[],favorites:[],theme:'light',topicStats:{},confidenceStats:{high:0,medium:0,guess:0},studyDates:[]};
 const state=Object.assign({},D,JSON.parse(localStorage.getItem('rmaStateV12')||'{}'));
 document.documentElement.dataset.theme=state.theme;
@@ -17,7 +17,7 @@ function streak(){
   return n;
 }
 async function init(){
-  try{bank=await fetch('questions-general.json').then(r=>r.json())}
+  try{[generalBank,adminBank]=await Promise.all([fetch('questions-general.json').then(r=>r.json()),fetch('questions-admin.json').then(r=>r.json())]);bank=generalBank}
   catch(e){app.innerHTML='<section class="card warning"><h2>Question bank could not load</h2><p>Refresh after GitHub Pages finishes deploying.</p></section>';return}
   render();
   if('serviceWorker'in navigator)navigator.serviceWorker.register('service-worker.js').catch(()=>{});
@@ -25,35 +25,33 @@ async function init(){
 function render(){({home,study,quiz:quizMenu,saved,progress}[route]||home)()}
 function home(){
   let best=state.attempts.length?Math.max(...state.attempts.map(a=>a.score)):0,total=state.attempts.reduce((s,a)=>s+a.total,0);
-  app.innerHTML=`<section class="hero"><h1>Learn. Practice. Succeed.</h1><span class="version-chip">Version 1.2</span><p>Timed Exam Mode, study streaks, confidence analytics, and strongest/weakest topic reports.</p></section>
+  app.innerHTML=`<section class="hero"><h1>Learn. Practice. Succeed.</h1><span class="version-chip">Version 2.0</span><p>Work Areas I and II are now available.</p></section>
   <section class="grid">
-    <article class="card card-button" onclick="startQuiz(65,'exam',true)"><span class="badge">Timed Exam</span><h2>65 Questions • 78 Minutes</h2><p>Simulate a paced Work Area I exam.</p></article>
-    <article class="card card-button" onclick="go('study')"><span class="badge">Study Mode</span><h2>Study by Topic</h2><p>Check answers immediately and review every option.</p></article>
-    <article class="card card-button" onclick="go('quiz')"><h2>Quick Quiz</h2><p>Choose 10, 25, 50, or 65 questions.</p></article>
-    <article class="card"><span class="badge">Coming next</span><h2>Work Area II</h2><p>Administrative Medical Assisting — 30 questions.</p></article>
+    <article class="card card-button" onclick="selectArea('general')"><span class="badge">Work Area I</span><h2>General Medical Assisting</h2><p>65 questions • Body Systems, Terminology, Law & Ethics, Human Relations.</p></article>
+    <article class="card card-button" onclick="selectArea('admin')"><span class="badge">New</span><h2>Administrative Medical Assisting</h2><p>30 questions • Insurance, Coding, Scheduling, Records, Safety.</p></article>
+    <article class="card"><span class="badge">Coming next</span><h2>Work Area III</h2><p>Clinical Medical Assisting — 115 questions.</p></article>
+    <article class="card card-button" onclick="go('progress')"><h2>Progress & Analytics</h2><p>Review scores, confidence, strongest topics, and areas needing work.</p></article>
   </section>
-  <section class="grid">
-    <article class="card"><div class="muted">Questions answered</div><div class="stat">${total}</div></article>
-    <article class="card"><div class="muted">Best score</div><div class="stat">${best}%</div></article>
-    <article class="card"><div class="muted">Study streak</div><div class="streak">🔥 ${streak()}</div><div class="small muted">consecutive days</div></article>
-    <article class="card"><div class="muted">Saved questions</div><div class="stat">${state.favorites.length+state.missed.length}</div></article>
-  </section>`;
+  <section class="grid"><article class="card"><div class="muted">Questions answered</div><div class="stat">${total}</div></article><article class="card"><div class="muted">Best score</div><div class="stat">${best}%</div></article><article class="card"><div class="muted">Study streak</div><div class="streak">🔥 ${streak()}</div></article><article class="card"><div class="muted">Question bank</div><div class="stat">95</div></article></section>`;
 }
+window.selectArea=a=>{activeArea=a;bank=a==='admin'?adminBank:generalBank;go('quiz')};
 function study(){
   let topics=[...new Set(bank.map(q=>q.topic))];
   app.innerHTML=`<h1>Study by Topic</h1><p class="muted">Choose an answer, tap Check Answer, then read why every option is right or wrong.</p>
   <section class="card">${topics.map(t=>`<div class="topic-row"><span><strong>${t}</strong><br><span class="small muted">${bank.filter(q=>q.topic===t).length} questions</span></span><button class="btn btn-secondary" onclick='startTopic(${JSON.stringify(t)})'>Study</button></div>`).join('')}</section>`;
 }
 function quizMenu(){
-  app.innerHTML=`<h1>Quick Quiz</h1>
+  const areaName=activeArea==='admin'?'Work Area II: Administrative Medical Assisting':'Work Area I: General Medical Assisting';
+  const maxN=bank.length;
+  app.innerHTML=`<div class="area-banner"><div><div class="area-label">${areaName}</div><h1>Practice Options</h1></div><button class="btn btn-secondary" onclick="go('home')">Change Area</button></div>
   <div class="pill-row"><button class="pill ${mode==='study'?'active':''}" onclick="setMode('study')">Study Mode</button><button class="pill ${mode==='exam'?'active':''}" onclick="setMode('exam')">Exam Mode</button></div>
   <div class="mode-note">${mode==='study'?'Study Mode shows explanations after you check each answer.':'Exam Mode saves explanations until the end. Timed mode is available for the 65-question exam.'}</div>
-  <section class="grid">${[10,25,50,65].map(n=>`<article class="card card-button" onclick="startQuiz(${n},mode,${n===65?"mode==='exam'":"false"})"><h2>${n} Questions</h2><p>${n===65?'Full Work Area I':'Randomized practice'}</p></article>`).join('')}</section>`;
+  <section class="grid">${([10,25,50,65].filter(n=>n<=maxN).concat(maxN===30?[30]:[]).filter((v,i,a)=>a.indexOf(v)===i)).map(n=>`<article class="card card-button" onclick="startQuiz(${n},mode,${n===maxN?"mode==='exam'":"false"})"><h2>${n} Questions</h2><p>${n===maxN?'Full work-area exam':'Randomized practice'}</p></article>`).join('')}</section>`;
 }
 window.setMode=m=>{mode=m;quizMenu()};
 window.startQuiz=(n,m='study',timed=false)=>{
   mode=m;activeQuiz=sh(bank).slice(0,Math.min(n,bank.length));currentIndex=0;answers={};confidence={};checked={};recordStudyDay();
-  if(timed){timeLeft=78*60;startTimer()} else stopTimer();
+  if(timed){timeLeft=(activeArea==='admin'?36:78)*60;startTimer()} else stopTimer();
   showQ();
 };
 window.startTopic=t=>{mode='study';activeQuiz=sh(bank.filter(q=>q.topic===t));currentIndex=0;answers={};confidence={};checked={};recordStudyDay();stopTimer();showQ()};
@@ -95,7 +93,7 @@ window.finishQuiz=(timedOut=false)=>{
     return{q,c,ok};
   });
   let score=Math.round(correct/activeQuiz.length*100);
-  state.attempts.push({date:new Date().toISOString(),score,correct,total:activeQuiz.length,mode,timed:!!timeLeft,timedOut});
+  state.attempts.push({date:new Date().toISOString(),score,correct,total:activeQuiz.length,mode,area:activeArea,timed:!!timeLeft,timedOut});
   save();
   app.innerHTML=`<section class="hero center"><h1>${score}%</h1><p>${correct} of ${activeQuiz.length} correct${timedOut?' • Time expired':''}</p></section>
   <div class="btn-row"><button class="btn btn-primary" onclick="go('home')">Home</button><button class="btn btn-secondary" onclick="go('progress')">View Analytics</button></div>

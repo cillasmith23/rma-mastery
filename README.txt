@@ -1,15 +1,20 @@
-RMA MASTERY v1.2 — Created for RMA Students
+RMA MASTERY v2.0 — Created for RMA Students
 
-NEW IN v1.2
-• Timed 65-question Exam Mode (78 minutes)
-• Study streak counter
-• Strongest and weakest topic cards
-• Topic performance meters
-• Confidence analytics
-• All v1.1 features remain
+NEW IN v2.0
+• Work Area II: Administrative Medical Assisting
+• 30 original Administrative questions
+• Insurance and EOBs
+• ICD-10-CM, CPT, and HCPCS basics
+• Prior authorization and referrals
+• Scheduling
+• Communication and health-information management
+• Office supplies, computers, and safety
+• 36-minute timed Administrative exam
+• Total question bank: 95 questions
 
 UPLOAD
-Extract the ZIP, upload all 8 files to GitHub, and commit:
-Update to RMA Mastery v1.2
+This version contains 9 files.
+Extract the ZIP, upload all 9 files to GitHub, and commit:
+Update to RMA Mastery v2.0
 
-Then wait 1–3 minutes and refresh the live website with Ctrl+F5.
+Then wait 1–3 minutes and refresh the live site with Ctrl+F5.
