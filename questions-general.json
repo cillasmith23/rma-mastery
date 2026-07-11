@@ -840,7 +840,7 @@
     "tip": "Protect consent, privacy, scope of practice, and patient safety."
   },
   {
-    "q": "The phrase \u201cfirst, do no harm\u201d relates most closely to:",
+    "q": "The phrase “first, do no harm” relates most closely to:",
     "choices": [
       "Justice",
       "Nonmaleficence",
@@ -900,12 +900,12 @@
     "tip": "Protect consent, privacy, scope of practice, and patient safety."
   },
   {
-    "q": "A patient appears anxious and says, \u201cI'm scared about this test.\u201d The best response is:",
+    "q": "A patient appears anxious and says, “I'm scared about this test.” The best response is:",
     "choices": [
-      "\u201cThere's nothing to worry about.\u201d",
-      "\u201cTell me what concerns you most.\u201d",
-      "\u201cOther patients have it worse.\u201d",
-      "\u201cYou need to calm down.\u201d"
+      "“There's nothing to worry about.”",
+      "“Tell me what concerns you most.”",
+      "“Other patients have it worse.”",
+      "“You need to calm down.”"
     ],
     "a": 1,
     "exp": "An open-ended, empathetic response encourages the patient to express concerns.",

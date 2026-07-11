@@ -1,23 +1,36 @@
-RMA MASTERY v0.1 — Created for RMA Students
+RMA MASTERY v1.0 — Created for RMA Students
 
-Included:
-• Mobile-friendly dashboard
-• Work Area I: 65 General Medical Assisting questions
-• 10, 25, 50, and 65-question modes
+THIS VERSION USES A FLAT FILE STRUCTURE.
+There are no data or icons folders, so GitHub's browser uploader can select and upload every item at once.
+
+FEATURES
+• 65 General Medical Assisting questions
+• Study Mode with immediate explanations
+• Exam Mode with review after submission
+• Quick quizzes: 10, 25, 50, or 65 questions
 • Study by topic
-• Answer explanations
+• Favorites
 • Missed-question review
-• Progress tracking
+• Confidence tracking
+• Memory tips
+• Topic performance dashboard
+• Attempt history
 • Dark mode
-• Offline-ready PWA files
+• Installable/offline-ready website
 
-IMPORTANT: Upload the ENTIRE unzipped folder to a static host. Opening index.html directly from a phone's Files app may block the question bank.
+HOW TO UPDATE GITHUB
+1. Extract this ZIP.
+2. Open the extracted RMA_Mastery_v1.0_Website folder.
+3. In GitHub: Add file > Upload files.
+4. Press Ctrl+A to select all 8 files.
+5. Click Open.
+6. Commit message: Update to RMA Mastery v1.0
+7. Commit directly to main.
+8. Wait 1–3 minutes, then refresh the live website with Ctrl+F5.
 
-Easy hosting:
-• Netlify Drop: drag the unzipped folder into Netlify Drop.
-• GitHub Pages: upload all files to a repository and enable Pages from the main branch/root.
-• Cloudflare Pages: upload or connect this folder.
+IMPORTANT CLEANUP
+After v1.0 is working, the old repository folders named data and icons can remain; they will not interfere.
+The website now reads questions-general.json and icon.svg from the repository root.
 
-No build command is needed.
-
-This is an independent study resource and is not affiliated with or endorsed by AMT. It does not contain real AMT exam questions.
+DISCLAIMER
+This is an independent educational resource based on public competency categories and standard medical-assisting knowledge. It is not affiliated with or endorsed by AMT and does not contain actual AMT examination questions.
