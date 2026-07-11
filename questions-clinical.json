@@ -1,0 +1,2417 @@
+[
+  {
+    "id": "C001",
+    "topic": "Infection Control",
+    "difficulty": "Easy",
+    "q": "Which process destroys all microorganisms, including bacterial spores?",
+    "choices": [
+      "Sanitization",
+      "Disinfection",
+      "Sterilization",
+      "Handwashing"
+    ],
+    "a": 2,
+    "exp": "Sterilization destroys all forms of microbial life, including spores.",
+    "tip": "Sterile means no living microorganisms remain.",
+    "optionExplanations": [
+      "Sanitization is not the best answer. The correct choice is Sterilization. Sterilization destroys all forms of microbial life, including spores.",
+      "Disinfection is not the best answer. The correct choice is Sterilization. Sterilization destroys all forms of microbial life, including spores.",
+      "Sterilization destroys all forms of microbial life, including spores.",
+      "Handwashing is not the best answer. The correct choice is Sterilization. Sterilization destroys all forms of microbial life, including spores."
+    ]
+  },
+  {
+    "id": "C002",
+    "topic": "Infection Control",
+    "difficulty": "Easy",
+    "q": "Which process reduces the number of microorganisms to a safe level?",
+    "choices": [
+      "Sanitization",
+      "Sterilization",
+      "Incineration",
+      "Isolation"
+    ],
+    "a": 0,
+    "exp": "Sanitization lowers the microbial count to a level considered safe.",
+    "tip": "Sanitize means reduce, not eliminate.",
+    "optionExplanations": [
+      "Sanitization lowers the microbial count to a level considered safe.",
+      "Sterilization is not the best answer. The correct choice is Sanitization. Sanitization lowers the microbial count to a level considered safe.",
+      "Incineration is not the best answer. The correct choice is Sanitization. Sanitization lowers the microbial count to a level considered safe.",
+      "Isolation is not the best answer. The correct choice is Sanitization. Sanitization lowers the microbial count to a level considered safe."
+    ]
+  },
+  {
+    "id": "C003",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "A blood pressure cuff used on intact skin is considered:",
+    "choices": [
+      "Critical equipment",
+      "Semicritical equipment",
+      "Noncritical equipment",
+      "Sterile equipment"
+    ],
+    "a": 2,
+    "exp": "Items that contact intact skin are noncritical and generally require low-level disinfection.",
+    "tip": "Intact skin contact = noncritical.",
+    "optionExplanations": [
+      "Critical equipment is not the best answer. The correct choice is Noncritical equipment. Items that contact intact skin are noncritical and generally require low-level disinfection.",
+      "Semicritical equipment is not the best answer. The correct choice is Noncritical equipment. Items that contact intact skin are noncritical and generally require low-level disinfection.",
+      "Items that contact intact skin are noncritical and generally require low-level disinfection.",
+      "Sterile equipment is not the best answer. The correct choice is Noncritical equipment. Items that contact intact skin are noncritical and generally require low-level disinfection."
+    ]
+  },
+  {
+    "id": "C004",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "Which item requires sterilization before reuse?",
+    "choices": [
+      "Stethoscope",
+      "Surgical forceps entering sterile tissue",
+      "Exam-table paper",
+      "Blood pressure cuff"
+    ],
+    "a": 1,
+    "exp": "Instruments that enter sterile tissue are critical items and must be sterilized.",
+    "tip": "Critical items enter sterile tissue.",
+    "optionExplanations": [
+      "Stethoscope is not the best answer. The correct choice is Surgical forceps entering sterile tissue. Instruments that enter sterile tissue are critical items and must be sterilized.",
+      "Instruments that enter sterile tissue are critical items and must be sterilized.",
+      "Exam-table paper is not the best answer. The correct choice is Surgical forceps entering sterile tissue. Instruments that enter sterile tissue are critical items and must be sterilized.",
+      "Blood pressure cuff is not the best answer. The correct choice is Surgical forceps entering sterile tissue. Instruments that enter sterile tissue are critical items and must be sterilized."
+    ]
+  },
+  {
+    "id": "C005",
+    "topic": "Infection Control",
+    "difficulty": "Easy",
+    "q": "Which is part of Standard Precautions?",
+    "choices": [
+      "Treating only known infections as contagious",
+      "Using appropriate PPE based on exposure risk",
+      "Recapping used needles with two hands",
+      "Reusing gloves"
+    ],
+    "a": 1,
+    "exp": "Standard Precautions require appropriate PPE whenever exposure to blood or body fluids is possible.",
+    "tip": "Standard Precautions apply to every patient.",
+    "optionExplanations": [
+      "Treating only known infections as contagious is not the best answer. The correct choice is Using appropriate PPE based on exposure risk. Standard Precautions require appropriate PPE whenever exposure to blood or body fluids is possible.",
+      "Standard Precautions require appropriate PPE whenever exposure to blood or body fluids is possible.",
+      "Recapping used needles with two hands is not the best answer. The correct choice is Using appropriate PPE based on exposure risk. Standard Precautions require appropriate PPE whenever exposure to blood or body fluids is possible.",
+      "Reusing gloves is not the best answer. The correct choice is Using appropriate PPE based on exposure risk. Standard Precautions require appropriate PPE whenever exposure to blood or body fluids is possible."
+    ]
+  },
+  {
+    "id": "C006",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "After a needlestick injury, the medical assistant should first:",
+    "choices": [
+      "Finish the procedure before reporting it",
+      "Wash the area and report the exposure immediately",
+      "Apply bleach to the wound",
+      "Ignore it if the needle looked clean"
+    ],
+    "a": 1,
+    "exp": "The area should be washed promptly and the exposure reported according to the office exposure-control plan.",
+    "tip": "Wash, report, follow the exposure plan.",
+    "optionExplanations": [
+      "Finish the procedure before reporting it is not the best answer. The correct choice is Wash the area and report the exposure immediately. The area should be washed promptly and the exposure reported according to the office exposure-control plan.",
+      "The area should be washed promptly and the exposure reported according to the office exposure-control plan.",
+      "Apply bleach to the wound is not the best answer. The correct choice is Wash the area and report the exposure immediately. The area should be washed promptly and the exposure reported according to the office exposure-control plan.",
+      "Ignore it if the needle looked clean is not the best answer. The correct choice is Wash the area and report the exposure immediately. The area should be washed promptly and the exposure reported according to the office exposure-control plan."
+    ]
+  },
+  {
+    "id": "C007",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "Which pathogen is most commonly transmitted through blood exposure?",
+    "choices": [
+      "Influenza virus",
+      "Hepatitis B virus",
+      "Rhinovirus",
+      "Norovirus"
+    ],
+    "a": 1,
+    "exp": "Hepatitis B is a bloodborne pathogen and may be transmitted by contaminated blood or sharps.",
+    "tip": "HBV, HCV, and HIV are major bloodborne pathogens.",
+    "optionExplanations": [
+      "Influenza virus is not the best answer. The correct choice is Hepatitis B virus. Hepatitis B is a bloodborne pathogen and may be transmitted by contaminated blood or sharps.",
+      "Hepatitis B is a bloodborne pathogen and may be transmitted by contaminated blood or sharps.",
+      "Rhinovirus is not the best answer. The correct choice is Hepatitis B virus. Hepatitis B is a bloodborne pathogen and may be transmitted by contaminated blood or sharps.",
+      "Norovirus is not the best answer. The correct choice is Hepatitis B virus. Hepatitis B is a bloodborne pathogen and may be transmitted by contaminated blood or sharps."
+    ]
+  },
+  {
+    "id": "C008",
+    "topic": "Infection Control",
+    "difficulty": "Easy",
+    "q": "When removing gloves, the medical assistant should avoid touching:",
+    "choices": [
+      "The contaminated outer surface with bare skin",
+      "The inside of the first glove",
+      "The wrist area",
+      "The cuff of the second glove"
+    ],
+    "a": 0,
+    "exp": "The contaminated outside of the gloves should not contact bare skin during removal.",
+    "tip": "Dirty touches dirty; clean touches clean.",
+    "optionExplanations": [
+      "The contaminated outside of the gloves should not contact bare skin during removal.",
+      "The inside of the first glove is not the best answer. The correct choice is The contaminated outer surface with bare skin. The contaminated outside of the gloves should not contact bare skin during removal.",
+      "The wrist area is not the best answer. The correct choice is The contaminated outer surface with bare skin. The contaminated outside of the gloves should not contact bare skin during removal.",
+      "The cuff of the second glove is not the best answer. The correct choice is The contaminated outer surface with bare skin. The contaminated outside of the gloves should not contact bare skin during removal."
+    ]
+  },
+  {
+    "id": "C009",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "A sterile field is considered contaminated if:",
+    "choices": [
+      "An item is placed within 1 inch of the edge",
+      "The field is kept above waist level",
+      "Sterile items are opened away from the body",
+      "The field remains dry"
+    ],
+    "a": 0,
+    "exp": "The outer 1-inch border of a sterile field is considered contaminated.",
+    "tip": "The 1-inch border is not sterile.",
+    "optionExplanations": [
+      "The outer 1-inch border of a sterile field is considered contaminated.",
+      "The field is kept above waist level is not the best answer. The correct choice is An item is placed within 1 inch of the edge. The outer 1-inch border of a sterile field is considered contaminated.",
+      "Sterile items are opened away from the body is not the best answer. The correct choice is An item is placed within 1 inch of the edge. The outer 1-inch border of a sterile field is considered contaminated.",
+      "The field remains dry is not the best answer. The correct choice is An item is placed within 1 inch of the edge. The outer 1-inch border of a sterile field is considered contaminated."
+    ]
+  },
+  {
+    "id": "C010",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "Which action contaminates a sterile field?",
+    "choices": [
+      "Keeping it in constant view",
+      "Reaching across the field",
+      "Opening a sterile package away from the body",
+      "Keeping sterile items above waist level"
+    ],
+    "a": 1,
+    "exp": "Reaching across a sterile field can allow clothing or hands to contaminate it.",
+    "tip": "Never reach over a sterile field.",
+    "optionExplanations": [
+      "Keeping it in constant view is not the best answer. The correct choice is Reaching across the field. Reaching across a sterile field can allow clothing or hands to contaminate it.",
+      "Reaching across a sterile field can allow clothing or hands to contaminate it.",
+      "Opening a sterile package away from the body is not the best answer. The correct choice is Reaching across the field. Reaching across a sterile field can allow clothing or hands to contaminate it.",
+      "Keeping sterile items above waist level is not the best answer. The correct choice is Reaching across the field. Reaching across a sterile field can allow clothing or hands to contaminate it."
+    ]
+  },
+  {
+    "id": "C011",
+    "topic": "Infection Control",
+    "difficulty": "Moderate",
+    "q": "Which is the correct sequence for processing reusable instruments?",
+    "choices": [
+      "Sterilize, clean, package",
+      "Clean, package, sterilize",
+      "Package, clean, sterilize",
+      "Disinfect, use, clean"
+    ],
+    "a": 1,
+    "exp": "Reusable instruments are cleaned, packaged, and then sterilized.",
+    "tip": "Clean first, sterilize last.",
+    "optionExplanations": [
+      "Sterilize, clean, package is not the best answer. The correct choice is Clean, package, sterilize. Reusable instruments are cleaned, packaged, and then sterilized.",
+      "Reusable instruments are cleaned, packaged, and then sterilized.",
+      "Package, clean, sterilize is not the best answer. The correct choice is Clean, package, sterilize. Reusable instruments are cleaned, packaged, and then sterilized.",
+      "Disinfect, use, clean is not the best answer. The correct choice is Clean, package, sterilize. Reusable instruments are cleaned, packaged, and then sterilized."
+    ]
+  },
+  {
+    "id": "C012",
+    "topic": "Infection Control",
+    "difficulty": "Hard",
+    "q": "Which record should be checked to verify that an autoclave cycle was effective?",
+    "choices": [
+      "Appointment log",
+      "Biological indicator result",
+      "Insurance ledger",
+      "Telephone log"
+    ],
+    "a": 1,
+    "exp": "Biological indicators confirm that resistant spores were destroyed and are the best verification of sterilization effectiveness.",
+    "tip": "Spore testing verifies sterilization.",
+    "optionExplanations": [
+      "Appointment log is not the best answer. The correct choice is Biological indicator result. Biological indicators confirm that resistant spores were destroyed and are the best verification of sterilization effectiveness.",
+      "Biological indicators confirm that resistant spores were destroyed and are the best verification of sterilization effectiveness.",
+      "Insurance ledger is not the best answer. The correct choice is Biological indicator result. Biological indicators confirm that resistant spores were destroyed and are the best verification of sterilization effectiveness.",
+      "Telephone log is not the best answer. The correct choice is Biological indicator result. Biological indicators confirm that resistant spores were destroyed and are the best verification of sterilization effectiveness."
+    ]
+  },
+  {
+    "id": "C013",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Easy",
+    "q": "Which instrument is used to examine the ear canal and tympanic membrane?",
+    "choices": [
+      "Ophthalmoscope",
+      "Otoscope",
+      "Sphygmomanometer",
+      "Spirometer"
+    ],
+    "a": 1,
+    "exp": "An otoscope is used to inspect the external ear canal and tympanic membrane.",
+    "tip": "Oto = ear.",
+    "optionExplanations": [
+      "Ophthalmoscope is not the best answer. The correct choice is Otoscope. An otoscope is used to inspect the external ear canal and tympanic membrane.",
+      "An otoscope is used to inspect the external ear canal and tympanic membrane.",
+      "Sphygmomanometer is not the best answer. The correct choice is Otoscope. An otoscope is used to inspect the external ear canal and tympanic membrane.",
+      "Spirometer is not the best answer. The correct choice is Otoscope. An otoscope is used to inspect the external ear canal and tympanic membrane."
+    ]
+  },
+  {
+    "id": "C014",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Easy",
+    "q": "Which instrument is used to examine the interior of the eye?",
+    "choices": [
+      "Ophthalmoscope",
+      "Otoscope",
+      "Reflex hammer",
+      "Tuning fork"
+    ],
+    "a": 0,
+    "exp": "An ophthalmoscope allows visualization of internal eye structures.",
+    "tip": "Ophthalmo = eye.",
+    "optionExplanations": [
+      "An ophthalmoscope allows visualization of internal eye structures.",
+      "Otoscope is not the best answer. The correct choice is Ophthalmoscope. An ophthalmoscope allows visualization of internal eye structures.",
+      "Reflex hammer is not the best answer. The correct choice is Ophthalmoscope. An ophthalmoscope allows visualization of internal eye structures.",
+      "Tuning fork is not the best answer. The correct choice is Ophthalmoscope. An ophthalmoscope allows visualization of internal eye structures."
+    ]
+  },
+  {
+    "id": "C015",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Easy",
+    "q": "A sphygmomanometer measures:",
+    "choices": [
+      "Temperature",
+      "Blood pressure",
+      "Visual acuity",
+      "Oxygen saturation"
+    ],
+    "a": 1,
+    "exp": "A sphygmomanometer measures arterial blood pressure.",
+    "tip": "Sphygmo = pulse or pressure.",
+    "optionExplanations": [
+      "Temperature is not the best answer. The correct choice is Blood pressure. A sphygmomanometer measures arterial blood pressure.",
+      "A sphygmomanometer measures arterial blood pressure.",
+      "Visual acuity is not the best answer. The correct choice is Blood pressure. A sphygmomanometer measures arterial blood pressure.",
+      "Oxygen saturation is not the best answer. The correct choice is Blood pressure. A sphygmomanometer measures arterial blood pressure."
+    ]
+  },
+  {
+    "id": "C016",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Moderate",
+    "q": "A pulse oximeter estimates:",
+    "choices": [
+      "Blood glucose",
+      "Oxygen saturation",
+      "Hemoglobin type",
+      "Respiratory volume"
+    ],
+    "a": 1,
+    "exp": "A pulse oximeter estimates the percentage of hemoglobin saturated with oxygen.",
+    "tip": "SpO2 is oxygen saturation.",
+    "optionExplanations": [
+      "Blood glucose is not the best answer. The correct choice is Oxygen saturation. A pulse oximeter estimates the percentage of hemoglobin saturated with oxygen.",
+      "A pulse oximeter estimates the percentage of hemoglobin saturated with oxygen.",
+      "Hemoglobin type is not the best answer. The correct choice is Oxygen saturation. A pulse oximeter estimates the percentage of hemoglobin saturated with oxygen.",
+      "Respiratory volume is not the best answer. The correct choice is Oxygen saturation. A pulse oximeter estimates the percentage of hemoglobin saturated with oxygen."
+    ]
+  },
+  {
+    "id": "C017",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Moderate",
+    "q": "Which instrument is used to assess deep tendon reflexes?",
+    "choices": [
+      "Reflex hammer",
+      "Speculum",
+      "Tonometer",
+      "Peak-flow meter"
+    ],
+    "a": 0,
+    "exp": "A reflex hammer is used to elicit deep tendon reflexes.",
+    "tip": "Hammer taps tendon; response tests reflex.",
+    "optionExplanations": [
+      "A reflex hammer is used to elicit deep tendon reflexes.",
+      "Speculum is not the best answer. The correct choice is Reflex hammer. A reflex hammer is used to elicit deep tendon reflexes.",
+      "Tonometer is not the best answer. The correct choice is Reflex hammer. A reflex hammer is used to elicit deep tendon reflexes.",
+      "Peak-flow meter is not the best answer. The correct choice is Reflex hammer. A reflex hammer is used to elicit deep tendon reflexes."
+    ]
+  },
+  {
+    "id": "C018",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Moderate",
+    "q": "Which instrument measures peak expiratory flow?",
+    "choices": [
+      "Peak-flow meter",
+      "Snellen chart",
+      "Glucometer",
+      "Hemocytometer"
+    ],
+    "a": 0,
+    "exp": "A peak-flow meter measures how quickly air can be expelled from the lungs.",
+    "tip": "Peak flow measures fastest exhalation.",
+    "optionExplanations": [
+      "A peak-flow meter measures how quickly air can be expelled from the lungs.",
+      "Snellen chart is not the best answer. The correct choice is Peak-flow meter. A peak-flow meter measures how quickly air can be expelled from the lungs.",
+      "Glucometer is not the best answer. The correct choice is Peak-flow meter. A peak-flow meter measures how quickly air can be expelled from the lungs.",
+      "Hemocytometer is not the best answer. The correct choice is Peak-flow meter. A peak-flow meter measures how quickly air can be expelled from the lungs."
+    ]
+  },
+  {
+    "id": "C019",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Moderate",
+    "q": "A tuning fork may be used to evaluate:",
+    "choices": [
+      "Hearing",
+      "Urine specific gravity",
+      "Blood pressure",
+      "Visual acuity"
+    ],
+    "a": 0,
+    "exp": "Tuning forks are used in hearing tests such as Weber and Rinne.",
+    "tip": "Weber and Rinne use a tuning fork.",
+    "optionExplanations": [
+      "Tuning forks are used in hearing tests such as Weber and Rinne.",
+      "Urine specific gravity is not the best answer. The correct choice is Hearing. Tuning forks are used in hearing tests such as Weber and Rinne.",
+      "Blood pressure is not the best answer. The correct choice is Hearing. Tuning forks are used in hearing tests such as Weber and Rinne.",
+      "Visual acuity is not the best answer. The correct choice is Hearing. Tuning forks are used in hearing tests such as Weber and Rinne."
+    ]
+  },
+  {
+    "id": "C020",
+    "topic": "Diagnostic Instruments",
+    "difficulty": "Hard",
+    "q": "Which instrument is used to measure intraocular pressure?",
+    "choices": [
+      "Tonometer",
+      "Otoscope",
+      "Spirometer",
+      "Stethoscope"
+    ],
+    "a": 0,
+    "exp": "A tonometer measures pressure inside the eye.",
+    "tip": "Tono = pressure.",
+    "optionExplanations": [
+      "A tonometer measures pressure inside the eye.",
+      "Otoscope is not the best answer. The correct choice is Tonometer. A tonometer measures pressure inside the eye.",
+      "Spirometer is not the best answer. The correct choice is Tonometer. A tonometer measures pressure inside the eye.",
+      "Stethoscope is not the best answer. The correct choice is Tonometer. A tonometer measures pressure inside the eye."
+    ]
+  },
+  {
+    "id": "C021",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "CLIA-waived tests are generally:",
+    "choices": [
+      "Simple tests with a low risk of incorrect results",
+      "Tests that require a pathologist on site",
+      "Only surgical procedures",
+      "Never quality controlled"
+    ],
+    "a": 0,
+    "exp": "CLIA-waived tests are simple and have a low risk of error when performed correctly.",
+    "tip": "Waived does not mean careless; follow instructions and QC.",
+    "optionExplanations": [
+      "CLIA-waived tests are simple and have a low risk of error when performed correctly.",
+      "Tests that require a pathologist on site is not the best answer. The correct choice is Simple tests with a low risk of incorrect results. CLIA-waived tests are simple and have a low risk of error when performed correctly.",
+      "Only surgical procedures is not the best answer. The correct choice is Simple tests with a low risk of incorrect results. CLIA-waived tests are simple and have a low risk of error when performed correctly.",
+      "Never quality controlled is not the best answer. The correct choice is Simple tests with a low risk of incorrect results. CLIA-waived tests are simple and have a low risk of error when performed correctly."
+    ]
+  },
+  {
+    "id": "C022",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Before performing a waived test, the medical assistant should first:",
+    "choices": [
+      "Ignore the manufacturer instructions",
+      "Verify the kit is not expired",
+      "Use any available control value",
+      "Skip patient identification"
+    ],
+    "a": 1,
+    "exp": "Expired reagents may produce unreliable results, so expiration dates must be checked.",
+    "tip": "Check patient, kit, expiration, and controls.",
+    "optionExplanations": [
+      "Ignore the manufacturer instructions is not the best answer. The correct choice is Verify the kit is not expired. Expired reagents may produce unreliable results, so expiration dates must be checked.",
+      "Expired reagents may produce unreliable results, so expiration dates must be checked.",
+      "Use any available control value is not the best answer. The correct choice is Verify the kit is not expired. Expired reagents may produce unreliable results, so expiration dates must be checked.",
+      "Skip patient identification is not the best answer. The correct choice is Verify the kit is not expired. Expired reagents may produce unreliable results, so expiration dates must be checked."
+    ]
+  },
+  {
+    "id": "C023",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Quality-control testing is performed to:",
+    "choices": [
+      "Confirm the test system is working properly",
+      "Increase the patient bill",
+      "Replace patient testing",
+      "Determine appointment length"
+    ],
+    "a": 0,
+    "exp": "Quality control helps verify that equipment, reagents, and technique are producing expected results.",
+    "tip": "QC checks the test before trusting patient results.",
+    "optionExplanations": [
+      "Quality control helps verify that equipment, reagents, and technique are producing expected results.",
+      "Increase the patient bill is not the best answer. The correct choice is Confirm the test system is working properly. Quality control helps verify that equipment, reagents, and technique are producing expected results.",
+      "Replace patient testing is not the best answer. The correct choice is Confirm the test system is working properly. Quality control helps verify that equipment, reagents, and technique are producing expected results.",
+      "Determine appointment length is not the best answer. The correct choice is Confirm the test system is working properly. Quality control helps verify that equipment, reagents, and technique are producing expected results."
+    ]
+  },
+  {
+    "id": "C024",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "Which specimen is commonly used for a rapid strep test?",
+    "choices": [
+      "Throat swab",
+      "Urine",
+      "Stool",
+      "Capillary blood"
+    ],
+    "a": 0,
+    "exp": "A throat swab is collected for rapid group A streptococcal testing.",
+    "tip": "Strep test = throat swab.",
+    "optionExplanations": [
+      "A throat swab is collected for rapid group A streptococcal testing.",
+      "Urine is not the best answer. The correct choice is Throat swab. A throat swab is collected for rapid group A streptococcal testing.",
+      "Stool is not the best answer. The correct choice is Throat swab. A throat swab is collected for rapid group A streptococcal testing.",
+      "Capillary blood is not the best answer. The correct choice is Throat swab. A throat swab is collected for rapid group A streptococcal testing."
+    ]
+  },
+  {
+    "id": "C025",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "Which urine specimen is preferred for many pregnancy tests?",
+    "choices": [
+      "First-morning urine",
+      "Random stool specimen",
+      "Sputum",
+      "Venous blood only"
+    ],
+    "a": 0,
+    "exp": "First-morning urine is often more concentrated and may contain higher hCG levels.",
+    "tip": "First morning is usually most concentrated.",
+    "optionExplanations": [
+      "First-morning urine is often more concentrated and may contain higher hCG levels.",
+      "Random stool specimen is not the best answer. The correct choice is First-morning urine. First-morning urine is often more concentrated and may contain higher hCG levels.",
+      "Sputum is not the best answer. The correct choice is First-morning urine. First-morning urine is often more concentrated and may contain higher hCG levels.",
+      "Venous blood only is not the best answer. The correct choice is First-morning urine. First-morning urine is often more concentrated and may contain higher hCG levels."
+    ]
+  },
+  {
+    "id": "C026",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "A clean-catch midstream urine specimen helps reduce:",
+    "choices": [
+      "Contamination from skin and genital flora",
+      "Urine concentration",
+      "Patient identification",
+      "Specimen volume"
+    ],
+    "a": 0,
+    "exp": "Cleansing and collecting midstream urine reduce contamination.",
+    "tip": "Clean, begin voiding, then collect midstream.",
+    "optionExplanations": [
+      "Cleansing and collecting midstream urine reduce contamination.",
+      "Urine concentration is not the best answer. The correct choice is Contamination from skin and genital flora. Cleansing and collecting midstream urine reduce contamination.",
+      "Patient identification is not the best answer. The correct choice is Contamination from skin and genital flora. Cleansing and collecting midstream urine reduce contamination.",
+      "Specimen volume is not the best answer. The correct choice is Contamination from skin and genital flora. Cleansing and collecting midstream urine reduce contamination."
+    ]
+  },
+  {
+    "id": "C027",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "Which tube is commonly used for a CBC?",
+    "choices": [
+      "Lavender-top EDTA tube",
+      "Gray-top fluoride tube",
+      "Light-blue citrate tube",
+      "Red-top serum tube"
+    ],
+    "a": 0,
+    "exp": "A CBC is commonly collected in a lavender-top tube containing EDTA.",
+    "tip": "Lavender = hematology.",
+    "optionExplanations": [
+      "A CBC is commonly collected in a lavender-top tube containing EDTA.",
+      "Gray-top fluoride tube is not the best answer. The correct choice is Lavender-top EDTA tube. A CBC is commonly collected in a lavender-top tube containing EDTA.",
+      "Light-blue citrate tube is not the best answer. The correct choice is Lavender-top EDTA tube. A CBC is commonly collected in a lavender-top tube containing EDTA.",
+      "Red-top serum tube is not the best answer. The correct choice is Lavender-top EDTA tube. A CBC is commonly collected in a lavender-top tube containing EDTA."
+    ]
+  },
+  {
+    "id": "C028",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Which tube is commonly used for coagulation studies?",
+    "choices": [
+      "Light-blue citrate tube",
+      "Lavender EDTA tube",
+      "Gray fluoride tube",
+      "Green heparin tube"
+    ],
+    "a": 0,
+    "exp": "Light-blue tubes contain sodium citrate and are used for coagulation tests such as PT and PTT.",
+    "tip": "Light blue = coagulation.",
+    "optionExplanations": [
+      "Light-blue tubes contain sodium citrate and are used for coagulation tests such as PT and PTT.",
+      "Lavender EDTA tube is not the best answer. The correct choice is Light-blue citrate tube. Light-blue tubes contain sodium citrate and are used for coagulation tests such as PT and PTT.",
+      "Gray fluoride tube is not the best answer. The correct choice is Light-blue citrate tube. Light-blue tubes contain sodium citrate and are used for coagulation tests such as PT and PTT.",
+      "Green heparin tube is not the best answer. The correct choice is Light-blue citrate tube. Light-blue tubes contain sodium citrate and are used for coagulation tests such as PT and PTT."
+    ]
+  },
+  {
+    "id": "C029",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Which tube is commonly used for glucose testing when glycolysis must be inhibited?",
+    "choices": [
+      "Gray-top tube",
+      "Lavender-top tube",
+      "Light-blue tube",
+      "Yellow SPS tube"
+    ],
+    "a": 0,
+    "exp": "Gray-top tubes contain additives that help preserve glucose by inhibiting glycolysis.",
+    "tip": "Gray = glucose.",
+    "optionExplanations": [
+      "Gray-top tubes contain additives that help preserve glucose by inhibiting glycolysis.",
+      "Lavender-top tube is not the best answer. The correct choice is Gray-top tube. Gray-top tubes contain additives that help preserve glucose by inhibiting glycolysis.",
+      "Light-blue tube is not the best answer. The correct choice is Gray-top tube. Gray-top tubes contain additives that help preserve glucose by inhibiting glycolysis.",
+      "Yellow SPS tube is not the best answer. The correct choice is Gray-top tube. Gray-top tubes contain additives that help preserve glucose by inhibiting glycolysis."
+    ]
+  },
+  {
+    "id": "C030",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "In the order of draw, blood cultures are generally collected:",
+    "choices": [
+      "First",
+      "Last",
+      "After EDTA",
+      "After gray-top tubes"
+    ],
+    "a": 0,
+    "exp": "Blood cultures are generally collected first to reduce contamination.",
+    "tip": "Cultures come first.",
+    "optionExplanations": [
+      "Blood cultures are generally collected first to reduce contamination.",
+      "Last is not the best answer. The correct choice is First. Blood cultures are generally collected first to reduce contamination.",
+      "After EDTA is not the best answer. The correct choice is First. Blood cultures are generally collected first to reduce contamination.",
+      "After gray-top tubes is not the best answer. The correct choice is First. Blood cultures are generally collected first to reduce contamination."
+    ]
+  },
+  {
+    "id": "C031",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "During venipuncture, the tourniquet should generally not remain in place longer than:",
+    "choices": [
+      "1 minute",
+      "5 minutes",
+      "10 minutes",
+      "20 minutes"
+    ],
+    "a": 0,
+    "exp": "Prolonged tourniquet application can alter test results through hemoconcentration.",
+    "tip": "Tourniquet time: about 1 minute.",
+    "optionExplanations": [
+      "Prolonged tourniquet application can alter test results through hemoconcentration.",
+      "5 minutes is not the best answer. The correct choice is 1 minute. Prolonged tourniquet application can alter test results through hemoconcentration.",
+      "10 minutes is not the best answer. The correct choice is 1 minute. Prolonged tourniquet application can alter test results through hemoconcentration.",
+      "20 minutes is not the best answer. The correct choice is 1 minute. Prolonged tourniquet application can alter test results through hemoconcentration."
+    ]
+  },
+  {
+    "id": "C032",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "The preferred site for adult capillary puncture is the:",
+    "choices": [
+      "Lateral side of the middle or ring fingertip",
+      "Thumb",
+      "Index finger pad",
+      "Center of the heel"
+    ],
+    "a": 0,
+    "exp": "The lateral side of the middle or ring finger is commonly used for adult capillary puncture.",
+    "tip": "Use the side of the middle or ring finger.",
+    "optionExplanations": [
+      "The lateral side of the middle or ring finger is commonly used for adult capillary puncture.",
+      "Thumb is not the best answer. The correct choice is Lateral side of the middle or ring fingertip. The lateral side of the middle or ring finger is commonly used for adult capillary puncture.",
+      "Index finger pad is not the best answer. The correct choice is Lateral side of the middle or ring fingertip. The lateral side of the middle or ring finger is commonly used for adult capillary puncture.",
+      "Center of the heel is not the best answer. The correct choice is Lateral side of the middle or ring fingertip. The lateral side of the middle or ring finger is commonly used for adult capillary puncture."
+    ]
+  },
+  {
+    "id": "C033",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "The preferred site for an infant heel stick is the:",
+    "choices": [
+      "Medial or lateral plantar surface",
+      "Center of the heel",
+      "Arch of the foot",
+      "Great toe"
+    ],
+    "a": 0,
+    "exp": "The medial or lateral plantar surface helps avoid injury to the calcaneus.",
+    "tip": "Use the sides of the heel, not the center.",
+    "optionExplanations": [
+      "The medial or lateral plantar surface helps avoid injury to the calcaneus.",
+      "Center of the heel is not the best answer. The correct choice is Medial or lateral plantar surface. The medial or lateral plantar surface helps avoid injury to the calcaneus.",
+      "Arch of the foot is not the best answer. The correct choice is Medial or lateral plantar surface. The medial or lateral plantar surface helps avoid injury to the calcaneus.",
+      "Great toe is not the best answer. The correct choice is Medial or lateral plantar surface. The medial or lateral plantar surface helps avoid injury to the calcaneus."
+    ]
+  },
+  {
+    "id": "C034",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Which action may cause hemolysis during venipuncture?",
+    "choices": [
+      "Allowing alcohol to dry",
+      "Using a needle that is too small",
+      "Mixing additive tubes gently",
+      "Releasing the tourniquet promptly"
+    ],
+    "a": 1,
+    "exp": "A needle that is too small can damage red blood cells and cause hemolysis.",
+    "tip": "Too-small needle can rupture cells.",
+    "optionExplanations": [
+      "Allowing alcohol to dry is not the best answer. The correct choice is Using a needle that is too small. A needle that is too small can damage red blood cells and cause hemolysis.",
+      "A needle that is too small can damage red blood cells and cause hemolysis.",
+      "Mixing additive tubes gently is not the best answer. The correct choice is Using a needle that is too small. A needle that is too small can damage red blood cells and cause hemolysis.",
+      "Releasing the tourniquet promptly is not the best answer. The correct choice is Using a needle that is too small. A needle that is too small can damage red blood cells and cause hemolysis."
+    ]
+  },
+  {
+    "id": "C035",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "After drawing an additive tube, the medical assistant should:",
+    "choices": [
+      "Shake it vigorously",
+      "Gently invert it the recommended number of times",
+      "Leave it uncapped",
+      "Freeze it immediately"
+    ],
+    "a": 1,
+    "exp": "Gentle inversions mix blood with the additive without causing hemolysis.",
+    "tip": "Invert gently; do not shake.",
+    "optionExplanations": [
+      "Shake it vigorously is not the best answer. The correct choice is Gently invert it the recommended number of times. Gentle inversions mix blood with the additive without causing hemolysis.",
+      "Gentle inversions mix blood with the additive without causing hemolysis.",
+      "Leave it uncapped is not the best answer. The correct choice is Gently invert it the recommended number of times. Gentle inversions mix blood with the additive without causing hemolysis.",
+      "Freeze it immediately is not the best answer. The correct choice is Gently invert it the recommended number of times. Gentle inversions mix blood with the additive without causing hemolysis."
+    ]
+  },
+  {
+    "id": "C036",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Hard",
+    "q": "Which urine test result may suggest a urinary tract infection?",
+    "choices": [
+      "Positive leukocyte esterase and nitrites",
+      "Negative protein and glucose",
+      "Specific gravity of 1.015 only",
+      "Clear color alone"
+    ],
+    "a": 0,
+    "exp": "Leukocyte esterase suggests white blood cells, and nitrites may indicate nitrate-reducing bacteria.",
+    "tip": "Leukocytes + nitrites often point toward UTI.",
+    "optionExplanations": [
+      "Leukocyte esterase suggests white blood cells, and nitrites may indicate nitrate-reducing bacteria.",
+      "Negative protein and glucose is not the best answer. The correct choice is Positive leukocyte esterase and nitrites. Leukocyte esterase suggests white blood cells, and nitrites may indicate nitrate-reducing bacteria.",
+      "Specific gravity of 1.015 only is not the best answer. The correct choice is Positive leukocyte esterase and nitrites. Leukocyte esterase suggests white blood cells, and nitrites may indicate nitrate-reducing bacteria.",
+      "Clear color alone is not the best answer. The correct choice is Positive leukocyte esterase and nitrites. Leukocyte esterase suggests white blood cells, and nitrites may indicate nitrate-reducing bacteria."
+    ]
+  },
+  {
+    "id": "C037",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "A fecal occult blood test detects:",
+    "choices": [
+      "Hidden blood in stool",
+      "Urine protein",
+      "Blood glucose",
+      "Respiratory pathogens"
+    ],
+    "a": 0,
+    "exp": "Fecal occult blood testing screens for blood not visible to the eye.",
+    "tip": "Occult means hidden.",
+    "optionExplanations": [
+      "Fecal occult blood testing screens for blood not visible to the eye.",
+      "Urine protein is not the best answer. The correct choice is Hidden blood in stool. Fecal occult blood testing screens for blood not visible to the eye.",
+      "Blood glucose is not the best answer. The correct choice is Hidden blood in stool. Fecal occult blood testing screens for blood not visible to the eye.",
+      "Respiratory pathogens is not the best answer. The correct choice is Hidden blood in stool. Fecal occult blood testing screens for blood not visible to the eye."
+    ]
+  },
+  {
+    "id": "C038",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Moderate",
+    "q": "Sputum for culture should ideally be collected:",
+    "choices": [
+      "From deep coughing, often early in the morning",
+      "After brushing teeth with mouthwash only",
+      "From saliva in the mouth",
+      "From a urine cup without a label"
+    ],
+    "a": 0,
+    "exp": "A deep-cough specimen from the lower respiratory tract is preferred, often before eating in the morning.",
+    "tip": "Sputum comes from the lungs, not saliva.",
+    "optionExplanations": [
+      "A deep-cough specimen from the lower respiratory tract is preferred, often before eating in the morning.",
+      "After brushing teeth with mouthwash only is not the best answer. The correct choice is From deep coughing, often early in the morning. A deep-cough specimen from the lower respiratory tract is preferred, often before eating in the morning.",
+      "From saliva in the mouth is not the best answer. The correct choice is From deep coughing, often early in the morning. A deep-cough specimen from the lower respiratory tract is preferred, often before eating in the morning.",
+      "From a urine cup without a label is not the best answer. The correct choice is From deep coughing, often early in the morning. A deep-cough specimen from the lower respiratory tract is preferred, often before eating in the morning."
+    ]
+  },
+  {
+    "id": "C039",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Easy",
+    "q": "A laboratory specimen label should include at least:",
+    "choices": [
+      "Patient identifiers and collection information",
+      "Only the room number",
+      "Only the diagnosis",
+      "The insurance premium"
+    ],
+    "a": 0,
+    "exp": "Correct patient identifiers and collection details are essential for specimen safety.",
+    "tip": "Label in the patient’s presence.",
+    "optionExplanations": [
+      "Correct patient identifiers and collection details are essential for specimen safety.",
+      "Only the room number is not the best answer. The correct choice is Patient identifiers and collection information. Correct patient identifiers and collection details are essential for specimen safety.",
+      "Only the diagnosis is not the best answer. The correct choice is Patient identifiers and collection information. Correct patient identifiers and collection details are essential for specimen safety.",
+      "The insurance premium is not the best answer. The correct choice is Patient identifiers and collection information. Correct patient identifiers and collection details are essential for specimen safety."
+    ]
+  },
+  {
+    "id": "C040",
+    "topic": "Laboratory Procedures",
+    "difficulty": "Hard",
+    "q": "If a critical laboratory value is received, the medical assistant should:",
+    "choices": [
+      "Wait until the next visit",
+      "Promptly notify the provider according to policy",
+      "Change the value",
+      "Delete the result"
+    ],
+    "a": 1,
+    "exp": "Critical values require immediate communication according to office policy.",
+    "tip": "Critical means communicate now.",
+    "optionExplanations": [
+      "Wait until the next visit is not the best answer. The correct choice is Promptly notify the provider according to policy. Critical values require immediate communication according to office policy.",
+      "Critical values require immediate communication according to office policy.",
+      "Change the value is not the best answer. The correct choice is Promptly notify the provider according to policy. Critical values require immediate communication according to office policy.",
+      "Delete the result is not the best answer. The correct choice is Promptly notify the provider according to policy. Critical values require immediate communication according to office policy."
+    ]
+  },
+  {
+    "id": "C041",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Easy",
+    "q": "Which instrument is used to grasp tissue?",
+    "choices": [
+      "Forceps",
+      "Scalpel",
+      "Needle holder",
+      "Retractor"
+    ],
+    "a": 0,
+    "exp": "Forceps are used to grasp or hold tissue.",
+    "tip": "Forceps grasp.",
+    "optionExplanations": [
+      "Forceps are used to grasp or hold tissue.",
+      "Scalpel is not the best answer. The correct choice is Forceps. Forceps are used to grasp or hold tissue.",
+      "Needle holder is not the best answer. The correct choice is Forceps. Forceps are used to grasp or hold tissue.",
+      "Retractor is not the best answer. The correct choice is Forceps. Forceps are used to grasp or hold tissue."
+    ]
+  },
+  {
+    "id": "C042",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Easy",
+    "q": "Which instrument is used to make an incision?",
+    "choices": [
+      "Scalpel",
+      "Hemostat",
+      "Curette",
+      "Speculum"
+    ],
+    "a": 0,
+    "exp": "A scalpel is used to cut tissue and make incisions.",
+    "tip": "Scalpel cuts.",
+    "optionExplanations": [
+      "A scalpel is used to cut tissue and make incisions.",
+      "Hemostat is not the best answer. The correct choice is Scalpel. A scalpel is used to cut tissue and make incisions.",
+      "Curette is not the best answer. The correct choice is Scalpel. A scalpel is used to cut tissue and make incisions.",
+      "Speculum is not the best answer. The correct choice is Scalpel. A scalpel is used to cut tissue and make incisions."
+    ]
+  },
+  {
+    "id": "C043",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Moderate",
+    "q": "A hemostat is primarily used to:",
+    "choices": [
+      "Clamp blood vessels",
+      "Measure temperature",
+      "Examine the ear",
+      "Cut sutures"
+    ],
+    "a": 0,
+    "exp": "Hemostats clamp vessels or tissue to control bleeding.",
+    "tip": "Hemo = blood; stat = stop.",
+    "optionExplanations": [
+      "Hemostats clamp vessels or tissue to control bleeding.",
+      "Measure temperature is not the best answer. The correct choice is Clamp blood vessels. Hemostats clamp vessels or tissue to control bleeding.",
+      "Examine the ear is not the best answer. The correct choice is Clamp blood vessels. Hemostats clamp vessels or tissue to control bleeding.",
+      "Cut sutures is not the best answer. The correct choice is Clamp blood vessels. Hemostats clamp vessels or tissue to control bleeding."
+    ]
+  },
+  {
+    "id": "C044",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Moderate",
+    "q": "Which instrument holds a suture needle?",
+    "choices": [
+      "Needle holder",
+      "Thumb forceps",
+      "Retractor",
+      "Tuning fork"
+    ],
+    "a": 0,
+    "exp": "A needle holder securely grips a suture needle.",
+    "tip": "Needle holder holds the needle.",
+    "optionExplanations": [
+      "A needle holder securely grips a suture needle.",
+      "Thumb forceps is not the best answer. The correct choice is Needle holder. A needle holder securely grips a suture needle.",
+      "Retractor is not the best answer. The correct choice is Needle holder. A needle holder securely grips a suture needle.",
+      "Tuning fork is not the best answer. The correct choice is Needle holder. A needle holder securely grips a suture needle."
+    ]
+  },
+  {
+    "id": "C045",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Moderate",
+    "q": "Before assisting with a minor surgical procedure, the medical assistant should verify:",
+    "choices": [
+      "Informed consent and correct patient/procedure/site",
+      "Insurance premium only",
+      "The patient’s social media account",
+      "The weather forecast"
+    ],
+    "a": 0,
+    "exp": "The patient, procedure, site, and consent must be confirmed before the procedure.",
+    "tip": "Right patient, right procedure, right site.",
+    "optionExplanations": [
+      "The patient, procedure, site, and consent must be confirmed before the procedure.",
+      "Insurance premium only is not the best answer. The correct choice is Informed consent and correct patient/procedure/site. The patient, procedure, site, and consent must be confirmed before the procedure.",
+      "The patient’s social media account is not the best answer. The correct choice is Informed consent and correct patient/procedure/site. The patient, procedure, site, and consent must be confirmed before the procedure.",
+      "The weather forecast is not the best answer. The correct choice is Informed consent and correct patient/procedure/site. The patient, procedure, site, and consent must be confirmed before the procedure."
+    ]
+  },
+  {
+    "id": "C046",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Moderate",
+    "q": "Which action helps maintain a sterile field during minor surgery?",
+    "choices": [
+      "Turning away from the field",
+      "Keeping sterile items above waist level",
+      "Reaching over sterile instruments",
+      "Placing wet items on the field"
+    ],
+    "a": 1,
+    "exp": "Sterile items should remain above waist level and in view.",
+    "tip": "Sterile stays above the waist and in sight.",
+    "optionExplanations": [
+      "Turning away from the field is not the best answer. The correct choice is Keeping sterile items above waist level. Sterile items should remain above waist level and in view.",
+      "Sterile items should remain above waist level and in view.",
+      "Reaching over sterile instruments is not the best answer. The correct choice is Keeping sterile items above waist level. Sterile items should remain above waist level and in view.",
+      "Placing wet items on the field is not the best answer. The correct choice is Keeping sterile items above waist level. Sterile items should remain above waist level and in view."
+    ]
+  },
+  {
+    "id": "C047",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Moderate",
+    "q": "After a skin biopsy, the specimen should be:",
+    "choices": [
+      "Placed in the correct container and labeled immediately",
+      "Discarded as trash",
+      "Left unlabeled",
+      "Placed in tap water regardless of test"
+    ],
+    "a": 0,
+    "exp": "The specimen must be preserved correctly and labeled immediately.",
+    "tip": "Correct container, correct label, correct patient.",
+    "optionExplanations": [
+      "The specimen must be preserved correctly and labeled immediately.",
+      "Discarded as trash is not the best answer. The correct choice is Placed in the correct container and labeled immediately. The specimen must be preserved correctly and labeled immediately.",
+      "Left unlabeled is not the best answer. The correct choice is Placed in the correct container and labeled immediately. The specimen must be preserved correctly and labeled immediately.",
+      "Placed in tap water regardless of test is not the best answer. The correct choice is Placed in the correct container and labeled immediately. The specimen must be preserved correctly and labeled immediately."
+    ]
+  },
+  {
+    "id": "C048",
+    "topic": "Minor Surgical Procedures",
+    "difficulty": "Hard",
+    "q": "Which statement about suture removal is correct?",
+    "choices": [
+      "Remove sutures only with an order and according to procedure",
+      "Remove all sutures without inspecting the wound",
+      "Cut both sides of each suture",
+      "Pull the contaminated outer suture through tissue"
+    ],
+    "a": 0,
+    "exp": "Sutures are removed under proper authorization while assessing wound healing and avoiding dragging contaminated material through tissue.",
+    "tip": "Order, assess, cut close to skin, remove carefully.",
+    "optionExplanations": [
+      "Sutures are removed under proper authorization while assessing wound healing and avoiding dragging contaminated material through tissue.",
+      "Remove all sutures without inspecting the wound is not the best answer. The correct choice is Remove sutures only with an order and according to procedure. Sutures are removed under proper authorization while assessing wound healing and avoiding dragging contaminated material through tissue.",
+      "Cut both sides of each suture is not the best answer. The correct choice is Remove sutures only with an order and according to procedure. Sutures are removed under proper authorization while assessing wound healing and avoiding dragging contaminated material through tissue.",
+      "Pull the contaminated outer suture through tissue is not the best answer. The correct choice is Remove sutures only with an order and according to procedure. Sutures are removed under proper authorization while assessing wound healing and avoiding dragging contaminated material through tissue."
+    ]
+  },
+  {
+    "id": "C049",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Easy",
+    "q": "A normal adult resting pulse is generally:",
+    "choices": [
+      "60 to 100 beats/min",
+      "20 to 40 beats/min",
+      "120 to 160 beats/min",
+      "180 to 220 beats/min"
+    ],
+    "a": 0,
+    "exp": "A typical adult resting pulse range is 60 to 100 beats per minute.",
+    "tip": "Adult pulse: 60–100.",
+    "optionExplanations": [
+      "A typical adult resting pulse range is 60 to 100 beats per minute.",
+      "20 to 40 beats/min is not the best answer. The correct choice is 60 to 100 beats/min. A typical adult resting pulse range is 60 to 100 beats per minute.",
+      "120 to 160 beats/min is not the best answer. The correct choice is 60 to 100 beats/min. A typical adult resting pulse range is 60 to 100 beats per minute.",
+      "180 to 220 beats/min is not the best answer. The correct choice is 60 to 100 beats/min. A typical adult resting pulse range is 60 to 100 beats per minute."
+    ]
+  },
+  {
+    "id": "C050",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Easy",
+    "q": "A normal adult respiratory rate is generally:",
+    "choices": [
+      "12 to 20 breaths/min",
+      "2 to 6 breaths/min",
+      "30 to 50 breaths/min",
+      "60 to 80 breaths/min"
+    ],
+    "a": 0,
+    "exp": "A typical adult resting respiratory rate is 12 to 20 breaths per minute.",
+    "tip": "Adult respirations: 12–20.",
+    "optionExplanations": [
+      "A typical adult resting respiratory rate is 12 to 20 breaths per minute.",
+      "2 to 6 breaths/min is not the best answer. The correct choice is 12 to 20 breaths/min. A typical adult resting respiratory rate is 12 to 20 breaths per minute.",
+      "30 to 50 breaths/min is not the best answer. The correct choice is 12 to 20 breaths/min. A typical adult resting respiratory rate is 12 to 20 breaths per minute.",
+      "60 to 80 breaths/min is not the best answer. The correct choice is 12 to 20 breaths/min. A typical adult resting respiratory rate is 12 to 20 breaths per minute."
+    ]
+  },
+  {
+    "id": "C051",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "The first Korotkoff sound represents the:",
+    "choices": [
+      "Systolic pressure",
+      "Diastolic pressure",
+      "Pulse deficit",
+      "Oxygen saturation"
+    ],
+    "a": 0,
+    "exp": "The first audible Korotkoff sound marks systolic pressure.",
+    "tip": "First sound = systolic.",
+    "optionExplanations": [
+      "The first audible Korotkoff sound marks systolic pressure.",
+      "Diastolic pressure is not the best answer. The correct choice is Systolic pressure. The first audible Korotkoff sound marks systolic pressure.",
+      "Pulse deficit is not the best answer. The correct choice is Systolic pressure. The first audible Korotkoff sound marks systolic pressure.",
+      "Oxygen saturation is not the best answer. The correct choice is Systolic pressure. The first audible Korotkoff sound marks systolic pressure."
+    ]
+  },
+  {
+    "id": "C052",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "The disappearance of Korotkoff sounds represents the:",
+    "choices": [
+      "Diastolic pressure",
+      "Systolic pressure",
+      "Respiratory rate",
+      "Pulse pressure"
+    ],
+    "a": 0,
+    "exp": "The disappearance of Korotkoff sounds is used to identify diastolic pressure in adults.",
+    "tip": "Last sound = diastolic.",
+    "optionExplanations": [
+      "The disappearance of Korotkoff sounds is used to identify diastolic pressure in adults.",
+      "Systolic pressure is not the best answer. The correct choice is Diastolic pressure. The disappearance of Korotkoff sounds is used to identify diastolic pressure in adults.",
+      "Respiratory rate is not the best answer. The correct choice is Diastolic pressure. The disappearance of Korotkoff sounds is used to identify diastolic pressure in adults.",
+      "Pulse pressure is not the best answer. The correct choice is Diastolic pressure. The disappearance of Korotkoff sounds is used to identify diastolic pressure in adults."
+    ]
+  },
+  {
+    "id": "C053",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "Using a blood pressure cuff that is too small may produce a reading that is:",
+    "choices": [
+      "Falsely high",
+      "Falsely low",
+      "Always normal",
+      "Unrelated to cuff size"
+    ],
+    "a": 0,
+    "exp": "A cuff that is too small can overestimate blood pressure.",
+    "tip": "Small cuff, high reading.",
+    "optionExplanations": [
+      "A cuff that is too small can overestimate blood pressure.",
+      "Falsely low is not the best answer. The correct choice is Falsely high. A cuff that is too small can overestimate blood pressure.",
+      "Always normal is not the best answer. The correct choice is Falsely high. A cuff that is too small can overestimate blood pressure.",
+      "Unrelated to cuff size is not the best answer. The correct choice is Falsely high. A cuff that is too small can overestimate blood pressure."
+    ]
+  },
+  {
+    "id": "C054",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "An irregular pulse should be counted for:",
+    "choices": [
+      "A full minute",
+      "15 seconds",
+      "10 seconds",
+      "5 seconds"
+    ],
+    "a": 0,
+    "exp": "Irregular rhythms should be counted for a full 60 seconds for accuracy.",
+    "tip": "Irregular pulse = full minute.",
+    "optionExplanations": [
+      "Irregular rhythms should be counted for a full 60 seconds for accuracy.",
+      "15 seconds is not the best answer. The correct choice is A full minute. Irregular rhythms should be counted for a full 60 seconds for accuracy.",
+      "10 seconds is not the best answer. The correct choice is A full minute. Irregular rhythms should be counted for a full 60 seconds for accuracy.",
+      "5 seconds is not the best answer. The correct choice is A full minute. Irregular rhythms should be counted for a full 60 seconds for accuracy."
+    ]
+  },
+  {
+    "id": "C055",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Easy",
+    "q": "Which temperature route is generally considered the most accurate core measurement among common clinical routes?",
+    "choices": [
+      "Rectal",
+      "Axillary",
+      "Temporal only",
+      "Oral after hot coffee"
+    ],
+    "a": 0,
+    "exp": "Rectal temperature closely reflects core temperature, though route selection depends on patient safety and policy.",
+    "tip": "Rectal is closest to core among common routes.",
+    "optionExplanations": [
+      "Rectal temperature closely reflects core temperature, though route selection depends on patient safety and policy.",
+      "Axillary is not the best answer. The correct choice is Rectal. Rectal temperature closely reflects core temperature, though route selection depends on patient safety and policy.",
+      "Temporal only is not the best answer. The correct choice is Rectal. Rectal temperature closely reflects core temperature, though route selection depends on patient safety and policy.",
+      "Oral after hot coffee is not the best answer. The correct choice is Rectal. Rectal temperature closely reflects core temperature, though route selection depends on patient safety and policy."
+    ]
+  },
+  {
+    "id": "C056",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "BMI is calculated using:",
+    "choices": [
+      "Height and weight",
+      "Pulse and respirations",
+      "Temperature and oxygen saturation",
+      "Head circumference and age only"
+    ],
+    "a": 0,
+    "exp": "Body mass index is derived from a person’s height and weight.",
+    "tip": "BMI = weight relative to height.",
+    "optionExplanations": [
+      "Body mass index is derived from a person’s height and weight.",
+      "Pulse and respirations is not the best answer. The correct choice is Height and weight. Body mass index is derived from a person’s height and weight.",
+      "Temperature and oxygen saturation is not the best answer. The correct choice is Height and weight. Body mass index is derived from a person’s height and weight.",
+      "Head circumference and age only is not the best answer. The correct choice is Height and weight. Body mass index is derived from a person’s height and weight."
+    ]
+  },
+  {
+    "id": "C057",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Moderate",
+    "q": "Pulse pressure is calculated by:",
+    "choices": [
+      "Subtracting diastolic from systolic pressure",
+      "Adding systolic and diastolic pressure",
+      "Dividing pulse by respirations",
+      "Subtracting pulse from temperature"
+    ],
+    "a": 0,
+    "exp": "Pulse pressure equals systolic pressure minus diastolic pressure.",
+    "tip": "Pulse pressure = systolic − diastolic.",
+    "optionExplanations": [
+      "Pulse pressure equals systolic pressure minus diastolic pressure.",
+      "Adding systolic and diastolic pressure is not the best answer. The correct choice is Subtracting diastolic from systolic pressure. Pulse pressure equals systolic pressure minus diastolic pressure.",
+      "Dividing pulse by respirations is not the best answer. The correct choice is Subtracting diastolic from systolic pressure. Pulse pressure equals systolic pressure minus diastolic pressure.",
+      "Subtracting pulse from temperature is not the best answer. The correct choice is Subtracting diastolic from systolic pressure. Pulse pressure equals systolic pressure minus diastolic pressure."
+    ]
+  },
+  {
+    "id": "C058",
+    "topic": "Vital Signs and Measurements",
+    "difficulty": "Hard",
+    "q": "A pulse deficit is determined by comparing:",
+    "choices": [
+      "Apical and radial pulse rates",
+      "Temperature and respirations",
+      "Systolic and diastolic pressure",
+      "Height and weight"
+    ],
+    "a": 0,
+    "exp": "A pulse deficit is the difference between apical and peripheral pulse rates.",
+    "tip": "Compare apical with radial.",
+    "optionExplanations": [
+      "A pulse deficit is the difference between apical and peripheral pulse rates.",
+      "Temperature and respirations is not the best answer. The correct choice is Apical and radial pulse rates. A pulse deficit is the difference between apical and peripheral pulse rates.",
+      "Systolic and diastolic pressure is not the best answer. The correct choice is Apical and radial pulse rates. A pulse deficit is the difference between apical and peripheral pulse rates.",
+      "Height and weight is not the best answer. The correct choice is Apical and radial pulse rates. A pulse deficit is the difference between apical and peripheral pulse rates."
+    ]
+  },
+  {
+    "id": "C059",
+    "topic": "Physical Examinations",
+    "difficulty": "Easy",
+    "q": "Which position is commonly used for an abdominal examination?",
+    "choices": [
+      "Supine",
+      "Prone",
+      "Sims",
+      "Lithotomy"
+    ],
+    "a": 0,
+    "exp": "The supine position allows access to the abdomen.",
+    "tip": "Supine = lying on the back.",
+    "optionExplanations": [
+      "The supine position allows access to the abdomen.",
+      "Prone is not the best answer. The correct choice is Supine. The supine position allows access to the abdomen.",
+      "Sims is not the best answer. The correct choice is Supine. The supine position allows access to the abdomen.",
+      "Lithotomy is not the best answer. The correct choice is Supine. The supine position allows access to the abdomen."
+    ]
+  },
+  {
+    "id": "C060",
+    "topic": "Physical Examinations",
+    "difficulty": "Easy",
+    "q": "Which position is commonly used for a pelvic examination?",
+    "choices": [
+      "Lithotomy",
+      "Trendelenburg",
+      "Prone",
+      "Fowler"
+    ],
+    "a": 0,
+    "exp": "Lithotomy provides access for pelvic and gynecologic examinations.",
+    "tip": "Lithotomy = feet supported, hips and knees flexed.",
+    "optionExplanations": [
+      "Lithotomy provides access for pelvic and gynecologic examinations.",
+      "Trendelenburg is not the best answer. The correct choice is Lithotomy. Lithotomy provides access for pelvic and gynecologic examinations.",
+      "Prone is not the best answer. The correct choice is Lithotomy. Lithotomy provides access for pelvic and gynecologic examinations.",
+      "Fowler is not the best answer. The correct choice is Lithotomy. Lithotomy provides access for pelvic and gynecologic examinations."
+    ]
+  },
+  {
+    "id": "C061",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "Which position may be used for a rectal examination?",
+    "choices": [
+      "Sims",
+      "Supine only",
+      "Standing on one foot",
+      "Trendelenburg only"
+    ],
+    "a": 0,
+    "exp": "The Sims position provides access to the rectal area and is commonly used for rectal exams.",
+    "tip": "Sims = side-lying, usually left.",
+    "optionExplanations": [
+      "The Sims position provides access to the rectal area and is commonly used for rectal exams.",
+      "Supine only is not the best answer. The correct choice is Sims. The Sims position provides access to the rectal area and is commonly used for rectal exams.",
+      "Standing on one foot is not the best answer. The correct choice is Sims. The Sims position provides access to the rectal area and is commonly used for rectal exams.",
+      "Trendelenburg only is not the best answer. The correct choice is Sims. The Sims position provides access to the rectal area and is commonly used for rectal exams."
+    ]
+  },
+  {
+    "id": "C062",
+    "topic": "Physical Examinations",
+    "difficulty": "Easy",
+    "q": "The four basic examination methods are inspection, palpation, percussion, and:",
+    "choices": [
+      "Auscultation",
+      "Sterilization",
+      "Irrigation",
+      "Immobilization"
+    ],
+    "a": 0,
+    "exp": "Auscultation is listening to body sounds, usually with a stethoscope.",
+    "tip": "IPPA: inspect, palpate, percuss, auscultate.",
+    "optionExplanations": [
+      "Auscultation is listening to body sounds, usually with a stethoscope.",
+      "Sterilization is not the best answer. The correct choice is Auscultation. Auscultation is listening to body sounds, usually with a stethoscope.",
+      "Irrigation is not the best answer. The correct choice is Auscultation. Auscultation is listening to body sounds, usually with a stethoscope.",
+      "Immobilization is not the best answer. The correct choice is Auscultation. Auscultation is listening to body sounds, usually with a stethoscope."
+    ]
+  },
+  {
+    "id": "C063",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "For an abdominal exam, auscultation is performed before palpation because palpation may:",
+    "choices": [
+      "Alter bowel sounds",
+      "Change eye color",
+      "Reduce height",
+      "Sterilize the abdomen"
+    ],
+    "a": 0,
+    "exp": "Palpation and percussion can alter bowel activity, so auscultation is done first.",
+    "tip": "Abdomen order: inspect, auscultate, percuss, palpate.",
+    "optionExplanations": [
+      "Palpation and percussion can alter bowel activity, so auscultation is done first.",
+      "Change eye color is not the best answer. The correct choice is Alter bowel sounds. Palpation and percussion can alter bowel activity, so auscultation is done first.",
+      "Reduce height is not the best answer. The correct choice is Alter bowel sounds. Palpation and percussion can alter bowel activity, so auscultation is done first.",
+      "Sterilize the abdomen is not the best answer. The correct choice is Alter bowel sounds. Palpation and percussion can alter bowel activity, so auscultation is done first."
+    ]
+  },
+  {
+    "id": "C064",
+    "topic": "Physical Examinations",
+    "difficulty": "Easy",
+    "q": "A Snellen chart measures:",
+    "choices": [
+      "Distance visual acuity",
+      "Hearing acuity",
+      "Blood pressure",
+      "Color of the iris"
+    ],
+    "a": 0,
+    "exp": "The Snellen chart is used to assess distance vision.",
+    "tip": "Snellen = distance vision.",
+    "optionExplanations": [
+      "The Snellen chart is used to assess distance vision.",
+      "Hearing acuity is not the best answer. The correct choice is Distance visual acuity. The Snellen chart is used to assess distance vision.",
+      "Blood pressure is not the best answer. The correct choice is Distance visual acuity. The Snellen chart is used to assess distance vision.",
+      "Color of the iris is not the best answer. The correct choice is Distance visual acuity. The Snellen chart is used to assess distance vision."
+    ]
+  },
+  {
+    "id": "C065",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "When testing visual acuity, the patient should stand:",
+    "choices": [
+      "At the distance specified for the chart",
+      "Directly touching the chart",
+      "With both eyes closed",
+      "Behind the examiner"
+    ],
+    "a": 0,
+    "exp": "Visual acuity must be tested at the chart’s specified distance, often 20 feet.",
+    "tip": "Use the chart’s calibrated distance.",
+    "optionExplanations": [
+      "Visual acuity must be tested at the chart’s specified distance, often 20 feet.",
+      "Directly touching the chart is not the best answer. The correct choice is At the distance specified for the chart. Visual acuity must be tested at the chart’s specified distance, often 20 feet.",
+      "With both eyes closed is not the best answer. The correct choice is At the distance specified for the chart. Visual acuity must be tested at the chart’s specified distance, often 20 feet.",
+      "Behind the examiner is not the best answer. The correct choice is At the distance specified for the chart. Visual acuity must be tested at the chart’s specified distance, often 20 feet."
+    ]
+  },
+  {
+    "id": "C066",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "For a standard 12-lead ECG, the patient should:",
+    "choices": [
+      "Lie still and avoid talking",
+      "Exercise during tracing",
+      "Hold the breath for 10 minutes",
+      "Move the arms continuously"
+    ],
+    "a": 0,
+    "exp": "Movement and talking can create artifact on an ECG tracing.",
+    "tip": "Still and quiet prevents artifact.",
+    "optionExplanations": [
+      "Movement and talking can create artifact on an ECG tracing.",
+      "Exercise during tracing is not the best answer. The correct choice is Lie still and avoid talking. Movement and talking can create artifact on an ECG tracing.",
+      "Hold the breath for 10 minutes is not the best answer. The correct choice is Lie still and avoid talking. Movement and talking can create artifact on an ECG tracing.",
+      "Move the arms continuously is not the best answer. The correct choice is Lie still and avoid talking. Movement and talking can create artifact on an ECG tracing."
+    ]
+  },
+  {
+    "id": "C067",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "Before applying ECG electrodes, oily skin should be:",
+    "choices": [
+      "Cleaned and dried",
+      "Covered with lotion",
+      "Left wet",
+      "Powdered heavily"
+    ],
+    "a": 0,
+    "exp": "Clean, dry skin improves electrode adhesion and signal quality.",
+    "tip": "Clean and dry for good contact.",
+    "optionExplanations": [
+      "Clean, dry skin improves electrode adhesion and signal quality.",
+      "Covered with lotion is not the best answer. The correct choice is Cleaned and dried. Clean, dry skin improves electrode adhesion and signal quality.",
+      "Left wet is not the best answer. The correct choice is Cleaned and dried. Clean, dry skin improves electrode adhesion and signal quality.",
+      "Powdered heavily is not the best answer. The correct choice is Cleaned and dried. Clean, dry skin improves electrode adhesion and signal quality."
+    ]
+  },
+  {
+    "id": "C068",
+    "topic": "Physical Examinations",
+    "difficulty": "Hard",
+    "q": "Which ECG artifact is commonly caused by muscle tension or shivering?",
+    "choices": [
+      "Somatic tremor",
+      "Wandering baseline",
+      "Interrupted baseline",
+      "AC interference only"
+    ],
+    "a": 0,
+    "exp": "Somatic tremor artifact appears as irregular spikes caused by muscle movement.",
+    "tip": "Shivering = somatic tremor.",
+    "optionExplanations": [
+      "Somatic tremor artifact appears as irregular spikes caused by muscle movement.",
+      "Wandering baseline is not the best answer. The correct choice is Somatic tremor. Somatic tremor artifact appears as irregular spikes caused by muscle movement.",
+      "Interrupted baseline is not the best answer. The correct choice is Somatic tremor. Somatic tremor artifact appears as irregular spikes caused by muscle movement.",
+      "AC interference only is not the best answer. The correct choice is Somatic tremor. Somatic tremor artifact appears as irregular spikes caused by muscle movement."
+    ]
+  },
+  {
+    "id": "C069",
+    "topic": "Physical Examinations",
+    "difficulty": "Hard",
+    "q": "A wandering baseline on an ECG may result from:",
+    "choices": [
+      "Loose electrodes or patient movement",
+      "A perfectly still patient",
+      "Correct grounding only",
+      "A new paper roll"
+    ],
+    "a": 0,
+    "exp": "Loose electrodes, breathing movement, or poor skin contact can cause the baseline to drift.",
+    "tip": "Wandering baseline = loose contact or movement.",
+    "optionExplanations": [
+      "Loose electrodes, breathing movement, or poor skin contact can cause the baseline to drift.",
+      "A perfectly still patient is not the best answer. The correct choice is Loose electrodes or patient movement. Loose electrodes, breathing movement, or poor skin contact can cause the baseline to drift.",
+      "Correct grounding only is not the best answer. The correct choice is Loose electrodes or patient movement. Loose electrodes, breathing movement, or poor skin contact can cause the baseline to drift.",
+      "A new paper roll is not the best answer. The correct choice is Loose electrodes or patient movement. Loose electrodes, breathing movement, or poor skin contact can cause the baseline to drift."
+    ]
+  },
+  {
+    "id": "C070",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "Pulmonary function testing commonly measures:",
+    "choices": [
+      "Airflow and lung volumes",
+      "Blood type",
+      "Urine pH",
+      "Visual fields"
+    ],
+    "a": 0,
+    "exp": "Pulmonary function tests assess how well the lungs move air and exchange gases.",
+    "tip": "PFTs measure breathing performance.",
+    "optionExplanations": [
+      "Pulmonary function tests assess how well the lungs move air and exchange gases.",
+      "Blood type is not the best answer. The correct choice is Airflow and lung volumes. Pulmonary function tests assess how well the lungs move air and exchange gases.",
+      "Urine pH is not the best answer. The correct choice is Airflow and lung volumes. Pulmonary function tests assess how well the lungs move air and exchange gases.",
+      "Visual fields is not the best answer. The correct choice is Airflow and lung volumes. Pulmonary function tests assess how well the lungs move air and exchange gases."
+    ]
+  },
+  {
+    "id": "C071",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "Before spirometry, the patient should be instructed to:",
+    "choices": [
+      "Follow the test breathing instructions and seal lips around the mouthpiece",
+      "Chew gum during the test",
+      "Breathe only through the nose",
+      "Talk during exhalation"
+    ],
+    "a": 0,
+    "exp": "A tight lip seal and correct effort are needed for accurate spirometry.",
+    "tip": "Seal lips and follow the breathing command.",
+    "optionExplanations": [
+      "A tight lip seal and correct effort are needed for accurate spirometry.",
+      "Chew gum during the test is not the best answer. The correct choice is Follow the test breathing instructions and seal lips around the mouthpiece. A tight lip seal and correct effort are needed for accurate spirometry.",
+      "Breathe only through the nose is not the best answer. The correct choice is Follow the test breathing instructions and seal lips around the mouthpiece. A tight lip seal and correct effort are needed for accurate spirometry.",
+      "Talk during exhalation is not the best answer. The correct choice is Follow the test breathing instructions and seal lips around the mouthpiece. A tight lip seal and correct effort are needed for accurate spirometry."
+    ]
+  },
+  {
+    "id": "C072",
+    "topic": "Physical Examinations",
+    "difficulty": "Moderate",
+    "q": "A Holter monitor records:",
+    "choices": [
+      "Continuous cardiac electrical activity over an extended period",
+      "One blood pressure reading",
+      "Only oxygen saturation",
+      "Urine output"
+    ],
+    "a": 0,
+    "exp": "A Holter monitor records ambulatory ECG activity, often for 24 to 48 hours.",
+    "tip": "Holter = longer-term heart rhythm recording.",
+    "optionExplanations": [
+      "A Holter monitor records ambulatory ECG activity, often for 24 to 48 hours.",
+      "One blood pressure reading is not the best answer. The correct choice is Continuous cardiac electrical activity over an extended period. A Holter monitor records ambulatory ECG activity, often for 24 to 48 hours.",
+      "Only oxygen saturation is not the best answer. The correct choice is Continuous cardiac electrical activity over an extended period. A Holter monitor records ambulatory ECG activity, often for 24 to 48 hours.",
+      "Urine output is not the best answer. The correct choice is Continuous cardiac electrical activity over an extended period. A Holter monitor records ambulatory ECG activity, often for 24 to 48 hours."
+    ]
+  },
+  {
+    "id": "C073",
+    "topic": "Physical Examinations",
+    "difficulty": "Easy",
+    "q": "When obtaining a medical history, the medical assistant should use:",
+    "choices": [
+      "Open-ended questions and active listening",
+      "Leading questions only",
+      "Medical jargon without explanation",
+      "Judgmental comments"
+    ],
+    "a": 0,
+    "exp": "Open-ended questions encourage complete information and active listening improves accuracy.",
+    "tip": "Ask, listen, clarify, document.",
+    "optionExplanations": [
+      "Open-ended questions encourage complete information and active listening improves accuracy.",
+      "Leading questions only is not the best answer. The correct choice is Open-ended questions and active listening. Open-ended questions encourage complete information and active listening improves accuracy.",
+      "Medical jargon without explanation is not the best answer. The correct choice is Open-ended questions and active listening. Open-ended questions encourage complete information and active listening improves accuracy.",
+      "Judgmental comments is not the best answer. The correct choice is Open-ended questions and active listening. Open-ended questions encourage complete information and active listening improves accuracy."
+    ]
+  },
+  {
+    "id": "C074",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "The abbreviation PO means:",
+    "choices": [
+      "By mouth",
+      "Into the muscle",
+      "Under the tongue",
+      "Into the skin"
+    ],
+    "a": 0,
+    "exp": "PO means orally, or by mouth.",
+    "tip": "PO = by mouth.",
+    "optionExplanations": [
+      "PO means orally, or by mouth.",
+      "Into the muscle is not the best answer. The correct choice is By mouth. PO means orally, or by mouth.",
+      "Under the tongue is not the best answer. The correct choice is By mouth. PO means orally, or by mouth.",
+      "Into the skin is not the best answer. The correct choice is By mouth. PO means orally, or by mouth."
+    ]
+  },
+  {
+    "id": "C075",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "The abbreviation IM means:",
+    "choices": [
+      "Intramuscular",
+      "Intravenous",
+      "Intradermal",
+      "Inhaled"
+    ],
+    "a": 0,
+    "exp": "IM indicates administration into a muscle.",
+    "tip": "IM = into muscle.",
+    "optionExplanations": [
+      "IM indicates administration into a muscle.",
+      "Intravenous is not the best answer. The correct choice is Intramuscular. IM indicates administration into a muscle.",
+      "Intradermal is not the best answer. The correct choice is Intramuscular. IM indicates administration into a muscle.",
+      "Inhaled is not the best answer. The correct choice is Intramuscular. IM indicates administration into a muscle."
+    ]
+  },
+  {
+    "id": "C076",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "The abbreviation SQ or SC means:",
+    "choices": [
+      "Subcutaneous",
+      "Sublingual",
+      "Intravenous",
+      "Rectal"
+    ],
+    "a": 0,
+    "exp": "SQ or SC means into the subcutaneous tissue.",
+    "tip": "SubQ = under the skin.",
+    "optionExplanations": [
+      "SQ or SC means into the subcutaneous tissue.",
+      "Sublingual is not the best answer. The correct choice is Subcutaneous. SQ or SC means into the subcutaneous tissue.",
+      "Intravenous is not the best answer. The correct choice is Subcutaneous. SQ or SC means into the subcutaneous tissue.",
+      "Rectal is not the best answer. The correct choice is Subcutaneous. SQ or SC means into the subcutaneous tissue."
+    ]
+  },
+  {
+    "id": "C077",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "The abbreviation PRN means:",
+    "choices": [
+      "As needed",
+      "Before meals",
+      "At bedtime",
+      "Every hour"
+    ],
+    "a": 0,
+    "exp": "PRN means as needed.",
+    "tip": "PRN = as needed.",
+    "optionExplanations": [
+      "PRN means as needed.",
+      "Before meals is not the best answer. The correct choice is As needed. PRN means as needed.",
+      "At bedtime is not the best answer. The correct choice is As needed. PRN means as needed.",
+      "Every hour is not the best answer. The correct choice is As needed. PRN means as needed."
+    ]
+  },
+  {
+    "id": "C078",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Which route provides the fastest systemic effect?",
+    "choices": [
+      "Intravenous",
+      "Topical",
+      "Oral",
+      "Subcutaneous"
+    ],
+    "a": 0,
+    "exp": "Intravenous medication enters the bloodstream directly and acts rapidly.",
+    "tip": "IV is fastest.",
+    "optionExplanations": [
+      "Intravenous medication enters the bloodstream directly and acts rapidly.",
+      "Topical is not the best answer. The correct choice is Intravenous. Intravenous medication enters the bloodstream directly and acts rapidly.",
+      "Oral is not the best answer. The correct choice is Intravenous. Intravenous medication enters the bloodstream directly and acts rapidly.",
+      "Subcutaneous is not the best answer. The correct choice is Intravenous. Intravenous medication enters the bloodstream directly and acts rapidly."
+    ]
+  },
+  {
+    "id": "C079",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Before administering medication, the medical assistant should verify the right patient, medication, dose, route, time, and:",
+    "choices": [
+      "Documentation",
+      "Parking space",
+      "Insurance premium",
+      "Room color"
+    ],
+    "a": 0,
+    "exp": "Documentation is one of the essential medication-administration rights.",
+    "tip": "Medication rights include documentation.",
+    "optionExplanations": [
+      "Documentation is one of the essential medication-administration rights.",
+      "Parking space is not the best answer. The correct choice is Documentation. Documentation is one of the essential medication-administration rights.",
+      "Insurance premium is not the best answer. The correct choice is Documentation. Documentation is one of the essential medication-administration rights.",
+      "Room color is not the best answer. The correct choice is Documentation. Documentation is one of the essential medication-administration rights."
+    ]
+  },
+  {
+    "id": "C080",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "A medication allergy should be:",
+    "choices": [
+      "Verified and clearly documented before administration",
+      "Ignored if the dose is small",
+      "Removed from the chart",
+      "Shared only verbally"
+    ],
+    "a": 0,
+    "exp": "Allergies must be verified and documented to prevent adverse reactions.",
+    "tip": "Check allergies every time.",
+    "optionExplanations": [
+      "Allergies must be verified and documented to prevent adverse reactions.",
+      "Ignored if the dose is small is not the best answer. The correct choice is Verified and clearly documented before administration. Allergies must be verified and documented to prevent adverse reactions.",
+      "Removed from the chart is not the best answer. The correct choice is Verified and clearly documented before administration. Allergies must be verified and documented to prevent adverse reactions.",
+      "Shared only verbally is not the best answer. The correct choice is Verified and clearly documented before administration. Allergies must be verified and documented to prevent adverse reactions."
+    ]
+  },
+  {
+    "id": "C081",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "An analgesic is used to:",
+    "choices": [
+      "Relieve pain",
+      "Lower blood glucose",
+      "Treat fungal infection",
+      "Increase urine output"
+    ],
+    "a": 0,
+    "exp": "Analgesics reduce or relieve pain.",
+    "tip": "Analgesic = pain relief.",
+    "optionExplanations": [
+      "Analgesics reduce or relieve pain.",
+      "Lower blood glucose is not the best answer. The correct choice is Relieve pain. Analgesics reduce or relieve pain.",
+      "Treat fungal infection is not the best answer. The correct choice is Relieve pain. Analgesics reduce or relieve pain.",
+      "Increase urine output is not the best answer. The correct choice is Relieve pain. Analgesics reduce or relieve pain."
+    ]
+  },
+  {
+    "id": "C082",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "An antipyretic is used to:",
+    "choices": [
+      "Reduce fever",
+      "Increase appetite",
+      "Stop bleeding",
+      "Treat hypertension"
+    ],
+    "a": 0,
+    "exp": "Antipyretics lower elevated body temperature.",
+    "tip": "Pyrexia means fever.",
+    "optionExplanations": [
+      "Antipyretics lower elevated body temperature.",
+      "Increase appetite is not the best answer. The correct choice is Reduce fever. Antipyretics lower elevated body temperature.",
+      "Stop bleeding is not the best answer. The correct choice is Reduce fever. Antipyretics lower elevated body temperature.",
+      "Treat hypertension is not the best answer. The correct choice is Reduce fever. Antipyretics lower elevated body temperature."
+    ]
+  },
+  {
+    "id": "C083",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Easy",
+    "q": "An antihypertensive medication is used to:",
+    "choices": [
+      "Lower blood pressure",
+      "Raise temperature",
+      "Treat pain only",
+      "Increase clotting"
+    ],
+    "a": 0,
+    "exp": "Antihypertensives help lower elevated blood pressure.",
+    "tip": "Anti-hypertensive fights high blood pressure.",
+    "optionExplanations": [
+      "Antihypertensives help lower elevated blood pressure.",
+      "Raise temperature is not the best answer. The correct choice is Lower blood pressure. Antihypertensives help lower elevated blood pressure.",
+      "Treat pain only is not the best answer. The correct choice is Lower blood pressure. Antihypertensives help lower elevated blood pressure.",
+      "Increase clotting is not the best answer. The correct choice is Lower blood pressure. Antihypertensives help lower elevated blood pressure."
+    ]
+  },
+  {
+    "id": "C084",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Which medication form should generally not be crushed?",
+    "choices": [
+      "Enteric-coated tablet",
+      "Plain scored tablet when ordered",
+      "Powder packet",
+      "Liquid suspension"
+    ],
+    "a": 0,
+    "exp": "Crushing enteric-coated tablets destroys the protective coating and may alter absorption.",
+    "tip": "Do not crush enteric-coated or extended-release tablets.",
+    "optionExplanations": [
+      "Crushing enteric-coated tablets destroys the protective coating and may alter absorption.",
+      "Plain scored tablet when ordered is not the best answer. The correct choice is Enteric-coated tablet. Crushing enteric-coated tablets destroys the protective coating and may alter absorption.",
+      "Powder packet is not the best answer. The correct choice is Enteric-coated tablet. Crushing enteric-coated tablets destroys the protective coating and may alter absorption.",
+      "Liquid suspension is not the best answer. The correct choice is Enteric-coated tablet. Crushing enteric-coated tablets destroys the protective coating and may alter absorption."
+    ]
+  },
+  {
+    "id": "C085",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "A suspension should generally be:",
+    "choices": [
+      "Shaken before measuring",
+      "Frozen before use",
+      "Measured with a household spoon",
+      "Left unmixed"
+    ],
+    "a": 0,
+    "exp": "Suspensions must be mixed so the medication is evenly distributed.",
+    "tip": "Shake suspensions.",
+    "optionExplanations": [
+      "Suspensions must be mixed so the medication is evenly distributed.",
+      "Frozen before use is not the best answer. The correct choice is Shaken before measuring. Suspensions must be mixed so the medication is evenly distributed.",
+      "Measured with a household spoon is not the best answer. The correct choice is Shaken before measuring. Suspensions must be mixed so the medication is evenly distributed.",
+      "Left unmixed is not the best answer. The correct choice is Shaken before measuring. Suspensions must be mixed so the medication is evenly distributed."
+    ]
+  },
+  {
+    "id": "C086",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Which device is most accurate for measuring a small liquid medication dose?",
+    "choices": [
+      "Oral syringe",
+      "Kitchen teaspoon",
+      "Coffee cup",
+      "Paper towel"
+    ],
+    "a": 0,
+    "exp": "An oral syringe provides accurate measurement for small liquid doses.",
+    "tip": "Small dose = oral syringe.",
+    "optionExplanations": [
+      "An oral syringe provides accurate measurement for small liquid doses.",
+      "Kitchen teaspoon is not the best answer. The correct choice is Oral syringe. An oral syringe provides accurate measurement for small liquid doses.",
+      "Coffee cup is not the best answer. The correct choice is Oral syringe. An oral syringe provides accurate measurement for small liquid doses.",
+      "Paper towel is not the best answer. The correct choice is Oral syringe. An oral syringe provides accurate measurement for small liquid doses."
+    ]
+  },
+  {
+    "id": "C087",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "To calculate tablets needed, use:",
+    "choices": [
+      "Desired dose divided by dose on hand times quantity",
+      "Dose on hand divided by desired dose",
+      "Weight plus height",
+      "Pulse divided by respirations"
+    ],
+    "a": 0,
+    "exp": "The standard formula is desired dose ÷ dose on hand × quantity.",
+    "tip": "D/H × Q.",
+    "optionExplanations": [
+      "The standard formula is desired dose ÷ dose on hand × quantity.",
+      "Dose on hand divided by desired dose is not the best answer. The correct choice is Desired dose divided by dose on hand times quantity. The standard formula is desired dose ÷ dose on hand × quantity.",
+      "Weight plus height is not the best answer. The correct choice is Desired dose divided by dose on hand times quantity. The standard formula is desired dose ÷ dose on hand × quantity.",
+      "Pulse divided by respirations is not the best answer. The correct choice is Desired dose divided by dose on hand times quantity. The standard formula is desired dose ÷ dose on hand × quantity."
+    ]
+  },
+  {
+    "id": "C088",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Hard",
+    "q": "The provider orders 500 mg. Tablets contain 250 mg each. How many tablets should be given?",
+    "choices": [
+      "2",
+      "1",
+      "0.5",
+      "4"
+    ],
+    "a": 0,
+    "exp": "500 mg ÷ 250 mg per tablet = 2 tablets.",
+    "tip": "Desired divided by on hand: 500/250 = 2.",
+    "optionExplanations": [
+      "500 mg ÷ 250 mg per tablet = 2 tablets.",
+      "1 is not the best answer. The correct choice is 2. 500 mg ÷ 250 mg per tablet = 2 tablets.",
+      "0.5 is not the best answer. The correct choice is 2. 500 mg ÷ 250 mg per tablet = 2 tablets.",
+      "4 is not the best answer. The correct choice is 2. 500 mg ÷ 250 mg per tablet = 2 tablets."
+    ]
+  },
+  {
+    "id": "C089",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Hard",
+    "q": "The provider orders 0.5 g. The medication is labeled 250 mg per tablet. How many tablets are needed?",
+    "choices": [
+      "2",
+      "0.5",
+      "1",
+      "4"
+    ],
+    "a": 0,
+    "exp": "0.5 g equals 500 mg; 500 mg ÷ 250 mg = 2 tablets.",
+    "tip": "Convert units before calculating.",
+    "optionExplanations": [
+      "0.5 g equals 500 mg; 500 mg ÷ 250 mg = 2 tablets.",
+      "0.5 is not the best answer. The correct choice is 2. 0.5 g equals 500 mg; 500 mg ÷ 250 mg = 2 tablets.",
+      "1 is not the best answer. The correct choice is 2. 0.5 g equals 500 mg; 500 mg ÷ 250 mg = 2 tablets.",
+      "4 is not the best answer. The correct choice is 2. 0.5 g equals 500 mg; 500 mg ÷ 250 mg = 2 tablets."
+    ]
+  },
+  {
+    "id": "C090",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Which site is commonly used for an adult deltoid IM injection?",
+    "choices": [
+      "Upper arm",
+      "Abdomen",
+      "Forearm dermis",
+      "Heel"
+    ],
+    "a": 0,
+    "exp": "The deltoid muscle of the upper arm is a common site for small-volume adult IM injections.",
+    "tip": "Deltoid = upper arm.",
+    "optionExplanations": [
+      "The deltoid muscle of the upper arm is a common site for small-volume adult IM injections.",
+      "Abdomen is not the best answer. The correct choice is Upper arm. The deltoid muscle of the upper arm is a common site for small-volume adult IM injections.",
+      "Forearm dermis is not the best answer. The correct choice is Upper arm. The deltoid muscle of the upper arm is a common site for small-volume adult IM injections.",
+      "Heel is not the best answer. The correct choice is Upper arm. The deltoid muscle of the upper arm is a common site for small-volume adult IM injections."
+    ]
+  },
+  {
+    "id": "C091",
+    "topic": "Clinical Pharmacology",
+    "difficulty": "Moderate",
+    "q": "Which angle is commonly used for an intradermal injection?",
+    "choices": [
+      "5 to 15 degrees",
+      "90 degrees",
+      "45 to 90 degrees only",
+      "180 degrees"
+    ],
+    "a": 0,
+    "exp": "Intradermal injections are administered at a shallow 5- to 15-degree angle.",
+    "tip": "ID is shallow.",
+    "optionExplanations": [
+      "Intradermal injections are administered at a shallow 5- to 15-degree angle.",
+      "90 degrees is not the best answer. The correct choice is 5 to 15 degrees. Intradermal injections are administered at a shallow 5- to 15-degree angle.",
+      "45 to 90 degrees only is not the best answer. The correct choice is 5 to 15 degrees. Intradermal injections are administered at a shallow 5- to 15-degree angle.",
+      "180 degrees is not the best answer. The correct choice is 5 to 15 degrees. Intradermal injections are administered at a shallow 5- to 15-degree angle."
+    ]
+  },
+  {
+    "id": "C092",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Easy",
+    "q": "A cold pack is commonly used during the first 24 to 48 hours after an acute injury to:",
+    "choices": [
+      "Reduce swelling and pain",
+      "Increase bleeding",
+      "Cause vasodilation",
+      "Increase tissue metabolism"
+    ],
+    "a": 0,
+    "exp": "Cold causes vasoconstriction and can reduce swelling and pain after an acute injury.",
+    "tip": "Cold early helps swelling.",
+    "optionExplanations": [
+      "Cold causes vasoconstriction and can reduce swelling and pain after an acute injury.",
+      "Increase bleeding is not the best answer. The correct choice is Reduce swelling and pain. Cold causes vasoconstriction and can reduce swelling and pain after an acute injury.",
+      "Cause vasodilation is not the best answer. The correct choice is Reduce swelling and pain. Cold causes vasoconstriction and can reduce swelling and pain after an acute injury.",
+      "Increase tissue metabolism is not the best answer. The correct choice is Reduce swelling and pain. Cold causes vasoconstriction and can reduce swelling and pain after an acute injury."
+    ]
+  },
+  {
+    "id": "C093",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Easy",
+    "q": "A warm pack is commonly used to:",
+    "choices": [
+      "Promote circulation and relax muscles",
+      "Stop all circulation",
+      "Freeze tissue",
+      "Treat every acute injury immediately"
+    ],
+    "a": 0,
+    "exp": "Heat promotes vasodilation, circulation, and muscle relaxation.",
+    "tip": "Heat relaxes and increases circulation.",
+    "optionExplanations": [
+      "Heat promotes vasodilation, circulation, and muscle relaxation.",
+      "Stop all circulation is not the best answer. The correct choice is Promote circulation and relax muscles. Heat promotes vasodilation, circulation, and muscle relaxation.",
+      "Freeze tissue is not the best answer. The correct choice is Promote circulation and relax muscles. Heat promotes vasodilation, circulation, and muscle relaxation.",
+      "Treat every acute injury immediately is not the best answer. The correct choice is Promote circulation and relax muscles. Heat promotes vasodilation, circulation, and muscle relaxation."
+    ]
+  },
+  {
+    "id": "C094",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Moderate",
+    "q": "Before applying heat or cold, the medical assistant should assess:",
+    "choices": [
+      "Skin condition and sensation",
+      "Insurance status only",
+      "Hair color",
+      "Appointment type"
+    ],
+    "a": 0,
+    "exp": "Skin integrity and sensation must be checked to reduce the risk of injury.",
+    "tip": "Check skin and sensation first.",
+    "optionExplanations": [
+      "Skin integrity and sensation must be checked to reduce the risk of injury.",
+      "Insurance status only is not the best answer. The correct choice is Skin condition and sensation. Skin integrity and sensation must be checked to reduce the risk of injury.",
+      "Hair color is not the best answer. The correct choice is Skin condition and sensation. Skin integrity and sensation must be checked to reduce the risk of injury.",
+      "Appointment type is not the best answer. The correct choice is Skin condition and sensation. Skin integrity and sensation must be checked to reduce the risk of injury."
+    ]
+  },
+  {
+    "id": "C095",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Moderate",
+    "q": "Which patient has increased risk of injury from heat or cold therapy?",
+    "choices": [
+      "A patient with impaired sensation",
+      "A patient with normal sensation",
+      "A patient wearing glasses",
+      "A patient with a normal pulse"
+    ],
+    "a": 0,
+    "exp": "Impaired sensation may prevent the patient from feeling excessive heat or cold.",
+    "tip": "Reduced sensation means reduced warning.",
+    "optionExplanations": [
+      "Impaired sensation may prevent the patient from feeling excessive heat or cold.",
+      "A patient with normal sensation is not the best answer. The correct choice is A patient with impaired sensation. Impaired sensation may prevent the patient from feeling excessive heat or cold.",
+      "A patient wearing glasses is not the best answer. The correct choice is A patient with impaired sensation. Impaired sensation may prevent the patient from feeling excessive heat or cold.",
+      "A patient with a normal pulse is not the best answer. The correct choice is A patient with impaired sensation. Impaired sensation may prevent the patient from feeling excessive heat or cold."
+    ]
+  },
+  {
+    "id": "C096",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Easy",
+    "q": "A cane should generally be held on the:",
+    "choices": [
+      "Stronger side",
+      "Weaker side",
+      "Same side as every injury",
+      "Back of the neck"
+    ],
+    "a": 0,
+    "exp": "A cane is usually held on the stronger side to support the weaker leg.",
+    "tip": "Cane goes on the strong side.",
+    "optionExplanations": [
+      "A cane is usually held on the stronger side to support the weaker leg.",
+      "Weaker side is not the best answer. The correct choice is Stronger side. A cane is usually held on the stronger side to support the weaker leg.",
+      "Same side as every injury is not the best answer. The correct choice is Stronger side. A cane is usually held on the stronger side to support the weaker leg.",
+      "Back of the neck is not the best answer. The correct choice is Stronger side. A cane is usually held on the stronger side to support the weaker leg."
+    ]
+  },
+  {
+    "id": "C097",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Moderate",
+    "q": "When using crutches, body weight should be supported primarily by the:",
+    "choices": [
+      "Hands",
+      "Axillae",
+      "Neck",
+      "Elbows only"
+    ],
+    "a": 0,
+    "exp": "Weight should be borne through the hands, not the axillae, to avoid nerve injury.",
+    "tip": "Do not rest body weight on the armpits.",
+    "optionExplanations": [
+      "Weight should be borne through the hands, not the axillae, to avoid nerve injury.",
+      "Axillae is not the best answer. The correct choice is Hands. Weight should be borne through the hands, not the axillae, to avoid nerve injury.",
+      "Neck is not the best answer. The correct choice is Hands. Weight should be borne through the hands, not the axillae, to avoid nerve injury.",
+      "Elbows only is not the best answer. The correct choice is Hands. Weight should be borne through the hands, not the axillae, to avoid nerve injury."
+    ]
+  },
+  {
+    "id": "C098",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Moderate",
+    "q": "When teaching walker use, the usual sequence is:",
+    "choices": [
+      "Move walker, then weak leg, then strong leg",
+      "Strong leg, walker, weak leg",
+      "Jump both feet together",
+      "Carry the walker"
+    ],
+    "a": 0,
+    "exp": "The walker moves first, followed by the weaker leg and then the stronger leg.",
+    "tip": "Walker, weak, strong.",
+    "optionExplanations": [
+      "The walker moves first, followed by the weaker leg and then the stronger leg.",
+      "Strong leg, walker, weak leg is not the best answer. The correct choice is Move walker, then weak leg, then strong leg. The walker moves first, followed by the weaker leg and then the stronger leg.",
+      "Jump both feet together is not the best answer. The correct choice is Move walker, then weak leg, then strong leg. The walker moves first, followed by the weaker leg and then the stronger leg.",
+      "Carry the walker is not the best answer. The correct choice is Move walker, then weak leg, then strong leg. The walker moves first, followed by the weaker leg and then the stronger leg."
+    ]
+  },
+  {
+    "id": "C099",
+    "topic": "Therapeutic Modalities",
+    "difficulty": "Hard",
+    "q": "Durable medical equipment instructions should include:",
+    "choices": [
+      "Safe use, fit, maintenance, and when to report problems",
+      "Only the purchase price",
+      "No return demonstration",
+      "Instructions for another patient"
+    ],
+    "a": 0,
+    "exp": "Patients need individualized teaching on fit, safe operation, maintenance, and warning signs.",
+    "tip": "Teach, demonstrate, and verify understanding.",
+    "optionExplanations": [
+      "Patients need individualized teaching on fit, safe operation, maintenance, and warning signs.",
+      "Only the purchase price is not the best answer. The correct choice is Safe use, fit, maintenance, and when to report problems. Patients need individualized teaching on fit, safe operation, maintenance, and warning signs.",
+      "No return demonstration is not the best answer. The correct choice is Safe use, fit, maintenance, and when to report problems. Patients need individualized teaching on fit, safe operation, maintenance, and warning signs.",
+      "Instructions for another patient is not the best answer. The correct choice is Safe use, fit, maintenance, and when to report problems. Patients need individualized teaching on fit, safe operation, maintenance, and warning signs."
+    ]
+  },
+  {
+    "id": "C100",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Easy",
+    "q": "The first step when approaching an emergency is to:",
+    "choices": [
+      "Ensure the scene is safe",
+      "Immediately move every patient",
+      "Give food",
+      "Search for insurance cards"
+    ],
+    "a": 0,
+    "exp": "The responder must first make sure the scene is safe before providing care.",
+    "tip": "Scene safety first.",
+    "optionExplanations": [
+      "The responder must first make sure the scene is safe before providing care.",
+      "Immediately move every patient is not the best answer. The correct choice is Ensure the scene is safe. The responder must first make sure the scene is safe before providing care.",
+      "Give food is not the best answer. The correct choice is Ensure the scene is safe. The responder must first make sure the scene is safe before providing care.",
+      "Search for insurance cards is not the best answer. The correct choice is Ensure the scene is safe. The responder must first make sure the scene is safe before providing care."
+    ]
+  },
+  {
+    "id": "C101",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Easy",
+    "q": "If an adult is unresponsive and not breathing normally, the medical assistant should:",
+    "choices": [
+      "Activate emergency response, get an AED, and begin CPR",
+      "Wait 10 minutes",
+      "Offer water",
+      "Take a routine history"
+    ],
+    "a": 0,
+    "exp": "Immediate activation of emergency services, CPR, and AED use are critical.",
+    "tip": "Call, compress, shock.",
+    "optionExplanations": [
+      "Immediate activation of emergency services, CPR, and AED use are critical.",
+      "Wait 10 minutes is not the best answer. The correct choice is Activate emergency response, get an AED, and begin CPR. Immediate activation of emergency services, CPR, and AED use are critical.",
+      "Offer water is not the best answer. The correct choice is Activate emergency response, get an AED, and begin CPR. Immediate activation of emergency services, CPR, and AED use are critical.",
+      "Take a routine history is not the best answer. The correct choice is Activate emergency response, get an AED, and begin CPR. Immediate activation of emergency services, CPR, and AED use are critical."
+    ]
+  },
+  {
+    "id": "C102",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "The recommended adult chest-compression rate is:",
+    "choices": [
+      "100 to 120 per minute",
+      "20 to 40 per minute",
+      "40 to 60 per minute",
+      "150 to 180 per minute"
+    ],
+    "a": 0,
+    "exp": "High-quality adult CPR uses a rate of 100 to 120 compressions per minute.",
+    "tip": "CPR rate: 100–120.",
+    "optionExplanations": [
+      "High-quality adult CPR uses a rate of 100 to 120 compressions per minute.",
+      "20 to 40 per minute is not the best answer. The correct choice is 100 to 120 per minute. High-quality adult CPR uses a rate of 100 to 120 compressions per minute.",
+      "40 to 60 per minute is not the best answer. The correct choice is 100 to 120 per minute. High-quality adult CPR uses a rate of 100 to 120 compressions per minute.",
+      "150 to 180 per minute is not the best answer. The correct choice is 100 to 120 per minute. High-quality adult CPR uses a rate of 100 to 120 compressions per minute."
+    ]
+  },
+  {
+    "id": "C103",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "An AED should be used:",
+    "choices": [
+      "As soon as it is available",
+      "Only after 30 minutes",
+      "Only by a physician",
+      "Only if the patient is conscious"
+    ],
+    "a": 0,
+    "exp": "Early defibrillation improves survival for shockable rhythms.",
+    "tip": "Use the AED as soon as possible.",
+    "optionExplanations": [
+      "Early defibrillation improves survival for shockable rhythms.",
+      "Only after 30 minutes is not the best answer. The correct choice is As soon as it is available. Early defibrillation improves survival for shockable rhythms.",
+      "Only by a physician is not the best answer. The correct choice is As soon as it is available. Early defibrillation improves survival for shockable rhythms.",
+      "Only if the patient is conscious is not the best answer. The correct choice is As soon as it is available. Early defibrillation improves survival for shockable rhythms."
+    ]
+  },
+  {
+    "id": "C104",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Easy",
+    "q": "A conscious adult with a severe airway obstruction should receive:",
+    "choices": [
+      "Abdominal thrusts",
+      "Water",
+      "Back massage only",
+      "A blood pressure check"
+    ],
+    "a": 0,
+    "exp": "Abdominal thrusts are used for severe choking in a conscious adult, unless contraindicated.",
+    "tip": "Severe choking: thrusts and emergency response.",
+    "optionExplanations": [
+      "Abdominal thrusts are used for severe choking in a conscious adult, unless contraindicated.",
+      "Water is not the best answer. The correct choice is Abdominal thrusts. Abdominal thrusts are used for severe choking in a conscious adult, unless contraindicated.",
+      "Back massage only is not the best answer. The correct choice is Abdominal thrusts. Abdominal thrusts are used for severe choking in a conscious adult, unless contraindicated.",
+      "A blood pressure check is not the best answer. The correct choice is Abdominal thrusts. Abdominal thrusts are used for severe choking in a conscious adult, unless contraindicated."
+    ]
+  },
+  {
+    "id": "C105",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "For severe external bleeding, the first action is to:",
+    "choices": [
+      "Apply direct pressure",
+      "Remove all clots",
+      "Give food",
+      "Elevate without pressure"
+    ],
+    "a": 0,
+    "exp": "Firm direct pressure is the primary method for controlling external bleeding.",
+    "tip": "Pressure first.",
+    "optionExplanations": [
+      "Firm direct pressure is the primary method for controlling external bleeding.",
+      "Remove all clots is not the best answer. The correct choice is Apply direct pressure. Firm direct pressure is the primary method for controlling external bleeding.",
+      "Give food is not the best answer. The correct choice is Apply direct pressure. Firm direct pressure is the primary method for controlling external bleeding.",
+      "Elevate without pressure is not the best answer. The correct choice is Apply direct pressure. Firm direct pressure is the primary method for controlling external bleeding."
+    ]
+  },
+  {
+    "id": "C106",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "A patient with possible shock should be:",
+    "choices": [
+      "Kept warm and monitored while emergency help is activated",
+      "Given food and drink",
+      "Allowed to walk around",
+      "Left alone"
+    ],
+    "a": 0,
+    "exp": "Shock requires emergency activation, monitoring, and prevention of heat loss.",
+    "tip": "Call for help, keep warm, monitor.",
+    "optionExplanations": [
+      "Shock requires emergency activation, monitoring, and prevention of heat loss.",
+      "Given food and drink is not the best answer. The correct choice is Kept warm and monitored while emergency help is activated. Shock requires emergency activation, monitoring, and prevention of heat loss.",
+      "Allowed to walk around is not the best answer. The correct choice is Kept warm and monitored while emergency help is activated. Shock requires emergency activation, monitoring, and prevention of heat loss.",
+      "Left alone is not the best answer. The correct choice is Kept warm and monitored while emergency help is activated. Shock requires emergency activation, monitoring, and prevention of heat loss."
+    ]
+  },
+  {
+    "id": "C107",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "During a seizure, the medical assistant should:",
+    "choices": [
+      "Protect the patient from injury and do not restrain",
+      "Place an object in the mouth",
+      "Hold the patient down",
+      "Give oral medication immediately"
+    ],
+    "a": 0,
+    "exp": "The patient should be protected from injury without restraint or placing objects in the mouth.",
+    "tip": "Protect, time, do not restrain.",
+    "optionExplanations": [
+      "The patient should be protected from injury without restraint or placing objects in the mouth.",
+      "Place an object in the mouth is not the best answer. The correct choice is Protect the patient from injury and do not restrain. The patient should be protected from injury without restraint or placing objects in the mouth.",
+      "Hold the patient down is not the best answer. The correct choice is Protect the patient from injury and do not restrain. The patient should be protected from injury without restraint or placing objects in the mouth.",
+      "Give oral medication immediately is not the best answer. The correct choice is Protect the patient from injury and do not restrain. The patient should be protected from injury without restraint or placing objects in the mouth."
+    ]
+  },
+  {
+    "id": "C108",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "A patient with suspected stroke should be evaluated using FAST, where F stands for:",
+    "choices": [
+      "Face drooping",
+      "Fever",
+      "Food intake",
+      "Foot pain"
+    ],
+    "a": 0,
+    "exp": "FAST stands for Face, Arm, Speech, Time.",
+    "tip": "FAST: Face, Arm, Speech, Time.",
+    "optionExplanations": [
+      "FAST stands for Face, Arm, Speech, Time.",
+      "Fever is not the best answer. The correct choice is Face drooping. FAST stands for Face, Arm, Speech, Time.",
+      "Food intake is not the best answer. The correct choice is Face drooping. FAST stands for Face, Arm, Speech, Time.",
+      "Foot pain is not the best answer. The correct choice is Face drooping. FAST stands for Face, Arm, Speech, Time."
+    ]
+  },
+  {
+    "id": "C109",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Easy",
+    "q": "A patient with hypoglycemia who is conscious and able to swallow may be given:",
+    "choices": [
+      "A fast-acting carbohydrate",
+      "Nothing by mouth regardless of condition",
+      "A high-fat meal only",
+      "An antibiotic"
+    ],
+    "a": 0,
+    "exp": "A conscious patient who can swallow may receive a fast-acting source of glucose per protocol.",
+    "tip": "Conscious + can swallow = fast sugar.",
+    "optionExplanations": [
+      "A conscious patient who can swallow may receive a fast-acting source of glucose per protocol.",
+      "Nothing by mouth regardless of condition is not the best answer. The correct choice is A fast-acting carbohydrate. A conscious patient who can swallow may receive a fast-acting source of glucose per protocol.",
+      "A high-fat meal only is not the best answer. The correct choice is A fast-acting carbohydrate. A conscious patient who can swallow may receive a fast-acting source of glucose per protocol.",
+      "An antibiotic is not the best answer. The correct choice is A fast-acting carbohydrate. A conscious patient who can swallow may receive a fast-acting source of glucose per protocol."
+    ]
+  },
+  {
+    "id": "C110",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "A patient with chest pain suggestive of myocardial infarction should:",
+    "choices": [
+      "Receive emergency evaluation immediately",
+      "Drive home alone",
+      "Wait for the next appointment",
+      "Exercise to test the pain"
+    ],
+    "a": 0,
+    "exp": "Possible myocardial infarction requires immediate emergency response.",
+    "tip": "Chest pain can be life-threatening.",
+    "optionExplanations": [
+      "Possible myocardial infarction requires immediate emergency response.",
+      "Drive home alone is not the best answer. The correct choice is Receive emergency evaluation immediately. Possible myocardial infarction requires immediate emergency response.",
+      "Wait for the next appointment is not the best answer. The correct choice is Receive emergency evaluation immediately. Possible myocardial infarction requires immediate emergency response.",
+      "Exercise to test the pain is not the best answer. The correct choice is Receive emergency evaluation immediately. Possible myocardial infarction requires immediate emergency response."
+    ]
+  },
+  {
+    "id": "C111",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "For a chemical splash to the eye, the medical assistant should:",
+    "choices": [
+      "Begin immediate irrigation",
+      "Patch the eye without rinsing",
+      "Rub the eye",
+      "Apply ointment first"
+    ],
+    "a": 0,
+    "exp": "Immediate copious irrigation helps remove the chemical and limit injury.",
+    "tip": "Chemical in eye: irrigate now.",
+    "optionExplanations": [
+      "Immediate copious irrigation helps remove the chemical and limit injury.",
+      "Patch the eye without rinsing is not the best answer. The correct choice is Begin immediate irrigation. Immediate copious irrigation helps remove the chemical and limit injury.",
+      "Rub the eye is not the best answer. The correct choice is Begin immediate irrigation. Immediate copious irrigation helps remove the chemical and limit injury.",
+      "Apply ointment first is not the best answer. The correct choice is Begin immediate irrigation. Immediate copious irrigation helps remove the chemical and limit injury."
+    ]
+  },
+  {
+    "id": "C112",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "For a minor thermal burn, the area should be cooled with:",
+    "choices": [
+      "Cool running water",
+      "Ice directly on the skin",
+      "Butter",
+      "Very hot water"
+    ],
+    "a": 0,
+    "exp": "Cool running water helps stop the burning process; direct ice can worsen tissue injury.",
+    "tip": "Cool water, not ice.",
+    "optionExplanations": [
+      "Cool running water helps stop the burning process; direct ice can worsen tissue injury.",
+      "Ice directly on the skin is not the best answer. The correct choice is Cool running water. Cool running water helps stop the burning process; direct ice can worsen tissue injury.",
+      "Butter is not the best answer. The correct choice is Cool running water. Cool running water helps stop the burning process; direct ice can worsen tissue injury.",
+      "Very hot water is not the best answer. The correct choice is Cool running water. Cool running water helps stop the burning process; direct ice can worsen tissue injury."
+    ]
+  },
+  {
+    "id": "C113",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Moderate",
+    "q": "A suspected fracture should be:",
+    "choices": [
+      "Immobilized in the position found",
+      "Straightened forcefully",
+      "Massaged",
+      "Tested repeatedly for movement"
+    ],
+    "a": 0,
+    "exp": "Immobilizing the area helps prevent further injury; do not force alignment.",
+    "tip": "Splint as found.",
+    "optionExplanations": [
+      "Immobilizing the area helps prevent further injury; do not force alignment.",
+      "Straightened forcefully is not the best answer. The correct choice is Immobilized in the position found. Immobilizing the area helps prevent further injury; do not force alignment.",
+      "Massaged is not the best answer. The correct choice is Immobilized in the position found. Immobilizing the area helps prevent further injury; do not force alignment.",
+      "Tested repeatedly for movement is not the best answer. The correct choice is Immobilized in the position found. Immobilizing the area helps prevent further injury; do not force alignment."
+    ]
+  },
+  {
+    "id": "C114",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Hard",
+    "q": "After syncope, once the patient is responsive, the medical assistant should:",
+    "choices": [
+      "Continue monitoring and assess for injury or underlying cause",
+      "Immediately allow the patient to drive",
+      "Ignore the episode",
+      "Give medication without an order"
+    ],
+    "a": 0,
+    "exp": "After fainting, the patient still needs monitoring, assessment, and provider evaluation.",
+    "tip": "Recovery does not end the assessment.",
+    "optionExplanations": [
+      "After fainting, the patient still needs monitoring, assessment, and provider evaluation.",
+      "Immediately allow the patient to drive is not the best answer. The correct choice is Continue monitoring and assess for injury or underlying cause. After fainting, the patient still needs monitoring, assessment, and provider evaluation.",
+      "Ignore the episode is not the best answer. The correct choice is Continue monitoring and assess for injury or underlying cause. After fainting, the patient still needs monitoring, assessment, and provider evaluation.",
+      "Give medication without an order is not the best answer. The correct choice is Continue monitoring and assess for injury or underlying cause. After fainting, the patient still needs monitoring, assessment, and provider evaluation."
+    ]
+  },
+  {
+    "id": "C115",
+    "topic": "First Aid and Emergency Response",
+    "difficulty": "Hard",
+    "q": "Good Samaritan protections generally apply when a person:",
+    "choices": [
+      "Provides emergency care in good faith within training and without gross negligence",
+      "Provides care far beyond training",
+      "Abandons the patient",
+      "Demands payment before helping"
+    ],
+    "a": 0,
+    "exp": "Good Samaritan laws generally protect good-faith emergency assistance provided within the rescuer’s level of training, though laws vary by state.",
+    "tip": "Act in good faith, within training, and avoid abandonment.",
+    "optionExplanations": [
+      "Good Samaritan laws generally protect good-faith emergency assistance provided within the rescuer’s level of training, though laws vary by state.",
+      "Provides care far beyond training is not the best answer. The correct choice is Provides emergency care in good faith within training and without gross negligence. Good Samaritan laws generally protect good-faith emergency assistance provided within the rescuer’s level of training, though laws vary by state.",
+      "Abandons the patient is not the best answer. The correct choice is Provides emergency care in good faith within training and without gross negligence. Good Samaritan laws generally protect good-faith emergency assistance provided within the rescuer’s level of training, though laws vary by state.",
+      "Demands payment before helping is not the best answer. The correct choice is Provides emergency care in good faith within training and without gross negligence. Good Samaritan laws generally protect good-faith emergency assistance provided within the rescuer’s level of training, though laws vary by state."
+    ]
+  }
+]
