@@ -1,0 +1,912 @@
+[
+  {
+    "q": "Which chamber of the heart pumps oxygenated blood into systemic circulation?",
+    "choices": [
+      "Right atrium",
+      "Right ventricle",
+      "Left atrium",
+      "Left ventricle"
+    ],
+    "a": 3,
+    "exp": "The left ventricle pumps oxygenated blood through the aortic valve into the aorta and systemic circulation.",
+    "topic": "Body Systems",
+    "id": "G001",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
+    "choices": [
+      "Aorta",
+      "Pulmonary artery",
+      "Pulmonary vein",
+      "Superior vena cava"
+    ],
+    "a": 1,
+    "exp": "The pulmonary arteries carry deoxygenated blood from the right ventricle to the lungs.",
+    "topic": "Body Systems",
+    "id": "G002",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The primary function of red blood cells is to:",
+    "choices": [
+      "Fight infection",
+      "Form blood clots",
+      "Transport oxygen",
+      "Produce antibodies"
+    ],
+    "a": 2,
+    "exp": "Red blood cells contain hemoglobin, which carries oxygen from the lungs to body tissues.",
+    "topic": "Body Systems",
+    "id": "G003",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which organ produces insulin?",
+    "choices": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Spleen"
+    ],
+    "a": 1,
+    "exp": "Beta cells in the pancreas produce insulin, which helps regulate blood glucose.",
+    "topic": "Body Systems",
+    "id": "G004",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The functional unit of the kidney is the:",
+    "choices": [
+      "Alveolus",
+      "Neuron",
+      "Nephron",
+      "Osteon"
+    ],
+    "a": 2,
+    "exp": "The nephron filters blood and forms urine.",
+    "topic": "Body Systems",
+    "id": "G005",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which part of the respiratory system is the main site of gas exchange?",
+    "choices": [
+      "Bronchi",
+      "Trachea",
+      "Alveoli",
+      "Larynx"
+    ],
+    "a": 2,
+    "exp": "Oxygen and carbon dioxide are exchanged across the thin walls of the alveoli.",
+    "topic": "Body Systems",
+    "id": "G006",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The large intestine primarily absorbs:",
+    "choices": [
+      "Protein",
+      "Water and electrolytes",
+      "Glucose",
+      "Bile"
+    ],
+    "a": 1,
+    "exp": "The large intestine mainly absorbs water and electrolytes and forms stool.",
+    "topic": "Body Systems",
+    "id": "G007",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which organ stores and concentrates bile?",
+    "choices": [
+      "Liver",
+      "Pancreas",
+      "Gallbladder",
+      "Duodenum"
+    ],
+    "a": 2,
+    "exp": "The gallbladder stores and concentrates bile produced by the liver.",
+    "topic": "Body Systems",
+    "id": "G008",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which structure connects muscle to bone?",
+    "choices": [
+      "Ligament",
+      "Tendon",
+      "Cartilage",
+      "Fascia"
+    ],
+    "a": 1,
+    "exp": "A tendon connects muscle to bone; a ligament connects bone to bone.",
+    "topic": "Body Systems",
+    "id": "G009",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which type of joint allows the greatest range of motion?",
+    "choices": [
+      "Hinge",
+      "Pivot",
+      "Ball-and-socket",
+      "Gliding"
+    ],
+    "a": 2,
+    "exp": "Ball-and-socket joints, such as the shoulder and hip, allow movement in multiple directions.",
+    "topic": "Body Systems",
+    "id": "G010",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The brain and spinal cord make up the:",
+    "choices": [
+      "Peripheral nervous system",
+      "Autonomic nervous system",
+      "Central nervous system",
+      "Somatic nervous system"
+    ],
+    "a": 2,
+    "exp": "The central nervous system consists of the brain and spinal cord.",
+    "topic": "Body Systems",
+    "id": "G011",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which cranial nerve is responsible for vision?",
+    "choices": [
+      "Optic nerve",
+      "Trigeminal nerve",
+      "Vagus nerve",
+      "Facial nerve"
+    ],
+    "a": 0,
+    "exp": "Cranial nerve II, the optic nerve, transmits visual information.",
+    "topic": "Body Systems",
+    "id": "G012",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The thyroid gland primarily regulates:",
+    "choices": [
+      "Blood clotting",
+      "Metabolism",
+      "Digestion",
+      "Urine formation"
+    ],
+    "a": 1,
+    "exp": "Thyroid hormones help regulate metabolism, growth, and energy use.",
+    "topic": "Body Systems",
+    "id": "G013",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which hormone helps lower blood glucose?",
+    "choices": [
+      "Glucagon",
+      "Cortisol",
+      "Insulin",
+      "Epinephrine"
+    ],
+    "a": 2,
+    "exp": "Insulin lowers blood glucose by helping cells take in glucose.",
+    "topic": "Body Systems",
+    "id": "G014",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The uterus is located in which body cavity?",
+    "choices": [
+      "Thoracic",
+      "Cranial",
+      "Pelvic",
+      "Vertebral"
+    ],
+    "a": 2,
+    "exp": "The uterus lies within the pelvic cavity.",
+    "topic": "Body Systems",
+    "id": "G015",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which structure carries urine from a kidney to the bladder?",
+    "choices": [
+      "Urethra",
+      "Ureter",
+      "Nephron",
+      "Renal vein"
+    ],
+    "a": 1,
+    "exp": "Each ureter transports urine from a kidney to the urinary bladder.",
+    "topic": "Body Systems",
+    "id": "G016",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which layer of the skin contains blood vessels and nerve endings?",
+    "choices": [
+      "Epidermis",
+      "Dermis",
+      "Stratum corneum",
+      "Keratin layer"
+    ],
+    "a": 1,
+    "exp": "The dermis contains blood vessels, sensory receptors, glands, and hair follicles.",
+    "topic": "Body Systems",
+    "id": "G017",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which white blood cell is most associated with allergic reactions?",
+    "choices": [
+      "Neutrophil",
+      "Eosinophil",
+      "Monocyte",
+      "Lymphocyte"
+    ],
+    "a": 1,
+    "exp": "Eosinophils commonly increase with allergies and parasitic infections.",
+    "topic": "Body Systems",
+    "id": "G018",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which condition is characterized by chronically elevated blood glucose?",
+    "choices": [
+      "Anemia",
+      "Diabetes mellitus",
+      "Hypothyroidism",
+      "Hypertension"
+    ],
+    "a": 1,
+    "exp": "Diabetes mellitus is a disorder of impaired glucose regulation.",
+    "topic": "Body Systems",
+    "id": "G019",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Inflammation of the liver is called:",
+    "choices": [
+      "Nephritis",
+      "Hepatitis",
+      "Gastritis",
+      "Dermatitis"
+    ],
+    "a": 1,
+    "exp": "Hepat- means liver and -itis means inflammation.",
+    "topic": "Body Systems",
+    "id": "G020",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which nutrient is the body's main immediate source of energy?",
+    "choices": [
+      "Carbohydrates",
+      "Vitamins",
+      "Minerals",
+      "Water"
+    ],
+    "a": 0,
+    "exp": "Carbohydrates are the body's primary readily available energy source.",
+    "topic": "Body Systems",
+    "id": "G021",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which vitamin is important for normal blood clotting?",
+    "choices": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "a": 3,
+    "exp": "Vitamin K is needed for synthesis of several clotting factors.",
+    "topic": "Body Systems",
+    "id": "G022",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "A patient with iron-deficiency anemia may commonly report:",
+    "choices": [
+      "Increased energy",
+      "Fatigue",
+      "Excessive thirst only",
+      "Improved exercise tolerance"
+    ],
+    "a": 1,
+    "exp": "Reduced hemoglobin decreases oxygen delivery, often causing fatigue and weakness.",
+    "topic": "Body Systems",
+    "id": "G023",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The medical term for high blood pressure is:",
+    "choices": [
+      "Hypotension",
+      "Hypertension",
+      "Tachypnea",
+      "Bradycardia"
+    ],
+    "a": 1,
+    "exp": "Hypertension means persistently elevated arterial blood pressure.",
+    "topic": "Body Systems",
+    "id": "G024",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which condition involves inflammation and narrowing of the airways?",
+    "choices": [
+      "Asthma",
+      "Appendicitis",
+      "Cystitis",
+      "Arthritis"
+    ],
+    "a": 0,
+    "exp": "Asthma causes reversible airway inflammation and bronchoconstriction.",
+    "topic": "Body Systems",
+    "id": "G025",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The spleen is part of which system?",
+    "choices": [
+      "Lymphatic",
+      "Endocrine",
+      "Urinary",
+      "Integumentary"
+    ],
+    "a": 0,
+    "exp": "The spleen filters blood and supports immune function as part of the lymphatic system.",
+    "topic": "Body Systems",
+    "id": "G026",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which organ is primarily responsible for detoxifying many medications?",
+    "choices": [
+      "Liver",
+      "Bladder",
+      "Thyroid",
+      "Appendix"
+    ],
+    "a": 0,
+    "exp": "The liver metabolizes and detoxifies many medications and substances.",
+    "topic": "Body Systems",
+    "id": "G027",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which structure prevents food from entering the trachea during swallowing?",
+    "choices": [
+      "Uvula",
+      "Epiglottis",
+      "Tonsil",
+      "Pharynx"
+    ],
+    "a": 1,
+    "exp": "The epiglottis closes over the laryngeal opening during swallowing.",
+    "topic": "Body Systems",
+    "id": "G028",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The patella is commonly called the:",
+    "choices": [
+      "Collarbone",
+      "Kneecap",
+      "Shoulder blade",
+      "Breastbone"
+    ],
+    "a": 1,
+    "exp": "The patella is the kneecap.",
+    "topic": "Body Systems",
+    "id": "G029",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which wellness recommendation best supports cardiovascular health?",
+    "choices": [
+      "Regular physical activity",
+      "High sodium intake",
+      "Tobacco use",
+      "Avoiding all fluids"
+    ],
+    "a": 0,
+    "exp": "Regular physical activity supports cardiovascular fitness and reduces disease risk.",
+    "topic": "Body Systems",
+    "id": "G030",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The prefix brady- means:",
+    "choices": [
+      "Fast",
+      "Slow",
+      "Around",
+      "Within"
+    ],
+    "a": 1,
+    "exp": "Brady- means slow, as in bradycardia.",
+    "topic": "Medical Terminology",
+    "id": "G031",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The suffix -ectomy means:",
+    "choices": [
+      "Surgical removal",
+      "Inflammation",
+      "Pain",
+      "Visual examination"
+    ],
+    "a": 0,
+    "exp": "-ectomy means surgical removal or excision.",
+    "topic": "Medical Terminology",
+    "id": "G032",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The root cardi/o refers to the:",
+    "choices": [
+      "Lung",
+      "Heart",
+      "Kidney",
+      "Liver"
+    ],
+    "a": 1,
+    "exp": "Cardi/o means heart.",
+    "topic": "Medical Terminology",
+    "id": "G033",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The term dysuria means:",
+    "choices": [
+      "Painful urination",
+      "Excessive urination",
+      "No urination",
+      "Blood in urine"
+    ],
+    "a": 0,
+    "exp": "Dys- means difficult or painful, and -uria relates to urination.",
+    "topic": "Medical Terminology",
+    "id": "G034",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The abbreviation PRN means:",
+    "choices": [
+      "Before meals",
+      "As needed",
+      "At bedtime",
+      "Immediately"
+    ],
+    "a": 1,
+    "exp": "PRN means as needed.",
+    "topic": "Medical Terminology",
+    "id": "G035",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The abbreviation NPO means:",
+    "choices": [
+      "Nothing by mouth",
+      "Normal pulse observed",
+      "No pain onset",
+      "New patient order"
+    ],
+    "a": 0,
+    "exp": "NPO means nothing by mouth.",
+    "topic": "Medical Terminology",
+    "id": "G036",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The term tachypnea means:",
+    "choices": [
+      "Slow heart rate",
+      "Rapid breathing",
+      "Low blood pressure",
+      "Painful breathing"
+    ],
+    "a": 1,
+    "exp": "Tachy- means rapid and -pnea refers to breathing.",
+    "topic": "Medical Terminology",
+    "id": "G037",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which term means inflammation of the bladder?",
+    "choices": [
+      "Cystitis",
+      "Nephrosis",
+      "Urethralgia",
+      "Pyelography"
+    ],
+    "a": 0,
+    "exp": "Cyst/o means bladder and -itis means inflammation.",
+    "topic": "Medical Terminology",
+    "id": "G038",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The prefix hypo- means:",
+    "choices": [
+      "Above normal",
+      "Below normal",
+      "Within",
+      "Against"
+    ],
+    "a": 1,
+    "exp": "Hypo- means below, deficient, or less than normal.",
+    "topic": "Medical Terminology",
+    "id": "G039",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which term means surgical repair of a blood vessel?",
+    "choices": [
+      "Angioplasty",
+      "Angiography",
+      "Angiectomy",
+      "Angiitis"
+    ],
+    "a": 0,
+    "exp": "Angi/o means vessel and -plasty means surgical repair.",
+    "topic": "Medical Terminology",
+    "id": "G040",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The suffix -algia means:",
+    "choices": [
+      "Enlargement",
+      "Pain",
+      "Bleeding",
+      "Incision"
+    ],
+    "a": 1,
+    "exp": "-algia means pain.",
+    "topic": "Medical Terminology",
+    "id": "G041",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which abbreviation means four times a day?",
+    "choices": [
+      "BID",
+      "TID",
+      "QID",
+      "QHS"
+    ],
+    "a": 2,
+    "exp": "QID means four times a day.",
+    "topic": "Medical Terminology",
+    "id": "G042",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Which term means difficulty breathing?",
+    "choices": [
+      "Dysphagia",
+      "Dyspnea",
+      "Dysuria",
+      "Dyspepsia"
+    ],
+    "a": 1,
+    "exp": "Dyspnea means difficult or labored breathing.",
+    "topic": "Medical Terminology",
+    "id": "G043",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The term proximal means:",
+    "choices": [
+      "Farther from the point of attachment",
+      "Nearer the point of attachment",
+      "Toward the back",
+      "Toward the side"
+    ],
+    "a": 1,
+    "exp": "Proximal means closer to the trunk or point of origin.",
+    "topic": "Medical Terminology",
+    "id": "G044",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which spelling is correct?",
+    "choices": [
+      "Hypertention",
+      "Hypertenshun",
+      "Hypertension",
+      "Hypertenstion"
+    ],
+    "a": 2,
+    "exp": "Hypertension is the correct spelling.",
+    "topic": "Medical Terminology",
+    "id": "G045",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "A patient signs a form after receiving information about a procedure's risks and benefits. This is:",
+    "choices": [
+      "Implied consent",
+      "Informed consent",
+      "Abandonment",
+      "Defamation"
+    ],
+    "a": 1,
+    "exp": "Informed consent requires an explanation of the procedure, risks, benefits, and alternatives.",
+    "topic": "Medical Law and Ethics",
+    "id": "G046",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Performing a procedure on a competent patient without consent may be considered:",
+    "choices": [
+      "Libel",
+      "Battery",
+      "Slander",
+      "Breach of contract"
+    ],
+    "a": 1,
+    "exp": "Battery is intentional unauthorized physical contact.",
+    "topic": "Medical Law and Ethics",
+    "id": "G047",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Failure to act as a reasonably careful medical assistant would act is called:",
+    "choices": [
+      "Negligence",
+      "Assault",
+      "Fraud",
+      "Invasion of privacy"
+    ],
+    "a": 0,
+    "exp": "Negligence is failure to use reasonable care.",
+    "topic": "Medical Law and Ethics",
+    "id": "G048",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "Under HIPAA, patient information should be shared only with people who:",
+    "choices": [
+      "Are curious about the case",
+      "Need it for treatment, payment, or operations",
+      "Are friends of the patient",
+      "Work anywhere in healthcare"
+    ],
+    "a": 1,
+    "exp": "HIPAA permits appropriate use and disclosure for treatment, payment, and healthcare operations, subject to safeguards.",
+    "topic": "Medical Law and Ethics",
+    "id": "G049",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which action best protects patient confidentiality?",
+    "choices": [
+      "Discussing cases in the elevator",
+      "Leaving charts open at the front desk",
+      "Logging off the EHR when leaving the workstation",
+      "Sharing a password with a coworker"
+    ],
+    "a": 2,
+    "exp": "Logging off prevents unauthorized access to protected health information.",
+    "topic": "Medical Law and Ethics",
+    "id": "G050",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "A written false statement that harms a person's reputation is:",
+    "choices": [
+      "Slander",
+      "Libel",
+      "Battery",
+      "Assault"
+    ],
+    "a": 1,
+    "exp": "Libel is written defamation; slander is spoken defamation.",
+    "topic": "Medical Law and Ethics",
+    "id": "G051",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "A medical assistant is asked to perform a task outside the legal scope of practice. The best response is to:",
+    "choices": [
+      "Perform it if the office is busy",
+      "Politely decline and notify the supervisor",
+      "Ask another unlicensed coworker",
+      "Do it only once"
+    ],
+    "a": 1,
+    "exp": "A medical assistant must work within state law, training, and employer policy.",
+    "topic": "Medical Law and Ethics",
+    "id": "G052",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "An advance directive primarily communicates a patient's:",
+    "choices": [
+      "Insurance benefits",
+      "End-of-life healthcare wishes",
+      "Appointment preferences",
+      "Employment history"
+    ],
+    "a": 1,
+    "exp": "Advance directives state a patient's wishes regarding future medical care if the patient cannot communicate.",
+    "topic": "Medical Law and Ethics",
+    "id": "G053",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which document names a person to make healthcare decisions if the patient becomes unable?",
+    "choices": [
+      "Living will",
+      "Durable power of attorney for healthcare",
+      "Incident report",
+      "Assignment of benefits"
+    ],
+    "a": 1,
+    "exp": "A durable power of attorney for healthcare designates a healthcare decision-maker.",
+    "topic": "Medical Law and Ethics",
+    "id": "G054",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "The ethical principle of doing good for the patient is:",
+    "choices": [
+      "Autonomy",
+      "Beneficence",
+      "Justice",
+      "Veracity"
+    ],
+    "a": 1,
+    "exp": "Beneficence means acting for the patient's benefit.",
+    "topic": "Medical Law and Ethics",
+    "id": "G055",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The ethical principle that supports a competent patient's right to make decisions is:",
+    "choices": [
+      "Autonomy",
+      "Fidelity",
+      "Nonmaleficence",
+      "Justice"
+    ],
+    "a": 0,
+    "exp": "Autonomy respects the patient's right to make informed choices.",
+    "topic": "Medical Law and Ethics",
+    "id": "G056",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "The phrase \u201cfirst, do no harm\u201d relates most closely to:",
+    "choices": [
+      "Justice",
+      "Nonmaleficence",
+      "Autonomy",
+      "Confidentiality"
+    ],
+    "a": 1,
+    "exp": "Nonmaleficence means avoiding harm.",
+    "topic": "Medical Law and Ethics",
+    "id": "G057",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "A subpoena for a medical record should be handled by:",
+    "choices": [
+      "Ignoring it",
+      "Immediately handing over the entire chart",
+      "Following office policy and notifying the appropriate supervisor or privacy officer",
+      "Discussing it with other patients"
+    ],
+    "a": 2,
+    "exp": "Legal requests for records must be handled according to law and office policy.",
+    "topic": "Medical Law and Ethics",
+    "id": "G058",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "An incident report should be:",
+    "choices": [
+      "Placed in the patient's medical record",
+      "Completed objectively according to office policy",
+      "Used to assign blame",
+      "Shared on social media"
+    ],
+    "a": 1,
+    "exp": "Incident reports should be factual, objective, timely, and handled according to policy; they are generally not part of the patient chart.",
+    "topic": "Medical Law and Ethics",
+    "id": "G059",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which is the best example of professional boundaries?",
+    "choices": [
+      "Accepting an expensive gift from a patient",
+      "Sharing personal login credentials",
+      "Keeping the relationship focused on the patient's care",
+      "Connecting romantically with a patient"
+    ],
+    "a": 2,
+    "exp": "Professional boundaries keep the relationship therapeutic and focused on care.",
+    "topic": "Medical Law and Ethics",
+    "id": "G060",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "A patient appears anxious and says, \u201cI'm scared about this test.\u201d The best response is:",
+    "choices": [
+      "\u201cThere's nothing to worry about.\u201d",
+      "\u201cTell me what concerns you most.\u201d",
+      "\u201cOther patients have it worse.\u201d",
+      "\u201cYou need to calm down.\u201d"
+    ],
+    "a": 1,
+    "exp": "An open-ended, empathetic response encourages the patient to express concerns.",
+    "topic": "Human Relations",
+    "id": "G061",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "When communicating with a patient who has limited English proficiency, the medical assistant should preferably use:",
+    "choices": [
+      "A young family member",
+      "A qualified medical interpreter",
+      "Gestures only",
+      "Another patient"
+    ],
+    "a": 1,
+    "exp": "A qualified interpreter improves accuracy, privacy, and informed communication.",
+    "topic": "Human Relations",
+    "id": "G062",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "Which communication technique demonstrates active listening?",
+    "choices": [
+      "Interrupting to save time",
+      "Maintaining attention and restating the patient's main point",
+      "Looking at the computer continuously",
+      "Changing the subject"
+    ],
+    "a": 1,
+    "exp": "Active listening includes attention, clarification, and paraphrasing.",
+    "topic": "Human Relations",
+    "id": "G063",
+    "difficulty": "Easy"
+  },
+  {
+    "q": "A culturally respectful approach is to:",
+    "choices": [
+      "Assume all patients from one culture have the same beliefs",
+      "Ask the patient about individual preferences",
+      "Avoid discussing cultural needs",
+      "Use stereotypes to guide care"
+    ],
+    "a": 1,
+    "exp": "Respectful care treats each patient as an individual and asks about preferences rather than assuming.",
+    "topic": "Human Relations",
+    "id": "G064",
+    "difficulty": "Moderate"
+  },
+  {
+    "q": "When a patient is angry about a long wait, the medical assistant should first:",
+    "choices": [
+      "Argue that the office is busy",
+      "Acknowledge the frustration and listen",
+      "Tell the patient to leave",
+      "Ignore the complaint"
+    ],
+    "a": 1,
+    "exp": "Acknowledging the concern and listening helps de-escalate the situation and preserves trust.",
+    "topic": "Human Relations",
+    "id": "G065",
+    "difficulty": "Moderate"
+  }
+]

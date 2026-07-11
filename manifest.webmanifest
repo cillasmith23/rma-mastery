@@ -1,0 +1,15 @@
+{
+  "name": "RMA Mastery \u2014 Created for RMA Students",
+  "short_name": "RMA Mastery",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f8fb",
+  "theme_color": "#245b78",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
