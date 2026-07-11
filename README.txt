@@ -1,15 +1,15 @@
-RMA MASTERY v1.1 — Created for RMA Students
+RMA MASTERY v1.2 — Created for RMA Students
 
-NEW
-• Check Answer button in Study Mode
-• Answer locks after checking
-• Correct-answer explanation
-• Option-by-option explanations
-• Mark Mastered button
-• All 65 General Medical Assisting questions
+NEW IN v1.2
+• Timed 65-question Exam Mode (78 minutes)
+• Study streak counter
+• Strongest and weakest topic cards
+• Topic performance meters
+• Confidence analytics
+• All v1.1 features remain
 
 UPLOAD
-Extract the ZIP, upload all 8 files to GitHub, and commit as:
-Update to RMA Mastery v1.1
+Extract the ZIP, upload all 8 files to GitHub, and commit:
+Update to RMA Mastery v1.2
 
-Then wait 1–3 minutes and refresh the live site with Ctrl+F5.
+Then wait 1–3 minutes and refresh the live website with Ctrl+F5.
