@@ -1,4 +1,4 @@
-const CACHE='rma-mastery-v4.0';
+const CACHE='rma-mastery-plus-v4.1';
 const ASSETS=['./','index.html','styles.css','app.js','manifest.webmanifest','icon.svg','questions-general.json','questions-admin.json','questions-clinical.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));

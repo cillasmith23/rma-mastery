@@ -1,18 +1,23 @@
-RMA MASTERY v4.0 — Created for RMA Students
+RMA MASTERY+ v4.1 — Created for RMA Students
 
-NEW IN v4.0
-• Adaptive weakest-topic quiz
-• Exam Readiness Score
-• Daily Challenge
-• Search all 210 questions
-• Custom Exam Builder
-• Achievement badges
-• 42-day study calendar
-• Improved analytics
-• Favorites, missed review, dark mode, and offline support remain included
+SAFE INCREMENTAL UPDATE
+This release is built directly on the complete working Version 4.0 package.
+
+NEW IN v4.1
+• RMA Mastery+ branding
+• XP system
+  - Easy correct answer: 10 XP
+  - Moderate correct answer: 20 XP
+  - Hard correct answer: 30 XP
+• Student level system
+• XP progress bar
+• Level-up celebration
+• Student profile card on Home and Analytics
+• All 210 questions and every Version 4.0 feature remain intact
 
 UPLOAD
-Upload all 10 files to GitHub and commit:
-Update to RMA Mastery v4.0
+This version contains 10 files.
+Extract the ZIP, upload all 10 files to GitHub, and commit:
+Update to RMA Mastery+ v4.1
 
-Then wait 1–3 minutes and refresh with Ctrl+F5.
+Wait 1–3 minutes, then refresh the live site with Ctrl+F5.

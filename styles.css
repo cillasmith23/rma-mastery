@@ -41,3 +41,14 @@
 .result-item{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card);cursor:pointer}
 .result-item:hover{transform:translateY(-1px)}
 .kicker{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--primary)}
+
+.profile-card{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}
+.level-orb{width:78px;height:78px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--primary),var(--primary2));color:white;font-size:1.5rem;font-weight:950;box-shadow:var(--shadow)}
+.xp-track{height:14px;background:var(--line);border-radius:999px;overflow:hidden;margin-top:8px}
+.xp-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--primary2));transition:width .35s ease}
+.xp-row{display:flex;justify-content:space-between;gap:12px;font-size:.9rem;color:var(--muted);margin-top:6px}
+.level-up{position:fixed;inset:0;display:grid;place-items:center;background:rgba(0,0,0,.55);z-index:100;padding:20px}
+.level-up-card{max-width:420px;width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:24px;padding:28px;text-align:center;box-shadow:var(--shadow)}
+.level-up-card h2{font-size:2rem;margin:0 0 10px}
+.xp-chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--accent);color:var(--primary);font-weight:900;font-size:.82rem}
+.brand-plus{font-weight:950}
