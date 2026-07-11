@@ -23,3 +23,21 @@
 
 .area-banner{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}
 .area-label{font-weight:900;color:var(--primary)}
+
+.search-box{display:flex;gap:10px;align-items:center;margin:14px 0}
+.search-box input,.search-box select{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.challenge{border-left:5px solid var(--primary)}
+.readiness{font-size:2.6rem;font-weight:950}
+.badge-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.achievement{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.achievement.locked{opacity:.5}
+.calendar{display:grid;grid-template-columns:repeat(14,1fr);gap:5px;margin-top:12px}
+.day-dot{aspect-ratio:1;border-radius:5px;background:var(--line)}
+.day-dot.active{background:var(--primary)}
+.custom-grid{display:grid;gap:12px}
+.custom-grid label{display:grid;gap:6px;font-weight:700}
+.custom-grid input,.custom-grid select{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+.result-list{display:grid;gap:10px}
+.result-item{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--card);cursor:pointer}
+.result-item:hover{transform:translateY(-1px)}
+.kicker{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;font-weight:900;color:var(--primary)}
