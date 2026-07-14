@@ -194,6 +194,7 @@ function readinessMessage() {
   return "Complete your first quiz so RMA Mastery+ can calculate your readiness.";
 }
 function predictedExamScore() {
+
   if (!state.attempts.length) return 0;
 
   const recent = state.attempts.slice(-8);
@@ -202,6 +203,22 @@ function predictedExamScore() {
   );
 
   return Math.round((recentAverage * 0.7) + (readiness() * 0.3));
+}
+function studyCoachRecommendation() {
+  if (!state.attempts.length) {
+    return {
+      title: "Start with a mixed quiz",
+      reason: "Complete your first quiz so RMA Mastery+ can personalize your study plan.",
+      area: "general"
+    };
+    const weakest = [...attemptsByArea()].sort((a, b) => a.score - b.score)[0];
+
+    return {
+      title: `Focus on ${weakest.label}`,
+      reason: `Your current accuracy in this area is ${weakest.score}%.`,
+      area: weakest.key
+    };
+  }
 }
 function weakestTopics(limit = 5) {
   return Object.entries(state.topicStats)
@@ -242,6 +259,8 @@ function progress() {
   const areaRows = areaAccuracyRows();
   const trend = firstAndLatestScore();
   const weak = weakestTopics();
+ const coach = studyCoachRecommendation();
+const predicted = predictedExamScore(); 
   const daysSince = state.firstStudyDate ? Math.max(1, Math.ceil((Date.now() - new Date(state.firstStudyDate)) / 86400000)) : 0;
 
   app.innerHTML = `<h1>Progress & Analytics</h1>
@@ -279,7 +298,7 @@ function progress() {
     </tbody></table>
   </section>
 
-  <section class="grid" style="margin-top:18px">
+ <section class="grid" style="margin-top:18px">
     <article class="card"><span class="badge badge-good">Strongest Topic</span><h2>${strongest ? strongest.t : 'Not enough data yet'}</h2><p>${strongest ? strongest.score + '% accuracy' : 'Complete a quiz to calculate.'}</p></article>
     <article class="card"><span class="badge badge-warn">Needs Review</span><h2>${weakest ? weakest.t : 'Not enough data yet'}</h2><p>${weakest ? weakest.score + '% accuracy' : 'Complete a quiz to calculate.'}</p></article>
   </section>
@@ -298,8 +317,26 @@ function progress() {
 
   <section class="card" style="margin-top:18px"><h2>Recent Quiz History</h2>${quizHistoryHtml()}</section>
 
-  <section class="card recommendation" style="margin-top:18px"><div class="kicker">Recommended Next Step</div><h2>${studyRecommendation()}</h2></section>
+<section class="card recommendation" style="margin-top:18px">
+  <div class="kicker">🧠 Study Coach</div>
+  <h2>${coach.title}</h2>
+  <p>${coach.reason}</p>
 
-  <section class="card" style="margin-top:18px"><h2>Achievement Progress</h2><p>${unlockedAchievementIds().size} of ${achievementDefs.length} unlocked</p><button class="btn btn-primary" onclick="go('achievements')">Open Achievement Center</button></section>`;
+  <div class="coach-actions" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+    <button class="btn btn-primary" onclick="adaptiveQuiz()">
+      Study Weakest Topics
+    </button>
+
+    <button class="btn btn-secondary" onclick="study()">
+      Review by Topic
+    </button>
+  </div>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <h2>Achievement Progress</h2>
+  <p>${unlockedAchievementIds().size} of ${achievementDefs.length} achievements unlocked.</p>
+</section>
+`;
 }
 init();

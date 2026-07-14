@@ -107,3 +107,13 @@
   .card,.metric-card,.achievement-card{box-shadow:none!important;break-inside:avoid}
   main{max-width:none!important;padding:0!important}
 }
+
+.coach-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.coach-actions .btn {
+  white-space: normal;
+}
