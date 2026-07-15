@@ -92,13 +92,73 @@ function areaBank(a) { return a === 'admin' ? adminBank : (a === 'clinical' ? cl
 function areaName(a) { return a === 'admin' ? 'Administrative Medical Assisting' : (a === 'clinical' ? 'Clinical Medical Assisting' : 'General Medical Assisting') }
 function areaLabel(a) { return a === 'admin' ? 'Work Area II' : (a === 'clinical' ? 'Work Area III' : 'Work Area I') }
 async function init() { try { [generalBank, adminBank, clinicalBank] = await Promise.all([fetch('questions-general.json').then(r => r.json()), fetch('questions-admin.json').then(r => r.json()), fetch('questions-clinical.json').then(r => r.json())]); allBank = [...generalBank, ...adminBank, ...clinicalBank]; bank = generalBank } catch (e) { app.innerHTML = '<section class="card warning"><h2>Question bank could not load</h2><p>Refresh after GitHub Pages finishes deploying.</p></section>'; return } render(); if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(() => { }) }
-function render() { ({ home, study, quiz: quizMenu, saved, progress, search: searchPage, custom: customExam, achievements: achievementsPage }[route] || home)() }
+function render() { ({ home, study, quiz: practiceExamHub, saved, progress, search: searchPage, custom: customExam, achievements: achievementsPage }[route] || home)() }
 function dailyQuestion() { const day = Math.floor(new Date() / 86400000); return allBank[day % allBank.length] }
 function home() { let best = state.attempts.length ? Math.max(...state.attempts.map(a => a.score)) : 0, total = state.attempts.reduce((s, a) => s + a.total, 0), dq = dailyQuestion(); app.innerHTML = profileCard() + `<section class="hero"><h1>Master. Practice. Pass.</h1><span class="version-chip">Version 4.4</span><p>Full analytics dashboard is live—track accuracy, study time, quiz history, readiness, weak topics, and progress over time.</p></section><section class="grid"><article class="card card-button" onclick="selectArea('general')"><span class="badge">Work Area I</span><h2>General Medical Assisting</h2><p>65 questions</p></article><article class="card card-button" onclick="selectArea('admin')"><span class="badge">Work Area II</span><h2>Administrative Medical Assisting</h2><p>30 questions</p></article><article class="card card-button" onclick="selectArea('clinical')"><span class="badge">Work Area III</span><h2>Clinical Medical Assisting</h2><p>115 questions</p></article><article class="card card-button" onclick="adaptiveQuiz()"><span class="badge">Smart Study</span><h2>Study My Weakest Topics</h2><p>Builds a 20-question quiz from your lowest-scoring topics.</p></article></section><section class="card challenge"><div class="kicker">Daily Challenge</div><h2>${dq.q}</h2><p>${dq.topic} • ${dq.difficulty}</p><button class="btn btn-primary" onclick="startDaily('${dq.id}')">Answer Today’s Question</button></section><section class="grid" style="margin-top:18px"><article class="card"><div class="muted">Questions answered</div><div class="stat">${total}</div></article><article class="card"><div class="muted">Best score</div><div class="stat">${best}%</div></article><article class="card"><div class="muted">Study streak</div><div class="stat">🔥 ${streak()}</div></article><article class="card card-button" onclick="go('progress')"><div class="muted">Exam readiness</div><div class="readiness">${readiness()}%</div></article></section><section class="grid" style="margin-top:18px"><article class="card card-button" onclick="go('search')"><h2>🔎 Search</h2><p>Find any topic, term, or question.</p></article><article class="card card-button" onclick="go('custom')"><h2>🛠️ Custom Exam</h2><p>Choose area, difficulty, number, and mode.</p></article><article class="card card-button" onclick="go('saved')"><h2>⭐ Saved Review</h2><p>Favorites and missed questions.</p></article><article class="card card-button" onclick="go('progress')"><h2>📊 Analytics</h2><p>Readiness, charts, confidence, and achievements.</p></article><article class="card card-button" onclick="go('achievements')"><h2>🏆 Achievement Center</h2><p>Unlock badges and track every milestone.</p></article></section>` }
 window.selectArea = a => { activeArea = a; bank = areaBank(a); go('quiz') };
 window.startDaily = id => { let q = allBank.find(x => x.id === id); activeQuiz = [q]; mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 window.adaptiveQuiz = () => { const stats = Object.entries(state.topicStats).map(([t, s]) => ({ t, score: pct(s.correct, s.total) })).sort((a, b) => a.score - b.score), weak = stats.slice(0, 4).map(x => x.t); let pool = weak.length ? allBank.filter(q => weak.includes(q.topic)) : allBank; activeQuiz = sh(pool).slice(0, 20); mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 function study() { let topics = [...new Set(bank.map(q => q.topic))]; app.innerHTML = `<div class="area-banner"><div><div class="area-label">${areaLabel(activeArea)}: ${areaName(activeArea)}</div><h1>Study by Topic</h1></div><button class="btn btn-secondary" onclick="go('home')">Change Area</button></div><p class="muted">Choose an answer, check it, then read why every option is right or wrong.</p><section class="card">${topics.map(t => `<div class="topic-row"><span><strong>${t}</strong><br><span class="small muted">${bank.filter(q => q.topic === t).length} questions</span></span><button class="btn btn-secondary" onclick='startTopic(${JSON.stringify(t)})'>Study</button></div>`).join('')}</section>` }
+function practiceExamHub() {
+  app.innerHTML = `
+    <h1>RMA Practice Exam</h1>
+    <p class="muted">
+      Choose an exam option. Your full simulation uses all three RMA work areas.
+    </p>
+
+    <section class="grid" style="margin-top:18px">
+      <article class="card">
+        <div class="kicker">Full Simulation</div>
+        <h2>200-Question RMA Exam</h2>
+        <p>65 General, 30 Administrative, and 105 Clinical questions.</p>
+        <button class="btn btn-primary" onclick="startFullPracticeExam()">
+          Start Full Exam
+        </button>
+      </article>
+
+      <article class="card">
+        <div class="kicker">Quick Practice</div>
+        <h2>50-Question Exam</h2>
+        <p>A shorter mixed exam from all three work areas.</p>
+        <button class="btn btn-secondary" onclick="startQuickPracticeExam()">
+          Start 50 Questions
+        </button>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>More Study Options</h2>
+      <button class="btn btn-secondary" onclick="quizMenu()">
+        Regular Quiz Menu
+      </button>
+    </section>
+  `;
+}
+
+
+window.startFullPracticeExam = () => {
+  mode = "exam";
+  activeQuiz = sh(allBank).slice(0, 200);
+  timed = true;
+  timeLeft = 210 * 60;
+  answers = {};
+  confidence = {};
+  currentIndex = 0;
+  startTimer();
+  showQ();
+};
+
+window.startQuickPracticeExam = () => {
+  mode = "exam";
+  activeQuiz = sh(allBank).slice(0, 50);
+  timed = true;
+  timeLeft = 60 * 60;
+  answers = {};
+  confidence = {};
+  currentIndex = 0;
+  startTimer();
+  showQ();
+};
 function quizMenu() { const maxN = bank.length; app.innerHTML = `<div class="area-banner"><div><div class="area-label">${areaLabel(activeArea)}: ${areaName(activeArea)}</div><h1>Practice Options</h1></div><button class="btn btn-secondary" onclick="go('home')">Change Area</button></div><div class="pill-row"><button class="pill ${mode === 'study' ? 'active' : ''}" onclick="setMode('study')">Study Mode</button><button class="pill ${mode === 'exam' ? 'active' : ''}" onclick="setMode('exam')">Exam Mode</button></div><div class="mode-note">${mode === 'study' ? 'Study Mode shows explanations after each checked answer.' : 'Exam Mode holds explanations until the end.'}</div><section class="grid">${([10, 25, 50, maxN].filter((v, i, a) => v <= maxN && a.indexOf(v) === i)).map(n => `<article class="card card-button" onclick="startQuiz(${n},mode,${n === maxN ? "mode==='exam'" : "false"})"><h2>${n} Questions</h2><p>${n === maxN ? 'Full work-area exam' : 'Randomized practice'}</p></article>`).join('')}</section><section class="grid" style="margin-top:18px"><article class="card card-button" onclick="adaptiveQuiz()"><h2>🧠 Adaptive 20</h2><p>Focus on weak topics.</p></article><article class="card card-button" onclick="go('custom')"><h2>🛠️ Custom Exam</h2><p>Build your own quiz.</p></article></section>` }
 window.setMode = m => { mode = m; quizMenu() };
 window.startQuiz = (n, m = 'study', timed = false) => { mode = m; activeQuiz = sh(bank).slice(0, Math.min(n, bank.length)); currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); if (timed) { timeLeft = (activeArea === 'admin' ? 36 : (activeArea === 'clinical' ? 138 : 78)) * 60; startTimer() } else stopTimer(); showQ() };
@@ -259,8 +319,8 @@ function progress() {
   const areaRows = areaAccuracyRows();
   const trend = firstAndLatestScore();
   const weak = weakestTopics();
- const coach = studyCoachRecommendation();
-const predicted = predictedExamScore(); 
+  const coach = studyCoachRecommendation();
+  const predicted = predictedExamScore();
   const daysSince = state.firstStudyDate ? Math.max(1, Math.ceil((Date.now() - new Date(state.firstStudyDate)) / 86400000)) : 0;
 
   app.innerHTML = `<h1>Progress & Analytics</h1>
