@@ -170,54 +170,7 @@ function explain(q, c) { let ok = c === q.a; return `<div class="feedback ${ok ?
 function showQ() { let q = activeQuiz[currentIndex], c = answers[q.id], fav = state.favorites.includes(q.id), cf = confidence[q.id], done = checked[q.id]; if (!state.seen.includes(q.id)) { state.seen.push(q.id); save() } app.innerHTML = `<section class="card"><button class="star" onclick="toggleFav('${q.id}')">${fav ? '★' : '☆'}</button><div class="question-head"><span>Question ${currentIndex + 1} of ${activeQuiz.length}</span><span>${timerId ? `<span id="timer" class="timer">${formatTime(timeLeft)}</span> • ` : ''}${q.topic} • ${q.difficulty} • <span class="xp-chip">+${xpForDifficulty(q.difficulty)} XP</span></span></div><div class="progress-track" style="margin:12px 0 20px"><div class="progress-fill" style="width:${(currentIndex + 1) / activeQuiz.length * 100}%"></div></div><h2>${q.q}</h2>${q.choices.map((x, i) => `<label class="choice"><input type="radio" name="ans" value="${i}" ${c === i ? 'checked' : ''} ${done && mode === 'study' ? 'disabled' : ''}><strong>${'ABCD'[i]}.</strong> ${x}</label>`).join('')}${mode === 'study' && !done ? '<button class="btn btn-primary" onclick="checkAnswer()">Check Answer</button>' : ''}${mode === 'study' && done ? explain(q, c) : ''}<div class="confidence"><button class="${cf === 'high' ? 'active' : ''}" onclick="setConf('${q.id}','high')">😊 Confident</button><button class="${cf === 'medium' ? 'active' : ''}" onclick="setConf('${q.id}','medium')">😐 Unsure</button><button class="${cf === 'guess' ? 'active' : ''}" onclick="setConf('${q.id}','guess')">😬 Guessed</button></div><div class="btn-row"><button class="btn btn-secondary" onclick="prevQ()" ${currentIndex === 0 ? 'disabled' : ''}>Previous</button><button class="btn btn-primary" onclick="${currentIndex === activeQuiz.length - 1 ? 'finishQuiz()' : 'nextQ()'}">${currentIndex === activeQuiz.length - 1 ? 'Submit' : 'Next'}</button><button class="btn btn-secondary" onclick="go('home')">Exit</button></div></section>`; document.querySelectorAll('input[name=ans]').forEach(i => i.onchange = () => answers[q.id] = +i.value) }
 window.checkAnswer = () => { let q = activeQuiz[currentIndex]; if (answers[q.id] === undefined) { alert('Choose an answer first.'); return } if (!checked[q.id] && answers[q.id] === q.a) { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)); checkAchievements() } checked[q.id] = true; showQ() };
 window.setConf = (id, v) => { confidence[id] = v; showQ() }; window.toggleFav = id => { state.favorites = state.favorites.includes(id) ? state.favorites.filter(x => x !== id) : [...state.favorites, id]; save(); checkAchievements(); showQ() }; window.nextQ = () => { currentIndex++; showQ() }; window.prevQ = () => { currentIndex--; showQ() };
-window.finishQuiz = (timedOut = false) => {
-  stopTimer();
-  endStudySession();
-
-  let correct = 0;
-
-  const details = activeQuiz.map(q => {
-    const selectedAnswer = answers[q.id];
-    const isCorrect = selectedAnswer === q.a;
-
-    if (isCorrect) {
-      correct++;
-
-      if (mode === 'exam') {
-        state.correctAnswers = (state.correctAnswers || 0) + 1;
-        awardXp(xpForDifficulty(q.difficulty));
-      }
-    } else if (!state.missed.includes(q.id)) {
-      state.missed.push(q.id);
-    }
-
-    const topic = state.topicStats[q.topic] || {
-      correct: 0,
-      total: 0
-    };
-
-    topic.total++;
-
-    if (isCorrect) {
-      topic.correct++;
-    }
-
-    state.topicStats[q.topic] = topic;
-
-    const confidenceChoice = confidence[q.id];
-
-    if (confidenceChoice) {
-      state.confidenceStats[confidenceChoice] =
-        (state.confidenceStats[confidenceChoice] || 0) + 1;
-    }
-
-    return {
-      q,
-      c: selectedAnswer,
-      ok: isCorrect
-    };
-  });
-};
+window.finishQuiz = (timedOut = false) => { stopTimer(); endStudySession(); let correct = 0; const details = activeQuiz.map(q => { let c = answers[q.id], ok = c === q.a; if (ok) { correct++; if (mode === 'exam') { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)) } } else if (!state.missed.includes(q.id)) state.missed.push(q.id); let s = state.topicStats[q.topic] || { correct: 0, total: 0 }; s.total++; if (ok) s.correct++; state.topicStats[q.topic] = s; let cf = confidence[q.id]; if (cf) state.confidenceStats[cf] = (state.confidenceStats[cf] || 0) + 1; return { q, c, ok } }); let score = Math.round(correct / activeQuiz.length * 100); state.attempts.push({ date: new Date().toISOString(), score, correct, total: activeQuiz.length, mode, area: activeArea, timed: !!timeLeft, timedOut }); if (score === 100) state.perfectExams = (state.perfectExams || 0) + 1; save(); checkAchievements(); app.innerHTML = `<section class="hero center"><h1>${score}%</h1><p>${correct} of ${activeQuiz.length} correct${timedOut ? ' • Time expired' : ''}</p></section><div class="btn-row"><button class="btn btn-primary" onclick="go('home')">Home</button><button class="btn btn-secondary" onclick="go('progress')">View Analytics</button></div><h2>Answer Review</h2>${details.map((d, i) => `<section class="card"><div class="question-head"><span>Question ${i + 1}</span><span>${d.q.topic}</span></div><h3>${d.q.q}</h3>${explain(d.q, d.c)}</section>`).join('')}`; activeQuiz = null };
 function saved() { let favs = state.favorites.map(id => allBank.find(q => q.id === id)).filter(Boolean), missed = state.missed.map(id => allBank.find(q => q.id === id)).filter(Boolean); app.innerHTML = `<h1>Saved Review</h1><section class="grid"><article class="card"><h2>⭐ Favorites</h2><p>${favs.length} saved</p>${favs.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'favorites\')">Practice Favorites</button>' : ''}</article><article class="card"><h2>❌ Missed</h2><p>${missed.length} to review</p>${missed.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'missed\')">Practice Missed</button>' : ''}</article></section>${favs.map(q => `<section class="card"><span class="badge">${q.topic}</span><h3>${q.q}</h3><p><strong>Correct:</strong> ${'ABCD'[q.a]}. ${q.choices[q.a]}</p><div class="tip">${q.tip}</div><div class="mastered-row"><span class="small muted">Finished reviewing?</span><button class="btn btn-secondary" onclick="markMastered('${q.id}')">Mark Mastered</button></div></section>`).join('')}` }
 window.markMastered = id => { state.favorites = state.favorites.filter(x => x !== id); state.missed = state.missed.filter(x => x !== id); save(); saved() }; window.startCustomSet = type => { let ids = type === 'favorites' ? state.favorites : state.missed; activeQuiz = sh(ids.map(id => allBank.find(q => q.id === id)).filter(Boolean)); mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 function searchPage() { app.innerHTML = `<h1>Search Questions</h1><div class="search-box"><input id="searchInput" placeholder="Search insulin, HIPAA, ECG, sterilization..."><select id="searchArea"><option value="all">All work areas</option><option value="general">General</option><option value="admin">Administrative</option><option value="clinical">Clinical</option></select></div><div id="searchResults" class="result-list"></div>`; $('#searchInput').oninput = runSearch; $('#searchArea').onchange = runSearch; runSearch() }
