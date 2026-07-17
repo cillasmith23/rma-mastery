@@ -1,7 +1,10 @@
 const $ = s => document.querySelector(s), app = $('#app');
 let generalBank = [], adminBank = [], clinicalBank = [], allBank = [], bank = [], activeArea = 'general';
 let activeQuiz = null, currentIndex = 0, answers = {}, confidence = {}, checked = {}, mode = 'study', route = 'home', timerId = null, timeLeft = 0;
-const D = { attempts: [], missed: [], favorites: [], theme: 'light', topicStats: {}, confidenceStats: { high: 0, medium: 0, guess: 0 }, studyDates: [], seen: [], xp: 0, level: 1, lastLevelSeen: 1, achievements: [], correctAnswers: 0, perfectExams: 0, studySeconds: 0, firstStudyDate: null };
+const D = { attempts: [], missed: [], favorites: [], theme: 'light', topicStats: {}, confidenceStats: { high: 0, medium: 0, guess: 0 }, studyDates: [], seen: [], xp: 0, level: 1, lastLevelSeen: 1, achievements: [], correctAnswers: 0, perfectExams: 0, studySeconds: 0, firstStudyDate: null,
+dailyGoal:20,
+dailyProgress:0,
+goalCompletedDate:"" };
 const state = Object.assign({}, D, JSON.parse(localStorage.getItem('rmaStateV4') || '{}'));
 document.documentElement.dataset.theme = state.theme;
 function save() { localStorage.setItem('rmaStateV4', JSON.stringify(state)) }
@@ -10,8 +13,14 @@ document.querySelectorAll('.nav-btn').forEach(b => b.onclick = () => go(b.datase
 $('#themeBtn').onclick = () => { state.theme = state.theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme = state.theme; save() };
 const sh = a => [...a].sort(() => Math.random() - .5), pct = (n, d) => d ? Math.round(n / d * 100) : 0;
 const todayKey = () => new Date().toISOString().slice(0, 10);
-function recordStudyDay() { let d = todayKey(); if (!state.studyDates.includes(d)) { state.studyDates.push(d); state.studyDates = state.studyDates.slice(-90); save(); setTimeout(checkAchievements, 50) } }
-let studyStartedAt = null;
+function recordStudyDay() {
+   let d = todayKey();
+   if (!state.studyDates.includes(d)){
+    state.studyDates.push(d);
+    state.studyDates= state.studyDates.slice(-365);
+   }
+   }
+   let studyStartedAt = null;
 function beginStudySession() { if (!studyStartedAt) { studyStartedAt = Date.now(); if (!state.firstStudyDate) state.firstStudyDate = new Date().toISOString(); save() } }
 function endStudySession() { if (studyStartedAt) { state.studySeconds = (state.studySeconds || 0) + Math.max(0, Math.round((Date.now() - studyStartedAt) / 1000)); studyStartedAt = null; save() } }
 function formatStudyTime(sec) { const m = Math.floor((sec || 0) / 60); if (m < 60) return `${m} min`; const h = Math.floor(m / 60), r = m % 60; return `${h}h ${r}m` }
@@ -168,7 +177,15 @@ function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null } }
 function formatTime(s) { let m = Math.floor(s / 60), r = s % 60; return `${m}:${String(r).padStart(2, '0')}` }
 function explain(q, c) { let ok = c === q.a; return `<div class="feedback ${ok ? 'good' : 'bad'}"><strong>${ok ? 'Correct' : 'Not quite'}</strong><br>${ok ? '' : `Correct answer: ${'ABCD'[q.a]}. ${q.choices[q.a]}<br>`}${q.exp}</div><div class="option-review"><strong>Why each option is right or wrong:</strong>${q.choices.map((x, i) => `<div class="option-note ${i === q.a ? 'correct-option' : ''}"><strong>${'ABCD'[i]}. ${x}</strong><br>${q.optionExplanations[i]}</div>`).join('')}</div><div class="tip"><strong>💡 Remember:</strong> ${q.tip}</div>` }
 function showQ() { let q = activeQuiz[currentIndex], c = answers[q.id], fav = state.favorites.includes(q.id), cf = confidence[q.id], done = checked[q.id]; if (!state.seen.includes(q.id)) { state.seen.push(q.id); save() } app.innerHTML = `<section class="card"><button class="star" onclick="toggleFav('${q.id}')">${fav ? '★' : '☆'}</button><div class="question-head"><span>Question ${currentIndex + 1} of ${activeQuiz.length}</span><span>${timerId ? `<span id="timer" class="timer">${formatTime(timeLeft)}</span> • ` : ''}${q.topic} • ${q.difficulty} • <span class="xp-chip">+${xpForDifficulty(q.difficulty)} XP</span></span></div><div class="progress-track" style="margin:12px 0 20px"><div class="progress-fill" style="width:${(currentIndex + 1) / activeQuiz.length * 100}%"></div></div><h2>${q.q}</h2>${q.choices.map((x, i) => `<label class="choice"><input type="radio" name="ans" value="${i}" ${c === i ? 'checked' : ''} ${done && mode === 'study' ? 'disabled' : ''}><strong>${'ABCD'[i]}.</strong> ${x}</label>`).join('')}${mode === 'study' && !done ? '<button class="btn btn-primary" onclick="checkAnswer()">Check Answer</button>' : ''}${mode === 'study' && done ? explain(q, c) : ''}<div class="confidence"><button class="${cf === 'high' ? 'active' : ''}" onclick="setConf('${q.id}','high')">😊 Confident</button><button class="${cf === 'medium' ? 'active' : ''}" onclick="setConf('${q.id}','medium')">😐 Unsure</button><button class="${cf === 'guess' ? 'active' : ''}" onclick="setConf('${q.id}','guess')">😬 Guessed</button></div><div class="btn-row"><button class="btn btn-secondary" onclick="prevQ()" ${currentIndex === 0 ? 'disabled' : ''}>Previous</button><button class="btn btn-primary" onclick="${currentIndex === activeQuiz.length - 1 ? 'finishQuiz()' : 'nextQ()'}">${currentIndex === activeQuiz.length - 1 ? 'Submit' : 'Next'}</button><button class="btn btn-secondary" onclick="go('home')">Exit</button></div></section>`; document.querySelectorAll('input[name=ans]').forEach(i => i.onchange = () => answers[q.id] = +i.value) }
-window.checkAnswer = () => { let q = activeQuiz[currentIndex]; if (answers[q.id] === undefined) { alert('Choose an answer first.'); return } if (!checked[q.id] && answers[q.id] === q.a) { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)); checkAchievements() } checked[q.id] = true; showQ() };
+window.checkAnswer = () => {
+   let q = activeQuiz[currentIndex];
+   
+    if (answers[q.id] === undefined) { alert('Choose an answer first.'); return };
+
+    state.dailyProgress++;
+   recordStudyDay();
+   save();
+   if (!checked[q.id] && answers[q.id] === q.a) { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)); checkAchievements() } checked[q.id] = true; showQ() };
 window.setConf = (id, v) => { confidence[id] = v; showQ() }; window.toggleFav = id => { state.favorites = state.favorites.includes(id) ? state.favorites.filter(x => x !== id) : [...state.favorites, id]; save(); checkAchievements(); showQ() }; window.nextQ = () => { currentIndex++; showQ() }; window.prevQ = () => { currentIndex--; showQ() };
 window.finishQuiz = (timedOut = false) => { stopTimer(); endStudySession(); let correct = 0; const details = activeQuiz.map(q => { let c = answers[q.id], ok = c === q.a; if (ok) { correct++; if (mode === 'exam') { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)) } } else if (!state.missed.includes(q.id)) state.missed.push(q.id); let s = state.topicStats[q.topic] || { correct: 0, total: 0 }; s.total++; if (ok) s.correct++; state.topicStats[q.topic] = s; let cf = confidence[q.id]; if (cf) state.confidenceStats[cf] = (state.confidenceStats[cf] || 0) + 1; return { q, c, ok } }); let score = Math.round(correct / activeQuiz.length * 100); state.attempts.push({ date: new Date().toISOString(), score, correct, total: activeQuiz.length, mode, area: activeArea, timed: !!timeLeft, timedOut }); if (score === 100) state.perfectExams = (state.perfectExams || 0) + 1; save(); checkAchievements(); app.innerHTML = `<section class="hero center"><h1>${score}%</h1><p>${correct} of ${activeQuiz.length} correct${timedOut ? ' • Time expired' : ''}</p></section><div class="btn-row"><button class="btn btn-primary" onclick="go('home')">Home</button><button class="btn btn-secondary" onclick="go('progress')">View Analytics</button></div><h2>Answer Review</h2>${details.map((d, i) => `<section class="card"><div class="question-head"><span>Question ${i + 1}</span><span>${d.q.topic}</span></div><h3>${d.q.q}</h3>${explain(d.q, d.c)}</section>`).join('')}`; activeQuiz = null };
 function saved() { let favs = state.favorites.map(id => allBank.find(q => q.id === id)).filter(Boolean), missed = state.missed.map(id => allBank.find(q => q.id === id)).filter(Boolean); app.innerHTML = `<h1>Saved Review</h1><section class="grid"><article class="card"><h2>⭐ Favorites</h2><p>${favs.length} saved</p>${favs.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'favorites\')">Practice Favorites</button>' : ''}</article><article class="card"><h2>❌ Missed</h2><p>${missed.length} to review</p>${missed.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'missed\')">Practice Missed</button>' : ''}</article></section>${favs.map(q => `<section class="card"><span class="badge">${q.topic}</span><h3>${q.q}</h3><p><strong>Correct:</strong> ${'ABCD'[q.a]}. ${q.choices[q.a]}</p><div class="tip">${q.tip}</div><div class="mastered-row"><span class="small muted">Finished reviewing?</span><button class="btn btn-secondary" onclick="markMastered('${q.id}')">Mark Mastered</button></div></section>`).join('')}` }
