@@ -6,6 +6,7 @@ dailyGoal:20,
 dailyProgress:0,
 goalCompletedDate:"" };
 const state = Object.assign({}, D, JSON.parse(localStorage.getItem('rmaStateV4') || '{}'));
+
 document.documentElement.dataset.theme = state.theme;
 function save() { localStorage.setItem('rmaStateV4', JSON.stringify(state)) }
 function go(r) { stopTimer(); if (route === 'quiz' || activeQuiz) endStudySession(); route = r; document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.route === r)); render(); scrollTo(0, 0) }
@@ -202,6 +203,16 @@ window.checkAnswer = () => {
 
   if (!checked[q.id]) {
   state.dailyProgress = (state.dailyProgress || 0) + 1;
+
+  if (
+    state.dailyProgress >= state.dailyGoal &&
+    state.goalCompletedDate !== todayKey()
+  ) {
+    state.goalCompletedDate = todayKey();
+    state.correctAnswers = (state.correctAnswers || 0) + 50;
+    alert('🎉 Daily Goal Complete! +50 bonus XP');
+  }
+
   recordStudyDay();
   save();
 }
