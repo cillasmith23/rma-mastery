@@ -4,7 +4,13 @@ let activeQuiz = null, currentIndex = 0, answers = {}, confidence = {}, checked 
 const D = { attempts: [], missed: [], favorites: [], theme: 'light', topicStats: {}, confidenceStats: { high: 0, medium: 0, guess: 0 }, studyDates: [], seen: [], xp: 0, level: 1, lastLevelSeen: 1, achievements: [], correctAnswers: 0, perfectExams: 0, studySeconds: 0, firstStudyDate: null,
 dailyGoal:20,
 dailyProgress:0,
-goalCompletedDate:"" };
+goalCompletedDate:"", 
+dailyQuestQuestions: 0,
+dailyQuestCorrect: 0,
+dailyQuestQuiz: 0,
+dailyQuestCompleted: false,
+dailyQuestDate: "",
+};
 const state = Object.assign({}, D, JSON.parse(localStorage.getItem('rmaStateV4') || '{}'));
 
 document.documentElement.dataset.theme = state.theme;
@@ -16,6 +22,13 @@ const sh = a => [...a].sort(() => Math.random() - .5), pct = (n, d) => d ? Math.
 const todayKey = () => new Date().toISOString().slice(0, 10);
 function recordStudyDay() {
    let d = todayKey();
+   if (state.dailyQuestDate !== d) {
+  state.dailyQuestDate = d;
+  state.dailyQuestQuestions = 0;
+  state.dailyQuestCorrect = 0;
+  state.dailyQuestQuiz = 0;
+  state.dailyQuestCompleted = false;
+}
    if (!state.studyDates.includes(d)){
     state.studyDates.push(d);
     state.studyDates= state.studyDates.slice(-365);
@@ -211,7 +224,9 @@ window.checkAnswer = () => {
 
   if (!checked[q.id]) {
   state.dailyProgress = (state.dailyProgress || 0) + 1;
+state.dailyQuestQuestions++;
 
+if (answers[q.id] === q.a) state.dailyQuestCorrect++;
   if (
     state.dailyProgress >= state.dailyGoal &&
     state.goalCompletedDate !== todayKey()
