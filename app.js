@@ -172,7 +172,7 @@ const dailyGoalCard = `
   </section>
 `;
 
-   window.selectArea = a => { activeArea = a; bank = areaBank(a); go('study') };
+   window.selectArea = a => { activeArea = a; bank = areaBank(a); go('') };
 window.startDaily = id => { let q = allBank.find(x => x.id === id); activeQuiz = [q]; mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 window.adaptiveQuiz = () => { const stats = Object.entries(state.topicStats).map(([t, s]) => ({ t, score: pct(s.correct, s.total) })).sort((a, b) => a.score - b.score), weak = stats.slice(0, 4).map(x => x.t); let pool = weak.length ? allBank.filter(q => weak.includes(q.topic)) : allBank; activeQuiz = sh(pool).slice(0, 20); mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 function study() { let topics = [...new Set(bank.map(q => q.topic))]; app.innerHTML = `<div class="area-banner"><div><div class="area-label">${areaLabel(activeArea)}: ${areaName(activeArea)}</div><h1>Study by Topic</h1></div><button class="btn btn-secondary" onclick="go('home')">Change Area</button></div><p class="muted">Choose an answer, check it, then read why every option is right or wrong.</p><section class="card">${topics.map(t => `<div class="topic-row"><span><strong>${t}</strong><br><span class="small muted">${bank.filter(q => q.topic === t).length} questions</span></span><button class="btn btn-secondary" onclick='startTopic(${JSON.stringify(t)})'>Study</button></div>`).join('')}</section>` }
@@ -239,7 +239,27 @@ window.startQuickPracticeExam = () => {
 function quizMenu() { const maxN = bank.length; app.innerHTML = `<div class="area-banner"><div><div class="area-label">${areaLabel(activeArea)}: ${areaName(activeArea)}</div><h1>Practice Options</h1></div><button class="btn btn-secondary" onclick="go('home')">Change Area</button></div><div class="pill-row"><button class="pill ${mode === 'study' ? 'active' : ''}" onclick="setMode('study')">Study Mode</button><button class="pill ${mode === 'exam' ? 'active' : ''}" onclick="setMode('exam')">Exam Mode</button></div><div class="mode-note">${mode === 'study' ? 'Study Mode shows explanations after each checked answer.' : 'Exam Mode holds explanations until the end.'}</div><section class="grid">${([10, 25, 50, maxN].filter((v, i, a) => v <= maxN && a.indexOf(v) === i)).map(n => `<article class="card card-button" onclick="startQuiz(${n},mode,${n === maxN ? "mode==='exam'" : "false"})"><h2>${n} Questions</h2><p>${n === maxN ? 'Full work-area exam' : 'Randomized practice'}</p></article>`).join('')}</section><section class="grid" style="margin-top:18px"><article class="card card-button" onclick="adaptiveQuiz()"><h2>🧠 Adaptive 20</h2><p>Focus on weak topics.</p></article><article class="card card-button" onclick="go('custom')"><h2>🛠️ Custom Exam</h2><p>Build your own quiz.</p></article></section>` }
 window.setMode = m => { mode = m; quizMenu() };
 window.startQuiz = (n, m = 'study', timed = false) => { mode = m; activeQuiz = sh(bank).slice(0, Math.min(n, bank.length)); currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); if (timed) { timeLeft = (activeArea === 'admin' ? 36 : (activeArea === 'clinical' ? 138 : 78)) * 60; startTimer() } else stopTimer(); showQ() };
-window.startTopic = t => { mode = 'study'; activeQuiz = sh(bank.filter(q => q.topic === t)); currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); stopTimer(); showQ() };
+window.startTopic = t => {
+  mode = 'study';
+
+  const areas = ['general', 'admin', 'clinical'];
+  const foundArea = areas.find(a => areaBank(a).some(q => q.topic === t));
+
+  if (foundArea) {
+    activeArea = foundArea;
+    bank = areaBank(foundArea);
+  }
+
+  activeQuiz = sh(bank.filter(q => q.topic === t));
+  currentIndex = 0;
+  answers = {};
+  confidence = {};
+  checked = {};
+  recordStudyDay();
+  beginStudySession();
+  stopTimer();
+  showQ();
+};
 function startTimer() { stopTimer(); timerId = setInterval(() => { timeLeft--; let el = $('#timer'); if (el) { el.textContent = formatTime(timeLeft); el.classList.toggle('warning', timeLeft <= 300) } if (timeLeft <= 0) { stopTimer(); finishQuiz(true) } }, 1000) }
 function stopTimer() { if (timerId) { clearInterval(timerId); timerId = null } }
 function formatTime(s) { let m = Math.floor(s / 60), r = s % 60; return `${m}:${String(r).padStart(2, '0')}` }
