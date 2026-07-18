@@ -126,6 +126,8 @@ async function init() { try { [generalBank, adminBank, clinicalBank] = await Pro
 function render() { ({ home, study, quiz: practiceExamHub, saved, progress, search: searchPage, custom: customExam, achievements: achievementsPage }[route] || home)() }
 function dailyQuestion() { const day = Math.floor(new Date() / 86400000); return allBank[day % allBank.length] }
 function home() {
+
+  }
   if (
   state.dailyQuestQuestions >= 10 &&
   state.dailyQuestCorrect >= 5 &&
