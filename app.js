@@ -68,9 +68,17 @@ const achievementDefs = [
   { id: 'seven_day', icon: '🏅', name: 'Seven-Day Streak', desc: 'Study 7 days in a row.', target: 7, progress: () => streak() },
   { id: 'favorites_five', icon: '💛', name: 'Curious Mind', desc: 'Save 5 favorite questions.', target: 5, progress: () => state.favorites.length },
   { id: 'seen_hundred', icon: '📚', name: 'Deep Dive', desc: 'View 100 different questions.', target: 100, progress: () => state.seen.length },
-  { id: 'perfect_score', icon: '🎯', name: 'Perfect Score', desc: 'Earn 100% on any quiz.', target: 1, progress: () => state.perfectExams || 0 },
-  { id: 'readiness_80', icon: '👑', name: 'RMA Ready', desc: 'Reach an 80% Exam Readiness Score.', target: 80, progress: () => readiness() }
-];
+  { id: 'perfect_score', icon: '🎯', name: 'Perfect Score', desc: 'Earn a perfect quiz score.', target: 1, progress: () => state.perfectExams || 0 },
+  { id: 'readiness_80', icon: '👑', name: 'RMA Ready', desc: 'Reach an 80% Exam Readiness Score.', target: 80, progress: () => readiness() },
+ {
+  id: 'daily_goal',
+  icon: '🏆',
+  name: 'Daily Goal Champion',
+  desc: 'Complete your daily question goal.',
+  target: 1,
+  progress: () => state.goalCompletedDate === todayKey() ? 1 : 0
+},
+]; 
 function unlockedAchievementIds() { return new Set(state.achievements || []) }
 function checkAchievements() {
   const unlocked = unlockedAchievementIds(), newOnes = [];
