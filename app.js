@@ -126,7 +126,18 @@ async function init() { try { [generalBank, adminBank, clinicalBank] = await Pro
 function render() { ({ home, study, quiz: practiceExamHub, saved, progress, search: searchPage, custom: customExam, achievements: achievementsPage }[route] || home)() }
 function dailyQuestion() { const day = Math.floor(new Date() / 86400000); return allBank[day % allBank.length] }
 function home() {
- let best = state.attempts.length ? Math.max(...state.attempts.map(a => a.score)) : 0, total = state.attempts.reduce((s, a) => s + a.total, 0), dq = dailyQuestion(); app.innerHTML = profileCard() + dailyGoalCard + `<section class="hero"><h1>Master. Practice. Pass.</h1><span class="version-chip">Version 4.4</span><p>Full analytics dashboard is live—track accuracy, study time, quiz history, readiness, weak topics, and progress over time.</p></section><section class="grid"><article class="card card-button" onclick="selectArea('general')"><span class="badge">Work Area I</span><h2>General Medical Assisting</h2><p>65 questions</p></article><article class="card card-button" onclick="selectArea('admin')"><span class="badge">Work Area II</span><h2>Administrative Medical Assisting</h2><p>30 questions</p></article><article class="card card-button" onclick="selectArea('clinical')"><span class="badge">Work Area III</span><h2>Clinical Medical Assisting</h2><p>115 questions</p></article><article class="card card-button" onclick="adaptiveQuiz()"><span class="badge">Smart Study</span><h2>Study My Weakest Topics</h2><p>Builds a 20-question quiz from your lowest-scoring topics.</p></article></section><section class="card challenge"><div class="kicker">Daily Challenge</div><h2>${dq.q}</h2><p>${dq.topic} • ${dq.difficulty}</p><button class="btn btn-primary" onclick="startDaily('${dq.id}')">Answer Today’s Question</button></section><section class="grid" style="margin-top:18px"><article class="card"><div class="muted">Questions answered</div><div class="stat">${total}</div></article><article class="card"><div class="muted">Best score</div><div class="stat">${best}%</div></article><article class="card"><div class="muted">Study streak</div><div class="stat">🔥 ${streak()}</div></article><article class="card card-button" onclick="go('progress')"><div class="muted">Exam readiness</div><div class="readiness">${readiness()}%</div></article></section><section class="grid" style="margin-top:18px"><article class="card card-button" onclick="go('search')"><h2>🔎 Search</h2><p>Find any topic, term, or question.</p></article><article class="card card-button" onclick="go('custom')"><h2>🛠️ Custom Exam</h2><p>Choose area, difficulty, number, and mode.</p></article><article class="card card-button" onclick="go('saved')"><h2>⭐ Saved Review</h2><p>Favorites and missed questions.</p></article><article class="card card-button" onclick="go('progress')"><h2>📊 Analytics</h2><p>Readiness, charts, confidence, and achievements.</p></article><article class="card card-button" onclick="go('achievements')"><h2>🏆 Achievement Center</h2><p>Unlock badges and track every milestone.</p></article></section>` }
+  if (
+  state.dailyQuestQuestions >= 10 &&
+  state.dailyQuestCorrect >= 5 &&
+  state.dailyQuestQuiz >= 1 &&
+  !state.dailyQuestCompleted
+) {
+  state.dailyQuestCompleted = true;
+  state.correctAnswers = (state.correctAnswers || 0) + 50;
+  save();
+  alert('🎉 Daily Quests Complete! +50 bonus XP');
+}
+ let best = state.attempts.length ? Math.max(...state.attempts.map(a => a.score)) : 0, total = state.attempts.reduce((s, a) => s + a.total, 0), dq = dailyQuestion(); app.innerHTML = profileCard() + dailyGoalCard + dailyQuestCard +`<section class="hero"><h1>Master. Practice. Pass.</h1><span class="version-chip">Version 4.4</span><p>Full analytics dashboard is live—track accuracy, study time, quiz history, readiness, weak topics, and progress over time.</p></section><section class="grid"><article class="card card-button" onclick="selectArea('general')"><span class="badge">Work Area I</span><h2>General Medical Assisting</h2><p>65 questions</p></article><article class="card card-button" onclick="selectArea('admin')"><span class="badge">Work Area II</span><h2>Administrative Medical Assisting</h2><p>30 questions</p></article><article class="card card-button" onclick="selectArea('clinical')"><span class="badge">Work Area III</span><h2>Clinical Medical Assisting</h2><p>115 questions</p></article><article class="card card-button" onclick="adaptiveQuiz()"><span class="badge">Smart Study</span><h2>Study My Weakest Topics</h2><p>Builds a 20-question quiz from your lowest-scoring topics.</p></article></section><section class="card challenge"><div class="kicker">Daily Challenge</div><h2>${dq.q}</h2><p>${dq.topic} • ${dq.difficulty}</p><button class="btn btn-primary" onclick="startDaily('${dq.id}')">Answer Today’s Question</button></section><section class="grid" style="margin-top:18px"><article class="card"><div class="muted">Questions answered</div><div class="stat">${total}</div></article><article class="card"><div class="muted">Best score</div><div class="stat">${best}%</div></article><article class="card"><div class="muted">Study streak</div><div class="stat">🔥 ${streak()}</div></article><article class="card card-button" onclick="go('progress')"><div class="muted">Exam readiness</div><div class="readiness">${readiness()}%</div></article></section><section class="grid" style="margin-top:18px"><article class="card card-button" onclick="go('search')"><h2>🔎 Search</h2><p>Find any topic, term, or question.</p></article><article class="card card-button" onclick="go('custom')"><h2>🛠️ Custom Exam</h2><p>Choose area, difficulty, number, and mode.</p></article><article class="card card-button" onclick="go('saved')"><h2>⭐ Saved Review</h2><p>Favorites and missed questions.</p></article><article class="card card-button" onclick="go('progress')"><h2>📊 Analytics</h2><p>Readiness, charts, confidence, and achievements.</p></article><article class="card card-button" onclick="go('achievements')"><h2>🏆 Achievement Center</h2><p>Unlock badges and track every milestone.</p></article></section>` }
 const remaining = Math.max(0, state.dailyGoal - state.dailyProgress);
 const goalPct = Math.min(100, Math.round((state.dailyProgress / state.dailyGoal) * 100));
 const streakDays = streak();
@@ -142,7 +153,22 @@ const dailyGoalCard = `
     <p>🔥 ${streakDays}-day study streak</p>
   </section>
 `;  
- 
+ const dailyQuestCard = `
+  <section class="card">
+    <div class="kicker">🎯 Daily Quests</div>
+    <h2>Today's Challenges</h2>
+
+    <p>📚 Answer 10 questions: ${Math.min(state.dailyQuestQuestions || 0, 10)}/10</p>
+
+    <p>✅ Get 5 answers correct: ${Math.min(state.dailyQuestCorrect || 0, 5)}/5</p>
+
+    <p>🏆 Complete 1 quiz: ${state.dailyQuestQuiz ? 1 : 0}/1</p>
+
+    <p>${state.dailyQuestCompleted
+      ? '🎉 Daily quests complete!'
+      : 'Keep going — you got this! 💪🏽'}</p>
+  </section>
+`;
 
    window.selectArea = a => { activeArea = a; bank = areaBank(a); go('quiz') };
 window.startDaily = id => { let q = allBank.find(x => x.id === id); activeQuiz = [q]; mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
@@ -220,13 +246,14 @@ function showQ() { let q = activeQuiz[currentIndex], c = answers[q.id], fav = st
 window.checkAnswer = () => {
    let q = activeQuiz[currentIndex];
    
-    if (answers[q.id] === undefined) { alert('Choose an answer first.'); return };
-
+    if (answers[q.id] === undefined) { alert('Choose an answer first.'); return }; recordStudyDay();
+recordStudyDay();
   if (!checked[q.id]) {
   state.dailyProgress = (state.dailyProgress || 0) + 1;
 state.dailyQuestQuestions++;
 
 if (answers[q.id] === q.a) state.dailyQuestCorrect++;
+save();
   if (
     state.dailyProgress >= state.dailyGoal &&
     state.goalCompletedDate !== todayKey()
@@ -236,12 +263,12 @@ if (answers[q.id] === q.a) state.dailyQuestCorrect++;
     alert('🎉 Daily Goal Complete! +50 bonus XP');
   }
 
-  recordStudyDay();
+
   save();
 }
    if (!checked[q.id] && answers[q.id] === q.a) { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)); checkAchievements() } checked[q.id] = true; showQ() };
 window.setConf = (id, v) => { confidence[id] = v; showQ() }; window.toggleFav = id => { state.favorites = state.favorites.includes(id) ? state.favorites.filter(x => x !== id) : [...state.favorites, id]; save(); checkAchievements(); showQ() }; window.nextQ = () => { currentIndex++; showQ() }; window.prevQ = () => { currentIndex--; showQ() };
-window.finishQuiz = (timedOut = false) => { stopTimer(); endStudySession(); let correct = 0; const details = activeQuiz.map(q => { let c = answers[q.id], ok = c === q.a; if (ok) { correct++; if (mode === 'exam') { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)) } } else if (!state.missed.includes(q.id)) state.missed.push(q.id); let s = state.topicStats[q.topic] || { correct: 0, total: 0 }; s.total++; if (ok) s.correct++; state.topicStats[q.topic] = s; let cf = confidence[q.id]; if (cf) state.confidenceStats[cf] = (state.confidenceStats[cf] || 0) + 1; return { q, c, ok } }); let score = Math.round(correct / activeQuiz.length * 100); state.attempts.push({ date: new Date().toISOString(), score, correct, total: activeQuiz.length, mode, area: activeArea, timed: !!timeLeft, timedOut }); if (score === 100) state.perfectExams = (state.perfectExams || 0) + 1; save(); checkAchievements(); app.innerHTML = `<section class="hero center"><h1>${score}%</h1><p>${correct} of ${activeQuiz.length} correct${timedOut ? ' • Time expired' : ''}</p></section><div class="btn-row"><button class="btn btn-primary" onclick="go('home')">Home</button><button class="btn btn-secondary" onclick="go('progress')">View Analytics</button></div><h2>Answer Review</h2>${details.map((d, i) => `<section class="card"><div class="question-head"><span>Question ${i + 1}</span><span>${d.q.topic}</span></div><h3>${d.q.q}</h3>${explain(d.q, d.c)}</section>`).join('')}`; activeQuiz = null };
+window.finishQuiz = (timedOut = false) => { stopTimer(); endStudySession(); state.dailyQuestQuiz = 1; saved ();  let correct = 0; const details = activeQuiz.map(q => { let c = answers[q.id], ok = c === q.a; if (ok) { correct++; if (mode === 'exam') { state.correctAnswers = (state.correctAnswers || 0) + 1; awardXp(xpForDifficulty(q.difficulty)) } } else if (!state.missed.includes(q.id)) state.missed.push(q.id); let s = state.topicStats[q.topic] || { correct: 0, total: 0 }; s.total++; if (ok) s.correct++; state.topicStats[q.topic] = s; let cf = confidence[q.id]; if (cf) state.confidenceStats[cf] = (state.confidenceStats[cf] || 0) + 1; return { q, c, ok } }); let score = Math.round(correct / activeQuiz.length * 100); state.attempts.push({ date: new Date().toISOString(), score, correct, total: activeQuiz.length, mode, area: activeArea, timed: !!timeLeft, timedOut }); if (score === 100) state.perfectExams = (state.perfectExams || 0) + 1; save(); checkAchievements(); app.innerHTML = `<section class="hero center"><h1>${score}%</h1><p>${correct} of ${activeQuiz.length} correct${timedOut ? ' • Time expired' : ''}</p></section><div class="btn-row"><button class="btn btn-primary" onclick="go('home')">Home</button><button class="btn btn-secondary" onclick="go('progress')">View Analytics</button></div><h2>Answer Review</h2>${details.map((d, i) => `<section class="card"><div class="question-head"><span>Question ${i + 1}</span><span>${d.q.topic}</span></div><h3>${d.q.q}</h3>${explain(d.q, d.c)}</section>`).join('')}`; activeQuiz = null };
 function saved() { let favs = state.favorites.map(id => allBank.find(q => q.id === id)).filter(Boolean), missed = state.missed.map(id => allBank.find(q => q.id === id)).filter(Boolean); app.innerHTML = `<h1>Saved Review</h1><section class="grid"><article class="card"><h2>⭐ Favorites</h2><p>${favs.length} saved</p>${favs.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'favorites\')">Practice Favorites</button>' : ''}</article><article class="card"><h2>❌ Missed</h2><p>${missed.length} to review</p>${missed.length ? '<button class="btn btn-primary" onclick="startCustomSet(\'missed\')">Practice Missed</button>' : ''}</article></section>${favs.map(q => `<section class="card"><span class="badge">${q.topic}</span><h3>${q.q}</h3><p><strong>Correct:</strong> ${'ABCD'[q.a]}. ${q.choices[q.a]}</p><div class="tip">${q.tip}</div><div class="mastered-row"><span class="small muted">Finished reviewing?</span><button class="btn btn-secondary" onclick="markMastered('${q.id}')">Mark Mastered</button></div></section>`).join('')}` }
 window.markMastered = id => { state.favorites = state.favorites.filter(x => x !== id); state.missed = state.missed.filter(x => x !== id); save(); saved() }; window.startCustomSet = type => { let ids = type === 'favorites' ? state.favorites : state.missed; activeQuiz = sh(ids.map(id => allBank.find(q => q.id === id)).filter(Boolean)); mode = 'study'; currentIndex = 0; answers = {}; confidence = {}; checked = {}; recordStudyDay(); beginStudySession(); showQ() };
 function searchPage() { app.innerHTML = `<h1>Search Questions</h1><div class="search-box"><input id="searchInput" placeholder="Search insulin, HIPAA, ECG, sterilization..."><select id="searchArea"><option value="all">All work areas</option><option value="general">General</option><option value="admin">Administrative</option><option value="clinical">Clinical</option></select></div><div id="searchResults" class="result-list"></div>`; $('#searchInput').oninput = runSearch; $('#searchArea').onchange = runSearch; runSearch() }
