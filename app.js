@@ -479,8 +479,8 @@ function progress() {
 
 <section class="card recommendation" style="margin-top:18px">
   <div class="kicker">🧠 Study Coach</div>
-  <h2>${coach.title}</h2>
-  <p>${coach.reason}</p>
+<h2>${coach?.title || 'Keep Building Momentum'}</h2>
+<p>${coach?.reason || 'Keep practicing your weakest topics and reviewing missed questions.'}</p>
 
   <div class="coach-actions" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
     <button class="btn btn-primary" onclick="adaptiveQuiz()">
