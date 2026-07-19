@@ -15,7 +15,7 @@ const state = Object.assign({}, D, JSON.parse(localStorage.getItem('rmaStateV4')
 
 document.documentElement.dataset.theme = state.theme;
 function save() { localStorage.setItem('rmaStateV4', JSON.stringify(state)) }
-function go(r) { stopTimer(); if (route === 'quiz' || activeQuiz) endStudySession(); route = r; document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.route === r)); render(); scrollTo(0, 0) }
+function go(r) { stopTimer(); if (route === 'quiz' || activeQuiz) endStudySession(); Object.assign(state,JSON.parse(localStorage.getitem(`rmaStateV4`) || `{}`)); route = r; document.querySelectorAll('.nav-btn').forEach(b => b.classList.toggle('active', b.dataset.route === r)); render(); scrollTo(0, 0) }
 document.querySelectorAll('.nav-btn').forEach(b => b.onclick = () => go(b.dataset.route));
 $('#themeBtn').onclick = () => { state.theme = state.theme === 'dark' ? 'light' : 'dark'; document.documentElement.dataset.theme = state.theme; save() };
 const sh = a => [...a].sort(() => Math.random() - .5), pct = (n, d) => d ? Math.round(n / d * 100) : 0;
