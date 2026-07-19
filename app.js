@@ -127,7 +127,7 @@ function render() { ({ home, study, quiz: practiceExamHub, saved, progress, sear
 function dailyQuestion() { const day = Math.floor(new Date() / 86400000); return allBank[day % allBank.length] }
 function home() {
 
-  
+ Object.assign(state, JSON.parse(localStorage.getItem(`rmaStateV4`) || `{}`));
   if (
   state.dailyQuestQuestions >= 10 &&
   state.dailyQuestCorrect >= 5 &&
