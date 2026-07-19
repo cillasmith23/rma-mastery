@@ -147,7 +147,7 @@ const readinessPct = readiness();
 const dailyGoalCard = `
   <section class="card daily-goal-card">
     <div class="kicker">Today's Goal</div>
-    <h2>${state.dailyProgress} of ${state.dailyGoal} questions</h2>
+    <h2>${Math.min(state.dailyProgress,state.dailyGoal)} of ${state.dailyGoal} questions</h2>
     <div class="progress-bar">
       <div class="progress-fill" style="width:${goalPct}%"></div>
     </div>
